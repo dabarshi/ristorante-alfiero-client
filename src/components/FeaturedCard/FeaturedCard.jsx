@@ -5,9 +5,9 @@ const FeaturedCard = ({ data }) => {
   return (
     <div className="space-y-5 p-2 ">
       {/* <div className="space-y-5"></div> */}
-      <div className="min-w-60 group relative overflow-hidden">
+      <div className="max-w-80 group relative overflow-hidden">
         <img
-          className="w-full object-cover hover:scale-110 brightness-90"
+          className="w-full object-cover group-hover:scale-110 brightness-90"
           style={{ transition: "transform 300ms ease-in" }}
           src={img}
           alt={alt}

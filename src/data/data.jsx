@@ -1,5 +1,9 @@
 import menuImg1 from "../assets/menu/menu1.jpg";
-import todaySpecialImg from "../assets/todaySpecial/pork.jpg";
+// import todaySpecialImg from "../assets/todaySpecial/pork.jpg";
+import todaySpecialImg1 from "../assets/todaySpecial/todaySpecialImg1.jpg";
+import todaySpecialImg2 from "../assets/todaySpecial/todaySpecialImg2.jpg";
+import todaySpecialImg3 from "../assets/todaySpecial/todaySpecialImg3.jpg";
+import todaySpecialImg4 from "../assets/todaySpecial/todaySpecialImg4.jpg";
 // import slideImg1 from "../assets/slide/slideImg1.jpg";
 import slideImg2 from "../assets/slide/slideImg2.jpg";
 // import featuredImg1 from "../assets/custom/featuredImg1.jpg";
@@ -88,7 +92,7 @@ export const WelcomeCardData = [
 export const FoodCardData = [
   {
     id: 1,
-    img: todaySpecialImg,
+    img: todaySpecialImg1,
     // img: "https://images.unsplash.com/photo-1432139555190-58524dae6a55?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     alt: "Pork Chop Dinner",
     title: "Pork Chop Dinner",
@@ -96,7 +100,7 @@ export const FoodCardData = [
   },
   {
     id: 2,
-    img: todaySpecialImg,
+    img: todaySpecialImg2,
     // img: "https://images.unsplash.com/photo-1432139555190-58524dae6a55?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     alt: "Pork Chop Dinner",
     title: "Pork Chop Dinner",
@@ -104,7 +108,7 @@ export const FoodCardData = [
   },
   {
     id: 3,
-    img: todaySpecialImg,
+    img: todaySpecialImg3,
     // img: "https://images.unsplash.com/photo-1432139555190-58524dae6a55?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     alt: "Pork Chop Dinner",
     title: "Pork Chop Dinner",
@@ -112,7 +116,7 @@ export const FoodCardData = [
   },
   {
     id: 4,
-    img: todaySpecialImg,
+    img: todaySpecialImg4,
     // img: "https://images.unsplash.com/photo-1432139555190-58524dae6a55?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     alt: "Pork Chop Dinner",
     title: "Pork Chop Dinner",
