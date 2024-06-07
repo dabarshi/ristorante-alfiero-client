@@ -1,40 +1,12 @@
-import { useState } from "react";
 import styles from "./WelcomeCardStyle.module.css";
-import { useRef } from "react";
-import { useEffect } from "react";
+import useVisibility from "../../hooks/useVisibility";
 
 const WelcomeCard = ({ data }) => {
   const { img, alt, title, subTitle, description } = data;
-
-  const [isVisible, setIsVisible] = useState(false);
-  const cardRef = useRef(null);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            setIsVisible(true);
-            observer.disconnect();
-          }
-        });
-      },
-      { threshold: 0.1 }
-    );
-
-    if (cardRef.current) {
-      observer.observe(cardRef.current);
-    }
-
-    return () => {
-      if (cardRef.current) {
-        observer.unobserve(cardRef.current);
-      }
-    };
-  }, []);
+  const [cardRef, isVisible] = useVisibility();
 
   return (
-    <div ref={cardRef}>
+    <div ref={cardRef} className="overflow-hidden">
       <div className="grid grid-cols-1 lg:grid-cols-2 text-white place-items-center gap-10 bg-[#2F2F2F]">
         <div>
           <img
