@@ -1,19 +1,17 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { menuItems } from "../../data/data";
+import styles from "./Header.module.css";
 
-const NavMenu = ({ option }) => {
+const NavMenu = ({ option, menuStyle }) => {
   const { link, optionName } = option;
   const currentUrl = window.location.pathname;
   return (
-    <Link
-      to={link}
-      className={`${
-        currentUrl.includes(link) ? "" : ""
-      } ${"text-white hover:bg-gray-700 px-3 py-2 rounded-md"}`}
-    >
-      {optionName}
-    </Link>
+    <li className={menuStyle}>
+      <Link to={link} className={`${currentUrl.includes(link) ? "" : ""}`}>
+        {optionName}
+      </Link>
+    </li>
   );
 };
 
@@ -36,33 +34,27 @@ const Header = () => {
 
   return (
     <nav
-      className={`fixed w-full z-50 transition-all duration-300 `}
-      style={{ backgroundColor: `${isScrolled ? "#111" : "transparent"}` }}
+      className={` ${styles.navDefault} ${
+        isScrolled ? styles.navScroll : styles.navTamporary
+      }`}
+      // style={{ backgroundColor: `${isScrolled ? "#111" : "transparent"}` }}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-16">
-          <div className="flex-shrink-0 flex items-center">
-            <span className="text-white font-bold">Ristorante Alfiero</span>
+        <div className="flex justify-between items-center h-16">
+          <div className="text-white text-center font-bold">
+            <span className="block text-xl">Ristorante</span>
+            <span className={styles.brand}>Alfiero</span>
           </div>
           <div className="flex items-center">
-            <div className="hidden lg:block">
+            <ul className="hidden lg:flex">
               {menuItems.map((option) => (
-                <NavMenu key={option.optionName} option={option} />
+                <NavMenu
+                  key={option.optionName}
+                  option={option}
+                  menuStyle={styles.navLiLg}
+                />
               ))}
-              {/* <a
-                href="#"
-                className="text-white hover:bg-gray-700 px-3 py-2 rounded-md"
-              >
-                Menu Item 1
-              </a>
-              <a
-                href="#"
-                className="text-white hover:bg-gray-700 px-3 py-2 rounded-md"
-              >
-                Menu Item 2
-              </a> */}
-              {/* Add more menu items here */}
-            </div>
+            </ul>
             <div className="block lg:hidden">
               <button
                 className="text-white hover:text-gray-300 focus:outline-none"
@@ -89,24 +81,15 @@ const Header = () => {
         </div>
       </div>
       <div className={`lg:hidden ${isOpen ? "block" : "hidden"}`}>
-        <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-          {/* {menuItems.map((option) => (
-            <NavMenu key={option.optionName} option={option} />
-          ))} */}
-          <a
-            href="#"
-            className="text-white hover:bg-gray-700 block px-3 py-2 rounded-md"
-          >
-            Menu Item 1
-          </a>
-          <a
-            href="#"
-            className="text-white hover:bg-gray-700 block px-3 py-2 rounded-md"
-          >
-            Menu Item 2
-          </a>
-          {/* Add more menu items here */}
-        </div>
+        <ul className="px-2 pt-2 pb-3 block space-y-1 sm:px-3">
+          {menuItems.map((option) => (
+            <NavMenu
+              key={option.optionName}
+              option={option}
+              menuStyle={styles.navLiSM}
+            />
+          ))}
+        </ul>
       </div>
     </nav>
   );

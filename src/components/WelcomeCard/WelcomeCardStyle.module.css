@@ -1,0 +1,21 @@
+.imgAnimation {
+  animation: slideDagonalyUp 2s ease-in;
+}
+
+.slideUpAnimation {
+  animation: slideUp 3s ease-in;
+}
+
+@keyframes slideDagonalyUp {
+  0% {
+    opacity: 0;
+    transform: translate(-50px, 50px);
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+}

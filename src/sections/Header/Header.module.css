@@ -1,0 +1,126 @@
+:root {
+  --color1: #ffb300;
+  --color2: #da9901;
+  --white: #ffffff;
+}
+
+.navDefault {
+  position: fixed;
+  width: 100%;
+  transition: background-color;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+  z-index: 50;
+  animation: navStartAnimation 500ms ease-in-out, navBGAnimation 3s ease-in-out;
+}
+
+.navTemporary {
+  background-color: transparent;
+}
+
+.navScroll {
+  background-color: #111;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+  animation: navScrollAnimation 500ms ease-in-out 100ms;
+}
+
+.brand {
+  color: #ffb300;
+  font-size: 12px;
+}
+
+.brand::before {
+  content: "-";
+  padding-right: 8px;
+  font-size: 12px;
+}
+
+.brand::after {
+  content: "-";
+  padding-left: 8px;
+  font-size: 12px;
+}
+
+.navLiLg a,
+.navLiSM a {
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  transition: color;
+  transition-duration: 100ms;
+  transition-timing-function: ease-in-out;
+}
+
+.navLiLg a:hover,
+.navLiSM a:hover {
+  color: #ffb300;
+}
+
+.navLiLg::after {
+  content: '/';
+  padding: 1rem;
+  color: #da9901;
+}
+
+.navLiLg:last-child::after {
+  content: '';
+
+}
+
+.navLiSM a {
+  position: relative;
+  padding: 0.5rem;
+  width: 100vw;
+}
+
+.navLiSM a::after {
+  content: "";
+  background-color: #ffffff3c;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 95vw;
+  height: 1px;
+}
+
+/* .navLiSM a:last-child::after {
+  width: 0;
+} */
+
+
+@keyframes navScrollAnimation {
+
+  0% {
+    transform: translateY(-20%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes navStartAnimation {
+
+  0% {
+    transform: translateY(-100%);
+
+  }
+
+  100% {
+    transform: translateY(0);
+
+  }
+}
+
+@keyframes navBGAnimation {
+
+  0% {
+    background-color: #111;
+  }
+
+  100% {
+    background-color: transparent;
+  }
+}

@@ -1,0 +1,38 @@
+.slideRightToCenterAnimation {
+  animation: rightToCenter 1s ease-in;
+}
+
+.slideUpSubtitleAnimation {
+  animation: slideUp 2s ease-in;
+}
+
+.slideUpAnimation {
+  animation: slideUp 3s ease-in;
+}
+
+
+
+.slideLeftAnimation {
+  animation: slideLeft 1s ease-in;
+}
+
+@keyframes rightToCenter {
+  0% {
+    opacity: 0;
+    transform: translate(100px, -10px);
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+}
+
+@keyframes slideLeft {
+  100% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+}

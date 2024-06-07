@@ -1,11 +1,27 @@
+import { useState } from "react";
 import { FaImage } from "react-icons/fa";
+import FeaturedCardModal from "../FeaturedCardModal/FeaturedCardModal";
 
 const FeaturedCard = ({ data }) => {
   const { img, title, description, alt } = data;
+
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
+  // const imageDailog = () => {
+  //   console.log("clicked");
+  // };
   return (
     <div className="space-y-5 p-2 ">
       {/* <div className="space-y-5"></div> */}
-      <div className="max-w-80 group relative overflow-hidden">
+      <div className="max-w-96 group relative overflow-hidden">
         <img
           className="w-full object-cover group-hover:scale-110 brightness-90"
           style={{ transition: "transform 300ms ease-in" }}
@@ -17,8 +33,10 @@ const FeaturedCard = ({ data }) => {
           style={{ transition: "opacity 300ms ease-in" }}
         >
           <div
-            className="border-2 border-[#c1c1c1] hover:bg-[#00000018] p-4 rounded-full"
+            className="border-2 border-[#c1c1c1] hover:bg-[#00000018] p-4 rounded-full cursor-pointer"
             style={{ transition: "background-color 300ms ease-in " }}
+            // onClick={imageDailog}
+            onClick={openModal}
           >
             <span>
               <FaImage />
@@ -31,6 +49,9 @@ const FeaturedCard = ({ data }) => {
       <button className="text-white text-sm border-amber-500 border-b-[1px] font-semibold py-1 ">
         Read More
       </button>
+      {isModalOpen && (
+        <FeaturedCardModal img={img} alt={alt} onClose={closeModal} />
+      )}
       {/* <div className="space-y-5"></div> */}
     </div>
   );

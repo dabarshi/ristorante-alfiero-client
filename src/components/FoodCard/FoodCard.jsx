@@ -1,7 +1,19 @@
+import { useState } from "react";
 import { FaImage } from "react-icons/fa";
+import FeaturedCardModal from "../FeaturedCardModal/FeaturedCardModal";
 
 const FoodCard = ({ data }) => {
   const { img, alt, title, price } = data;
+
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
   return (
     <div className="max-w-80 mx-auto space-y-6 text-center p-8 md:p-0">
       <div className="relative group overflow-hidden">
@@ -22,6 +34,7 @@ const FoodCard = ({ data }) => {
           <div
             className="border-2 border-[#c1c1c1] hover:bg-[#00000018] p-4 rounded-full"
             style={{ transition: "background-color 300ms ease-in " }}
+            onClick={openModal}
           >
             <span>
               <FaImage />
@@ -34,6 +47,10 @@ const FoodCard = ({ data }) => {
         <hr className="border-amber-600" />
         <p className="font-bold tracking-tighter leading-7">${price}</p>
       </div>
+
+      {isModalOpen && (
+        <FeaturedCardModal img={img} alt={alt} onClose={closeModal} />
+      )}
     </div>
   );
 };

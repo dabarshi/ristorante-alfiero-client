@@ -1,0 +1,38 @@
+:root {
+  --amber: #ff9e1eaa;
+}
+
+.btnPrimary {
+  color: white;
+  background-color: #0000001d;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid white;
+  border-radius: 9999px;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+  font-weight: bold;
+  z-index: 1;
+}
+
+.btnPrimary::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: var(--amber);
+  /* background-color: darken($color, 15%); */
+  transition: all .3s;
+  z-index: -1;
+}
+
+.btnPrimary:hover::before {
+  width: 100%;
+}
+
+.btnPrimary:hover {
+  border: 1px solid var(--amber);
+
+}

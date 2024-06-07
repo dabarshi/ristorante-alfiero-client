@@ -5,7 +5,7 @@ import todaySpecialImg2 from "../assets/todaySpecial/todaySpecialImg2.jpg";
 import todaySpecialImg3 from "../assets/todaySpecial/todaySpecialImg3.jpg";
 import todaySpecialImg4 from "../assets/todaySpecial/todaySpecialImg4.jpg";
 // import slideImg1 from "../assets/slide/slideImg1.jpg";
-import slideImg2 from "../assets/slide/slideImg2.jpg";
+// import slideImg2 from "../assets/slide/slideImg2.jpg";
 // import featuredImg1 from "../assets/custom/featuredImg1.jpg";
 import featuredImg1 from "../assets/featuredImages/featuredImg1.jpg";
 import featuredImg2 from "../assets/featuredImages/featuredImg2.jpg";
@@ -23,22 +23,38 @@ export const menuItems = [
     optionName: "About Us",
     link: "/about",
   },
+  {
+    optionName: "Book",
+    link: "/book",
+  },
+  {
+    optionName: "Events",
+    link: "/events",
+  },
+  {
+    optionName: "Blog",
+    link: "/blog",
+  },
+  {
+    optionName: "Contact",
+    link: "/contact",
+  },
 ];
 
 export const heroImg = [
   {
     // img: slideImg1,
     img: "https://images.unsplash.com/photo-1522336572468-97b06e8ef143?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    alt: "Restaurant",
+    alt: "Enjoy Your Dinner",
   },
   {
-    img: slideImg2,
-    // img: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    alt: "Restaurant",
+    // img: slideImg2,
+    img: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "Exquisite Atmosphere",
   },
   {
     img: "https://images.unsplash.com/photo-1479044769763-c28e05b5baa5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    alt: "Restaurant at dusk",
+    alt: "A festival of flavors",
   },
 ];
 
