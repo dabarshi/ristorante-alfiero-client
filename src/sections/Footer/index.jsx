@@ -40,41 +40,6 @@ const Footer = () => {
         period2: "7:00 PM - 11:00 PM",
       },
     },
-    // {
-    //   day: "Tuseday",
-    //   time: {
-    //     period1: "12:30 PM - 3:00 PM",
-    //     period2: "7:00 PM - 11:00 PM",
-    //   },
-    // },
-    // {
-    //   day: "Wednesday",
-    //   time: {
-    //     period1: "12:30 PM - 3:00 PM",
-    //     period2: "7:00 PM - 11:00 PM",
-    //   },
-    // },
-    // {
-    //   day: "Thursday",
-    //   time: {
-    //     period1: "12:30 PM - 3:00 PM",
-    //     period2: "7:00 PM - 11:00 PM",
-    //   },
-    // },
-    // {
-    //   day: "Friday",
-    //   time: {
-    //     period1: "12:30 PM - 3:00 PM",
-    //     period2: "7:00 PM - 11:00 PM",
-    //   },
-    // },
-    // {
-    //   day: "Saturday",
-    //   time: {
-    //     period1: "12:30 PM - 3:00 PM",
-    //     period2: "7:00 PM - 11:00 PM",
-    //   },
-    // },
     {
       day: "Sunday",
       time: {

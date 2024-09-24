@@ -13,7 +13,7 @@ const FullMenuSection = ({
   return (
     <div className={`${customStyles} grid lg:grid-cols-3`}>
       <div className={`${order} hidden lg:block`}>
-        <img loading="lazy"  className="w-full h-full object-cover overflow-hidden" src={img} alt={alt} />
+        <img loading="lazy"  className="w-full h-full object-cover overflow-hidden opacity-60" src={img} alt={alt} />
       </div>
       <div className="col-span-2 grid py-12 md:py-20">
         <SectionTitle title={title} subTitle={subtitle} />

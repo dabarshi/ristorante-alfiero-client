@@ -3,13 +3,13 @@
 }
 
 .slideUpAnimation {
-  animation: slideUp 3s ease-in;
+  animation: slideUp 2s ease-in;
 }
 
 @keyframes slideDagonalyUp {
   0% {
     opacity: 0;
-    transform: translate(-50px, 50px);
+    transform: translate(-50px);
   }
 
   100% {
@@ -21,11 +21,11 @@
 @keyframes slideUp {
   0% {
     opacity: 0;
-    transform: translateY(100px);
+    transform: translateX(100px);
   }
 
   100% {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateX(0);
   }
 }
