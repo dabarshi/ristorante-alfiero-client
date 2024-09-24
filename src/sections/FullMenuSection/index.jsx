@@ -13,11 +13,16 @@ const FullMenuSection = ({
   return (
     <div className={`${customStyles} grid grid-cols-3`}>
       <div className={`${order}`}>
-        <img src={img} alt={alt} />
+        <img loading="lazy"  className="w-full h-full object-cover overflow-hidden" src={img} alt={alt} />
       </div>
-      <div className="col-span-2 grid place-items-center">
+      <div className="col-span-2 grid place-items-center p-20">
         <SectionTitle title={title} subTitle={subtitle} />
-        <MenuCard data={data} />
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 text-white py-20 px-12">
+        {data.map((data) => (
+            <MenuCard key={data.id} data={data} />
+          ))}
+        </div>
+
       </div>
     </div>
   );

@@ -129,7 +129,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="py-10 text-white bg-[#111]">
+    <footer className="py-10 text-white bg-[#121217]">
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 py-10 px-6">
           <div className="flex flex-col justify-between space-y-5">

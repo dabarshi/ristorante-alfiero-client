@@ -7,7 +7,7 @@ const WelcomeCard = ({ data }) => {
 
   return (
     <div ref={cardRef} className="overflow-hidden">
-      <div className="grid grid-cols-1 lg:grid-cols-2 text-white place-items-center gap-10 bg-[#2F2F2F]">
+      <div className="grid grid-cols-1 lg:grid-cols-2 text-white place-items-center gap-10 bg-[#18181d]">
         <div>
           <img
             className={`${isVisible ? styles.imgAnimation : ""}`}

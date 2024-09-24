@@ -25,7 +25,7 @@ const Featured = () => {
   }, []);
 
   return (
-    <div className="relative px-8 z-30 bg-[#141414]">
+    <div className="relative px-8 z-30 bg-[#121217]">
       <div className="max-w-7xl mx-auto">
         <div
           className={`md:flex gap-10 ${

@@ -399,6 +399,7 @@ export const DishesMenuData = [
     price: "25.00",
     subCategory: "PRIMI DI PESCE",
     category: "FISH MAIN COURSE",
+    menuCategory: "MAIN",
   },
   {
     id: 2,
@@ -410,6 +411,7 @@ export const DishesMenuData = [
     price: "16.00",
     subCategory: "PRIMI DI PESCE",
     category: "FISH MAIN COURSE",
+    menuCategory: "MAIN",
   },
   {
     id: 3,
@@ -421,6 +423,7 @@ export const DishesMenuData = [
     price: "15.00",
     subCategory: "PRIMI DI PESCE",
     category: "FISH MAIN COURSE",
+    menuCategory: "MAIN",
   },
   {
     id: 4,
@@ -432,6 +435,7 @@ export const DishesMenuData = [
     price: "16.00",
     subCategory: "PRIMI DI PESCE",
     category: "FISH MAIN COURSE",
+    menuCategory: "MAIN",
   },
   {
     id: 5,
@@ -443,6 +447,7 @@ export const DishesMenuData = [
     price: "15.00",
     subCategory: "PRIMI DI PESCE",
     category: "FISH MAIN COURSE",
+    menuCategory: "MAIN",
   },
   {
     id: 6,
@@ -454,6 +459,7 @@ export const DishesMenuData = [
     price: "15.00",
     subCategory: "PRIMI DI PESCE",
     category: "FISH MAIN COURSE",
+    menuCategory: "MAIN",
   },
   {
     id: 7,
@@ -465,6 +471,7 @@ export const DishesMenuData = [
     price: "18.00",
     subCategory: "PRIMI DI PESCE",
     category: "FISH MAIN COURSE",
+    menuCategory: "MAIN",
   },
   {
     id: 8,
@@ -476,6 +483,7 @@ export const DishesMenuData = [
     price: "15.00",
     subCategory: "PRIMI DI PESCE",
     category: "FISH MAIN COURSE",
+    menuCategory: "MAIN",
   },
   {
     id: 9,
@@ -487,6 +495,7 @@ export const DishesMenuData = [
     price: "15.00",
     subCategory: "PRIMI DI PESCE",
     category: "FISH MAIN COURSE",
+    menuCategory: "MAIN",
   },
   {
     id: 10,
@@ -498,6 +507,7 @@ export const DishesMenuData = [
     price: "18.00",
     subCategory: "PRIMI DI PESCE",
     category: "FISH MAIN COURSE",
+    menuCategory: "MAIN",
   },
   {
     id: 11,
@@ -509,6 +519,7 @@ export const DishesMenuData = [
     price: "5.00",
     category: "MEAT APPETISERS",
     subCategory: "ANTIPASTI DI TERRA",
+    menuCategory: "APPETISERS",
   },
   {
     id: 12,
@@ -520,6 +531,7 @@ export const DishesMenuData = [
     price: "5.00",
     category: "MEAT APPETISERS",
     subCategory: "ANTIPASTI DI TERRA",
+    menuCategory: "APPETISERS",
   },
   {
     id: 13,
@@ -531,6 +543,7 @@ export const DishesMenuData = [
     price: "5.00",
     category: "MEAT APPETISERS",
     subCategory: "ANTIPASTI DI TERRA",
+    menuCategory: "APPETISERS",
   },
   {
     id: 14,
@@ -542,6 +555,7 @@ export const DishesMenuData = [
     price: "8.00",
     category: "MEAT APPETISERS",
     subCategory: "ANTIPASTI DI TERRA",
+    menuCategory: "APPETISERS",
   },
   {
     id: 15,
@@ -553,6 +567,7 @@ export const DishesMenuData = [
     price: "15.00",
     category: "MEAT APPETISERS",
     subCategory: "ANTIPASTI DI TERRA",
+    menuCategory: "APPETISERS",
   },
   {
     id: 16,
@@ -564,6 +579,7 @@ export const DishesMenuData = [
     price: "15.00",
     category: "MEAT APPETISERS",
     subCategory: "ANTIPASTI DI TERRA",
+    menuCategory: "APPETISERS",
   },
   {
     id: 17,
@@ -575,6 +591,7 @@ export const DishesMenuData = [
     price: "12.00",
     category: "MEAT APPETISERS",
     subCategory: "ANTIPASTI DI TERRA",
+    menuCategory: "APPETISERS",
   },
   {
     id: 18,
@@ -586,6 +603,7 @@ export const DishesMenuData = [
     price: "10.00",
     category: "MEAT APPETISERS",
     subCategory: "ANTIPASTI DI TERRA",
+    menuCategory: "APPETISERS",
   },
   {
     id: 19,
@@ -597,6 +615,7 @@ export const DishesMenuData = [
     price: "12.00",
     category: "MEAT APPETISERS",
     subCategory: "ANTIPASTI DI TERRA",
+    menuCategory: "APPETISERS",
   },
   {
     id: 20,
@@ -608,6 +627,7 @@ export const DishesMenuData = [
     price: "12.00",
     category: "MEAT APPETISERS",
     subCategory: "ANTIPASTI DI TERRA",
+    menuCategory: "APPETISERS",
   },
   {
     id: 21,
@@ -619,6 +639,7 @@ export const DishesMenuData = [
     price: "13.00",
     category: "MEAT APPETISERS",
     subCategory: "ANTIPASTI DI TERRA",
+    menuCategory: "APPETISERS",
   },
   {
     id: 22,
@@ -630,6 +651,7 @@ export const DishesMenuData = [
     price: "13.00",
     category: "MEAT APPETISERS",
     subCategory: "ANTIPASTI DI TERRA",
+    menuCategory: "APPETISERS",
   },
   {
     id: 23,
@@ -641,6 +663,7 @@ export const DishesMenuData = [
     price: "13.00",
     category: "MEAT FIRST COURSE",
     subCategory: "PRIMI DI TERRA",
+    menuCategory: "MAIN",    
   },
   {
     id: 24,
@@ -652,6 +675,7 @@ export const DishesMenuData = [
     price: "13.00",
     category: "MEAT FIRST COURSE",
     subCategory: "PRIMI DI TERRA",
+    menuCategory: "MAIN",    
   },
   {
     id: 25,
@@ -663,6 +687,7 @@ export const DishesMenuData = [
     price: "13.00",
     category: "MEAT FIRST COURSE",
     subCategory: "PRIMI DI TERRA",
+    menuCategory: "MAIN",    
   },
   {
     id: 26,
@@ -674,6 +699,7 @@ export const DishesMenuData = [
     price: "13.00",
     category: "MEAT FIRST COURSE",
     subCategory: "PRIMI DI TERRA",
+    menuCategory: "MAIN",    
   },
   {
     id: 27,
@@ -685,6 +711,7 @@ export const DishesMenuData = [
     price: "13.00",
     category: "MEAT FIRST COURSE",
     subCategory: "PRIMI DI TERRA",
+    menuCategory: "MAIN",    
   },
   {
     id: 28,
@@ -696,6 +723,7 @@ export const DishesMenuData = [
     price: "12.00",
     category: "MEAT FIRST COURSE",
     subCategory: "PRIMI DI TERRA",
+    menuCategory: "MAIN",    
   },
   {
     id: 29,
@@ -707,6 +735,7 @@ export const DishesMenuData = [
     price: "15.00",
     category: "MEAT FIRST COURSE",
     subCategory: "PRIMI DI TERRA",
+    menuCategory: "MAIN",    
   },
   {
     id: 30,
@@ -718,6 +747,7 @@ export const DishesMenuData = [
     price: "17.00",
     category: "MEAT FIRST COURSE",
     subCategory: "PRIMI DI TERRA",
+    menuCategory: "MAIN",    
   },
   {
     id: 31,
@@ -729,6 +759,7 @@ export const DishesMenuData = [
     price: "13.00",
     category: "MEAT FIRST COURSE",
     subCategory: "PRIMI DI TERRA",
+    menuCategory: "MAIN",    
   },
   {
     id: 32,
@@ -740,6 +771,7 @@ export const DishesMenuData = [
     price: "13.00",
     category: "MEAT FIRST COURSE",
     subCategory: "PRIMI DI TERRA",
+    menuCategory: "MAIN",    
   },
   {
     id: 33,
@@ -751,6 +783,7 @@ export const DishesMenuData = [
     price: "16.00",
     category: "MEAT FIRST COURSE",
     subCategory: "PRIMI DI TERRA",
+    menuCategory: "MAIN",    
   },
   {
     id: 34,
@@ -762,6 +795,7 @@ export const DishesMenuData = [
     price: "20.00",
     category: "FISH SECOND COURSE",
     subCategory: "SECONDI DI PESCE",
+    menuCategory: "SECOND",
   },
   {
     id: 35,
@@ -773,6 +807,7 @@ export const DishesMenuData = [
     price: "26.00",
     category: "FISH SECOND COURSE",
     subCategory: "SECONDI DI PESCE",
+    menuCategory: "SECOND",
   },
   {
     id: 36,
@@ -784,6 +819,7 @@ export const DishesMenuData = [
     price: "20.00",
     category: "FISH SECOND COURSE",
     subCategory: "SECONDI DI PESCE",
+    menuCategory: "SECOND",
   },
   {
     id: 37,
@@ -795,6 +831,7 @@ export const DishesMenuData = [
     price: "26.00",
     category: "FISH SECOND COURSE",
     subCategory: "SECONDI DI PESCE",
+    menuCategory: "SECOND",
   },
   {
     id: 38,
@@ -806,6 +843,7 @@ export const DishesMenuData = [
     price: "24.00",
     category: "FISH SECOND COURSE",
     subCategory: "SECONDI DI PESCE",
+    menuCategory: "SECOND",
   },
   {
     id: 39,
@@ -817,6 +855,7 @@ export const DishesMenuData = [
     price: "24.00",
     category: "FISH SECOND COURSE",
     subCategory: "SECONDI DI PESCE",
+    menuCategory: "SECOND",
   },
   {
     id: 40,
@@ -828,6 +867,7 @@ export const DishesMenuData = [
     price: "26.00",
     category: "FISH SECOND COURSE",
     subCategory: "SECONDI DI PESCE",
+    menuCategory: "SECOND",
   },
   {
     id: 41,
@@ -839,6 +879,7 @@ export const DishesMenuData = [
     price: "25.00",
     category: "FISH SECOND COURSE",
     subCategory: "SECONDI DI PESCE",
+    menuCategory: "SECOND",
   },
   {
     id: 42,
@@ -850,6 +891,7 @@ export const DishesMenuData = [
     price: "12.00",
     category: "FISH SECOND COURSE",
     subCategory: "SECONDI DI PESCE",
+    menuCategory: "SECOND",
   },
   {
     id: 43,
@@ -861,6 +903,7 @@ export const DishesMenuData = [
     price: "9.00",
     category: "FISH SECOND COURSE",
     subCategory: "SECONDI DI PESCE",
+    menuCategory: "SECOND",
   },
   {
     id: 44,
@@ -872,6 +915,7 @@ export const DishesMenuData = [
     price: "20.00",
     category: "MEAT SECOND COURSE",
     subCategory: "SECONDI DI TERRA",
+    menuCategory: "SECOND",
   },
   {
     id: 45,
@@ -883,6 +927,7 @@ export const DishesMenuData = [
     price: "25.00",
     category: "MEAT SECOND COURSE",
     subCategory: "SECONDI DI TERRA",
+    menuCategory: "SECOND",
   },
   {
     id: 46,
@@ -894,6 +939,7 @@ export const DishesMenuData = [
     price: "25.00",
     category: "MEAT SECOND COURSE",
     subCategory: "SECONDI DI TERRA",
+    menuCategory: "SECOND",
   },
   {
     id: 47,
@@ -905,6 +951,7 @@ export const DishesMenuData = [
     price: "25.00",
     category: "MEAT SECOND COURSE",
     subCategory: "SECONDI DI TERRA",
+    menuCategory: "SECOND",
   },
   {
     id: 48,
@@ -916,6 +963,7 @@ export const DishesMenuData = [
     price: "22.00",
     category: "MEAT SECOND COURSE",
     subCategory: "SECONDI DI TERRA",
+    menuCategory: "SECOND",
   },
   {
     id: 49,
@@ -927,6 +975,7 @@ export const DishesMenuData = [
     price: "18.00",
     category: "MEAT SECOND COURSE",
     subCategory: "SECONDI DI TERRA",
+    menuCategory: "SECOND",
   },
   {
     id: 50,
@@ -938,6 +987,7 @@ export const DishesMenuData = [
     price: "20.00",
     category: "MEAT SECOND COURSE",
     subCategory: "SECONDI DI TERRA",
+    menuCategory: "SECOND",
   },
   {
     id: 51,
@@ -949,6 +999,7 @@ export const DishesMenuData = [
     price: "15.00",
     category: "MEAT SECOND COURSE",
     subCategory: "SECONDI DI TERRA",
+    menuCategory: "SECOND",
   },
   {
     id: 52,
@@ -960,6 +1011,7 @@ export const DishesMenuData = [
     price: "15.00",
     category: "MEAT SECOND COURSE",
     subCategory: "SECONDI DI TERRA",
+    menuCategory: "SECOND",
   },
   {
     id: 53,
@@ -971,6 +1023,7 @@ export const DishesMenuData = [
     price: "13.00",
     category: "MEAT SECOND COURSE",
     subCategory: "SECONDI DI TERRA",
+    menuCategory: "SECOND",
   },
   {
     id: 54,
@@ -982,6 +1035,7 @@ export const DishesMenuData = [
     price: "13.00",
     category: "MEAT SECOND COURSE",
     subCategory: "SECONDI DI TERRA",
+    menuCategory: "SECOND",
   },
   {
     id: 55,
@@ -993,6 +1047,7 @@ export const DishesMenuData = [
     price: "13.00",
     category: "MEAT SECOND COURSE",
     subCategory: "SECONDI DI TERRA",
+    menuCategory: "SECOND",
   },
   {
     id: 56,
@@ -1004,6 +1059,7 @@ export const DishesMenuData = [
     price: "7.00",
     category: "SIDES",
     subCategory: "CONTORNI",
+    menuCategory: "SIDES",
   },
   {
     id: 57,
@@ -1015,6 +1071,7 @@ export const DishesMenuData = [
     price: "11.00",
     category: "SIDES",
     subCategory: "CONTORNI",
+    menuCategory: "SIDES",
   },
   {
     id: 58,
@@ -1026,6 +1083,7 @@ export const DishesMenuData = [
     price: "13.00",
     category: "SIDES",
     subCategory: "CONTORNI",
+    menuCategory: "SIDES",
   },
   {
     id: 59,
@@ -1037,6 +1095,7 @@ export const DishesMenuData = [
     price: "6.00",
     category: "SIDES",
     subCategory: "CONTORNI",
+    menuCategory: "SIDES",
   },
   {
     id: 60,
@@ -1048,6 +1107,7 @@ export const DishesMenuData = [
     price: "6.00",
     category: "SIDES",
     subCategory: "CONTORNI",
+    menuCategory: "SIDES",
   },
   {
     id: 61,
@@ -1059,6 +1119,7 @@ export const DishesMenuData = [
     price: "6.00",
     category: "SIDES",
     subCategory: "CONTORNI",
+    menuCategory: "SIDES",
   },
   {
     id: 62,
@@ -1070,6 +1131,7 @@ export const DishesMenuData = [
     price: "6.00",
     category: "SIDES",
     subCategory: "CONTORNI",
+    menuCategory: "SIDES",
   },
   {
     id: 63,
@@ -1081,6 +1143,7 @@ export const DishesMenuData = [
     price: "7.00",
     category: "SIDES",
     subCategory: "CONTORNI",
+    menuCategory: "SIDES",
   },
   {
     id: 64,
@@ -1092,6 +1155,7 @@ export const DishesMenuData = [
     price: "6.00",
     category: "DESSERTS",
     subCategory: "DOLCI E FRUTTA",
+    menuCategory: "DESSERTS",
   },
   {
     id: 65,
@@ -1103,6 +1167,7 @@ export const DishesMenuData = [
     price: "6.00",
     category: "DESSERTS",
     subCategory: "DOLCI E FRUTTA",
+    menuCategory: "DESSERTS",
   },
   {
     id: 66,
@@ -1114,6 +1179,7 @@ export const DishesMenuData = [
     price: "6.00",
     category: "DESSERTS",
     subCategory: "DOLCI E FRUTTA",
+    menuCategory: "DESSERTS",
   },
   {
     id: 67,
@@ -1125,6 +1191,7 @@ export const DishesMenuData = [
     price: "8.00",
     category: "DESSERTS",
     subCategory: "DOLCI E FRUTTA",
+    menuCategory: "DESSERTS",
   },
   {
     id: 68,
@@ -1136,6 +1203,7 @@ export const DishesMenuData = [
     price: "6.00",
     category: "DESSERTS",
     subCategory: "DOLCI E FRUTTA",
+    menuCategory: "DESSERTS",
   },
   {
     id: 69,
@@ -1246,6 +1314,7 @@ export const DishesMenuData = [
     price: "8.50",
     category: "PIZZAS",
     subCategory: "LE NOSTRE PIZZE",
+    menuCategory: "PIZZAS",
   },
   {
     id: 79,
@@ -1257,6 +1326,7 @@ export const DishesMenuData = [
     price: "9.50",
     category: "PIZZAS",
     subCategory: "LE NOSTRE PIZZE",
+    menuCategory: "PIZZAS",
   },
   {
     id: 80,
@@ -1269,6 +1339,7 @@ export const DishesMenuData = [
     price: "10.00",
     category: "PIZZAS",
     subCategory: "LE NOSTRE PIZZE",
+    menuCategory: "PIZZAS",
   },
   {
     id: 81,
@@ -1280,6 +1351,7 @@ export const DishesMenuData = [
     price: "16.00",
     category: "PIZZAS",
     subCategory: "LE NOSTRE PIZZE",
+    menuCategory: "PIZZAS",
   },
   {
     id: 82,
@@ -1291,6 +1363,7 @@ export const DishesMenuData = [
     price: "10.00",
     category: "PIZZAS",
     subCategory: "LE NOSTRE PIZZE",
+    menuCategory: "PIZZAS",
   },
   {
     id: 83,
@@ -1303,6 +1376,7 @@ export const DishesMenuData = [
     price: "11.00",
     category: "PIZZAS",
     subCategory: "LE NOSTRE PIZZE",
+    menuCategory: "PIZZAS",
   },
   {
     id: 84,
@@ -1314,6 +1388,7 @@ export const DishesMenuData = [
     price: "12.00",
     category: "PIZZAS",
     subCategory: "LE NOSTRE PIZZE",
+    menuCategory: "PIZZAS",
   },
   {
     id: 85,
@@ -1326,6 +1401,7 @@ export const DishesMenuData = [
     price: "11.50",
     category: "PIZZAS",
     subCategory: "LE NOSTRE PIZZE",
+    menuCategory: "PIZZAS",
   },
   {
     id: 86,
@@ -1337,6 +1413,7 @@ export const DishesMenuData = [
     price: "13.00",
     category: "PIZZAS",
     subCategory: "LE NOSTRE PIZZE",
+    menuCategory: "PIZZAS",
   },
   {
     id: 87,
@@ -1348,6 +1425,7 @@ export const DishesMenuData = [
     price: "10.00",
     category: "PIZZAS",
     subCategory: "LE NOSTRE PIZZE",
+    menuCategory: "PIZZAS",
   },
   {
     id: 88,
@@ -1359,6 +1437,7 @@ export const DishesMenuData = [
     price: "12.00",
     category: "PIZZAS",
     subCategory: "LE NOSTRE PIZZE",
+    menuCategory: "PIZZAS",
   },
   {
     id: 89,
@@ -1370,6 +1449,7 @@ export const DishesMenuData = [
     price: "12.00",
     category: "PIZZAS",
     subCategory: "LE NOSTRE PIZZE",
+    menuCategory: "PIZZAS",
   },
   {
     id: 90,
@@ -1382,6 +1462,7 @@ export const DishesMenuData = [
     price: "10.00",
     category: "PIZZAS",
     subCategory: "LE NOSTRE PIZZE",
+    menuCategory: "PIZZAS",
   },
   {
     id: 91,
@@ -1393,6 +1474,7 @@ export const DishesMenuData = [
     price: "12.00",
     category: "PIZZAS",
     subCategory: "LE NOSTRE PIZZE",
+    menuCategory: "PIZZAS",
   },
   {
     id: 92,
@@ -1404,6 +1486,7 @@ export const DishesMenuData = [
     price: "15.00",
     category: "PIZZAS",
     subCategory: "LE NOSTRE PIZZE",
+    menuCategory: "PIZZAS",
   },
   {
     id: 93,
@@ -1415,5 +1498,6 @@ export const DishesMenuData = [
     price: "17.00",
     category: "PIZZAS",
     subCategory: "LE NOSTRE PIZZE",
+    menuCategory: "PIZZAS",
   },
 ];
