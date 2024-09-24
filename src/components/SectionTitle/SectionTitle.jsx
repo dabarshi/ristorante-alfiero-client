@@ -2,10 +2,10 @@ const SectionTitle = ({ title, subTitle }) => {
   return (
     <div className="space-y-8 text-center">
       <div className="space-y-2">
-        <h3 className="text-white font-bold text-2xl uppercase tracking-widest">
+        <h3 className="text-white font-bold md:text-2xl uppercase tracking-widest">
           {title}
         </h3>
-        <h6 className="text-amber-400 font-['dancing_script'] tracking-[0.2em] text-lg">
+        <h6 className="text-amber-400 font-['dancing_script'] tracking-[0.2em] md:text-lg">
           {subTitle}
         </h6>
       </div>
