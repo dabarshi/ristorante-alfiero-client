@@ -1,7 +1,7 @@
 import { heroImg } from "../../data/data";
 import Featured from "../../sections/Featured";
-import Hero from "../../sections/Hero";
-import Menu from "../../sections/Menu";
+import MainHeroSection from "../../sections/MainHeroSection";
+import MenuSection from "../../sections/MenuSection";
 import Testimonial from "../../sections/Testimonial";
 import TodaySpecial from "../../sections/TodaySpecial";
 import WelcomSection from "../../sections/Welcome";
@@ -9,13 +9,11 @@ import WelcomSection from "../../sections/Welcome";
 const Home = () => {
   return (
     <div className="bg-black">
-      <div>
-        <Hero slides={heroImg} />
-      </div>
+      <MainHeroSection slides={heroImg} />
       <Featured />
       <WelcomSection />
       <TodaySpecial />
-      <Menu />
+      <MenuSection />
       <Testimonial />
     </div>
   );

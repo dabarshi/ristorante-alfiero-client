@@ -5,7 +5,7 @@ import { FoodMenuData } from "../../data/data";
 import useVisibility from "../../hooks/useVisibility";
 import styles from "./MenuStyle.module.css";
 
-const Menu = () => {
+const MenuSection = () => {
   const [activeCategory, setActiveCategory] = useState("Main");
   const [cardRef, isVisible] = useVisibility();
 
@@ -55,4 +55,4 @@ const Menu = () => {
   );
 };
 
-export default Menu;
+export default MenuSection;

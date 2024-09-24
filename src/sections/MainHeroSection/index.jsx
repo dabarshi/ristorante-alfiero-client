@@ -3,7 +3,7 @@ import { PrimaryButton } from "../../components/Buttons/Buttons";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import styles from "./HeroStyle.module.css";
 
-const Hero = ({ slides }) => {
+const MainHeroSection = ({ slides }) => {
   // need to fix the parallax effiect
   // eslint-disable-next-line no-unused-vars
   const [scrollY, setScrollY] = useState(0);
@@ -139,4 +139,4 @@ const Hero = ({ slides }) => {
   );
 };
 
-export default Hero;
+export default MainHeroSection;

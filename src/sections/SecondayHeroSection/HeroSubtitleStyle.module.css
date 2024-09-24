@@ -1,0 +1,28 @@
+.subtitle {
+  position: relative;
+  color: #ffb300;
+  font-size: 14px;
+  /* display: inline-block; */
+}
+
+.subtitle::after,
+.subtitle::before {
+  content: "";
+  display: inline-block;
+  height: 1px;
+  width: 30px;
+  background: #ffb300;
+  position: absolute;
+}
+
+.subtitle::before {
+  top: 50%;
+  left: -10%;
+  transform: translate(-100%, 50%);
+}
+
+.subtitle::after {
+  top: 50%;
+  left: 110%;
+  transform: translateY(50%);
+}
