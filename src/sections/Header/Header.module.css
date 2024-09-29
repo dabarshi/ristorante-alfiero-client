@@ -53,6 +53,10 @@
   transition-timing-function: ease-in-out;
 }
 
+.navActive {
+  color: #ffb300 !important;
+}
+
 .navLiLg a:hover,
 .navLiSM a:hover {
   color: #ffb300;

@@ -23,7 +23,7 @@ const OurMenu = () => {
 
   return (
     <div>
-      <SecondaryHeroSection title={"Our Menu"} subtitle={"Fresh & Delicious"} />
+      <SecondaryHeroSection index={0} title={"Our Menu"} subtitle={"Fresh & Delicious"} />
       
       {categories.map((category, index) => (
         <FullMenuSection

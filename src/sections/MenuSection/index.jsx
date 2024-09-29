@@ -15,8 +15,15 @@ const MenuSection = () => {
     [activeCategory]
   );
 
-  // const categories = ["Main", "Starter", "Drinks"];
-  const categories = [ "MAIN", "SECOND", "APPETISERS", "SIDES", "DESSERTS", "PIZZAS"];
+  
+  const categories = [
+    "MAIN",
+    "SECOND",
+    "APPETISERS",
+    "SIDES",
+    "DESSERTS",
+    "PIZZAS",
+  ];
 
   const handleCategoryChange = (category) => {
     setActiveCategory(category);
@@ -35,7 +42,7 @@ const MenuSection = () => {
               className={`${
                 activeCategory === category
                   ? "border-amber-500"
-                  : "border-white"
+                  : "border-[#ffffff43]"
               } border text-white text-xs md:font-semibold py-2 md:px-4 hover:bg-[#dfcfcf09]`}
             >
               {category}

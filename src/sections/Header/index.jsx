@@ -1,14 +1,20 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { menuItems } from "../../data/data";
 import styles from "./Header.module.css";
 
 const NavMenu = ({ option, menuStyle }) => {
   const { link, optionName } = option;
-  const currentUrl = window.location.pathname;
+  const location = useLocation();
+  const currentUrl = location.pathname;
+
+  const isActive = currentUrl === link;
   return (
     <li className={menuStyle}>
-      <Link to={link} className={`${currentUrl.includes(link) ? "" : ""}`}>
+      <Link
+        to={link}
+        className={`${isActive ? styles.navActive : "text-white"}`}
+      >
         {optionName}
       </Link>
     </li>

@@ -23,10 +23,10 @@ export const menuItems = [
     optionName: "About Us",
     link: "/about",
   },
-  {
-    optionName: "Book",
-    link: "/book",
-  },
+  // {
+  //   optionName: "Book",
+  //   link: "/book",
+  // },
   {
     optionName: "Events",
     link: "/events",
@@ -62,6 +62,30 @@ export const SecondaryHeroImg = [
   {
     // img: "https://images.unsplash.com/photo-1558030006-450675393462?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     img: "https://images.unsplash.com/photo-1430163393927-3dab9af7ea38?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "Food",
+  },
+  {
+    img: "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    // img: "https://images.unsplash.com/photo-1558030006-450675393462?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    // img: "https://images.unsplash.com/photo-1430163393927-3dab9af7ea38?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "Food",
+  },
+  {
+    img: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    // img: "https://images.unsplash.com/photo-1558030006-450675393462?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    // img: "https://images.unsplash.com/photo-1430163393927-3dab9af7ea38?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "Food",
+  },
+  {
+    img: "https://images.unsplash.com/photo-1457666134378-6b77915bd5f2?q=80&w=1934&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    // img: "https://images.unsplash.com/photo-1558030006-450675393462?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    // img: "https://images.unsplash.com/photo-1430163393927-3dab9af7ea38?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "Food",
+  },
+  {
+    img: "https://images.unsplash.com/photo-1491185841098-9ce20f966624?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    // img: "https://images.unsplash.com/photo-1558030006-450675393462?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    // img: "https://images.unsplash.com/photo-1430163393927-3dab9af7ea38?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     alt: "Food",
   },
 ];
@@ -117,6 +141,20 @@ export const WelcomeCardData = [
     alt: "Butchers story",
     title: "Welcome To Ristorante Alfiero",
     subTitle: "The Art Of Cookings",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    adress: {
+      street: "140 WEST 4TH STREET",
+      city: "NY, NY 10012",
+      longitude: "212.260.1212",
+      latitude: " 212.260.7049",
+    },
+  },
+  {
+    img: "https://images.unsplash.com/photo-1561316670-df60e2dc8a7b?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "Butchers story",
+    title: "Our Restaurant",
+    subTitle: "Cozy & Romantic",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     adress: {
@@ -663,7 +701,7 @@ export const DishesMenuData = [
     price: "13.00",
     category: "MEAT FIRST COURSE",
     subCategory: "PRIMI DI TERRA",
-    menuCategory: "MAIN",    
+    menuCategory: "MAIN",
   },
   {
     id: 24,
@@ -675,7 +713,7 @@ export const DishesMenuData = [
     price: "13.00",
     category: "MEAT FIRST COURSE",
     subCategory: "PRIMI DI TERRA",
-    menuCategory: "MAIN",    
+    menuCategory: "MAIN",
   },
   {
     id: 25,
@@ -687,7 +725,7 @@ export const DishesMenuData = [
     price: "13.00",
     category: "MEAT FIRST COURSE",
     subCategory: "PRIMI DI TERRA",
-    menuCategory: "MAIN",    
+    menuCategory: "MAIN",
   },
   {
     id: 26,
@@ -699,7 +737,7 @@ export const DishesMenuData = [
     price: "13.00",
     category: "MEAT FIRST COURSE",
     subCategory: "PRIMI DI TERRA",
-    menuCategory: "MAIN",    
+    menuCategory: "MAIN",
   },
   {
     id: 27,
@@ -711,7 +749,7 @@ export const DishesMenuData = [
     price: "13.00",
     category: "MEAT FIRST COURSE",
     subCategory: "PRIMI DI TERRA",
-    menuCategory: "MAIN",    
+    menuCategory: "MAIN",
   },
   {
     id: 28,
@@ -723,7 +761,7 @@ export const DishesMenuData = [
     price: "12.00",
     category: "MEAT FIRST COURSE",
     subCategory: "PRIMI DI TERRA",
-    menuCategory: "MAIN",    
+    menuCategory: "MAIN",
   },
   {
     id: 29,
@@ -735,7 +773,7 @@ export const DishesMenuData = [
     price: "15.00",
     category: "MEAT FIRST COURSE",
     subCategory: "PRIMI DI TERRA",
-    menuCategory: "MAIN",    
+    menuCategory: "MAIN",
   },
   {
     id: 30,
@@ -747,7 +785,7 @@ export const DishesMenuData = [
     price: "17.00",
     category: "MEAT FIRST COURSE",
     subCategory: "PRIMI DI TERRA",
-    menuCategory: "MAIN",    
+    menuCategory: "MAIN",
   },
   {
     id: 31,
@@ -759,7 +797,7 @@ export const DishesMenuData = [
     price: "13.00",
     category: "MEAT FIRST COURSE",
     subCategory: "PRIMI DI TERRA",
-    menuCategory: "MAIN",    
+    menuCategory: "MAIN",
   },
   {
     id: 32,
@@ -771,7 +809,7 @@ export const DishesMenuData = [
     price: "13.00",
     category: "MEAT FIRST COURSE",
     subCategory: "PRIMI DI TERRA",
-    menuCategory: "MAIN",    
+    menuCategory: "MAIN",
   },
   {
     id: 33,
@@ -783,7 +821,7 @@ export const DishesMenuData = [
     price: "16.00",
     category: "MEAT FIRST COURSE",
     subCategory: "PRIMI DI TERRA",
-    menuCategory: "MAIN",    
+    menuCategory: "MAIN",
   },
   {
     id: 34,
@@ -1500,4 +1538,131 @@ export const DishesMenuData = [
     subCategory: "LE NOSTRE PIZZE",
     menuCategory: "PIZZAS",
   },
+];
+
+export const ChefData = [
+  {
+    img: "https://images.unsplash.com/photo-1691611997169-ec769088fad5?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    name: "Ben Sheridan",
+    title: "Master Chef",
+    shortDescription:
+      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.",
+  },
+  {
+    img: "https://images.unsplash.com/photo-1706988328012-a89a4151283d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    name: "Sophie Lana",
+    title: "Senior Chef",
+    shortDescription:
+      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.",
+  },
+  {
+    img: "https://images.unsplash.com/photo-1697898109582-40f15c65f174?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    name: "James Hoult",
+    title: "Guest Chef",
+    shortDescription:
+      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.",
+  },
+];
+
+export const EventCardData = [
+  {
+    img: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    title: "Barbeque Party",
+    date: "20 April 2015",
+    time: "12:00 - 13:30",
+    shortDescription:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+  },
+  {
+    img: "https://images.unsplash.com/photo-1471967183320-ee018f6e114a?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    title: "Romantic Dinner",
+    date: "20 April 2015",
+    time: "12:00 - 13:30",
+    shortDescription:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+  },
+  {
+    img: "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    title: "Friday Jazz",
+    date: "20 April 2015",
+    time: "12:00 - 13:30",
+    shortDescription:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+  },
+  {
+    img: "https://images.unsplash.com/photo-1523521803700-b3bcaeab0150?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    title: "Romantic Dinner",
+    date: "20 April 2015",
+    time: "12:00 - 13:30",
+    shortDescription:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+  },
+  {
+    img: "https://images.unsplash.com/photo-1467810563316-b5476525c0f9?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    title: "Friday Jazz",
+    date: "20 April 2015",
+    time: "12:00 - 13:30",
+    shortDescription:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+  },
+  {
+    img: "https://images.unsplash.com/photo-1484156818044-c040038b0719?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    title: "Barbeque Party",
+    date: "20 April 2015",
+    time: "12:00 - 13:30",
+    shortDescription:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+  },
+];
+
+export const BlogPostsData = [
+  {
+    title: "5 Powerful Natural Antibiotics",
+    date: "Feb 26",
+    content:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.",
+    imageUrl:
+      "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Replace with actual image link
+  },
+  {
+    title: "25 Reasons to Eat Bananas",
+    date: "Jun 20",
+    content:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.",
+    imageUrl:
+      "https://static3.depositphotos.com/1003631/209/i/450/depositphotos_2099183-stock-photo-fine-table-setting-in-gourmet.jpg", // Replace with actual image link
+  },
+  {
+    title: "Summer Food and Ingredients Guide",
+    date: "Jun 16",
+    content:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.",
+    imageUrl:
+      "https://images.unsplash.com/photo-1467810563316-b5476525c0f9?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  },
+  {
+    title: "6 Ways to Cook a Roast",
+    date: "Jun 08",
+    content:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.",
+    imageUrl:
+      "https://images.unsplash.com/photo-1523521803700-b3bcaeab0150?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  },
+];
+
+export const RecentPostsData = [
+  { title: "5 Powerful Natural Antibiotics", date: "22 JUN" },
+  { title: "25 Reasons to Eat Bananas", date: "20 JUN" },
+  { title: "Summer Food and Ingredients Guide", date: "12 JUN" },
+  { title: "6 Ways to Cook a Roast", date: "10 JUN" },
+];
+
+export const TagsData = [
+  "Food",
+  "Health",
+  "Recipes",
+  "Diet",
+  "Nutrition",
+  "Bananas",
+  "Cooking",
 ];

@@ -11,3 +11,4 @@ export const PrimaryButton = ({ text, btnStyle }) => {
     </button>
   );
 };
+

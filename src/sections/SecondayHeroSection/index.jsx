@@ -1,8 +1,8 @@
 import { SecondaryHeroImg } from "../../data/data";
 import styles from "./HeroSubtitleStyle.module.css";
 
-const SecondaryHeroSection = ({ title, subtitle }) => {
-  const heroImg = SecondaryHeroImg[0];
+const SecondaryHeroSection = ({ title, subtitle, index }) => {
+  const heroImg = SecondaryHeroImg[index];
   return (
     <div
       className={`relative h-96 bg-cover bg-center bg-fixed`}

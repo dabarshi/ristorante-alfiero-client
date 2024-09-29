@@ -2,6 +2,7 @@ import { useCallback, useEffect, useState } from "react";
 import { PrimaryButton } from "../../components/Buttons/Buttons";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import styles from "./HeroStyle.module.css";
+import { Link } from "react-router-dom";
 
 const MainHeroSection = ({ slides }) => {
   // need to fix the parallax effiect
@@ -114,7 +115,9 @@ const MainHeroSection = ({ slides }) => {
               {/* Hero Section Button */}
               <div className={`space-x-5 ${btnAnitationClass}`}>
                 <PrimaryButton text={"Book Now"} />
-                <PrimaryButton text={"View Menu"} />
+                <Link to="/menu">
+                  <PrimaryButton text={"View Menu"} />
+                </Link>
               </div>
             </div>
           </div>
