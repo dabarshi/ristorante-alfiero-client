@@ -23,10 +23,10 @@ export const menuItems = [
     optionName: "About Us",
     link: "/about",
   },
-  // {
-  //   optionName: "Book",
-  //   link: "/book",
-  // },
+  {
+    optionName: "Book",
+    link: "/book",
+  },
   {
     optionName: "Events",
     link: "/events",
