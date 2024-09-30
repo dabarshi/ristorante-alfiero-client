@@ -22,7 +22,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="bg-[#121217] p-20">
+    <div className="bg-[#121217] px-2 py-20 md:px-20">
       <div>
         <form
           onSubmit={handleSubmit}
@@ -98,7 +98,7 @@ const ContactForm = () => {
           <div className="flex items-center justify-between">
             <button
               type="submit"
-              className="bg-[#ca8e46] hover:bg-[#ca8f46d0] text-white font-bold py-2 px-4 focus:outline-none focus:shadow-outline"
+              className="bg-[#ca8e46] hover:bg-[#ca8f46d0] text-white  font-medium md:font-semibold py-2 px-4 focus:outline-none focus:shadow-outline"
             >
               Submit
             </button>

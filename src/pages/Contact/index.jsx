@@ -39,7 +39,7 @@ const Contact = () => {
                       tabIndex === index ? "bg-[#ca8e46]" : "bg-[#0003]"
                     }`}
                   >
-                    <button className="text-white font-semibold text-sm px-4 py-3 border-r-[1px] border-r-[#ffffff0b]">
+                    <button className="text-white font-medium md:font-semibold text-xs md:text-smd px-4 py-3 border-r-[1px] border-r-[#ffffff0b]">
                       {tab}
                     </button>
                   </div>
