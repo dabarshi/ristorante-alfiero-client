@@ -9,10 +9,17 @@ const NavMenu = ({ option, menuStyle }) => {
   const currentUrl = location.pathname;
 
   const isActive = currentUrl === link;
+
+  const handleLinkClick = (e) => {
+    e.preventDefault(); // Prevent default link behavior
+    window.location.href = link; // Force page refresh by reloading the page
+  };
+
   return (
     <li className={menuStyle}>
       <Link
         to={link}
+        onClick={handleLinkClick}
         className={`${isActive ? styles.navActive : "text-white"}`}
       >
         {optionName}
