@@ -1,4 +1,5 @@
 import EventCard from "../../components/EventCard/EventCard";
+import EventsForm from "../../components/EventsForm/EventsForm";
 import { EventCardData } from "../../data/data";
 import SecondaryHeroSection from "../../sections/SecondayHeroSection";
 
@@ -14,6 +15,9 @@ const Events = () => {
         {EventCardData.map((data) => (
           <EventCard data={data} />
         ))}
+      </div>
+      <div>
+        <EventsForm />
       </div>
     </div>
   );

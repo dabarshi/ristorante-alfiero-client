@@ -21,7 +21,7 @@ const Contact = () => {
         subtitle={"Who We Are"}
       />
       <div
-        className="py-20"
+        className="py-20 bg-fixed"
         style={{
           backgroundImage: `url(${map})`,
         }}

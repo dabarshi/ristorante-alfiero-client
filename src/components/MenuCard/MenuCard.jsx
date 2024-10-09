@@ -12,7 +12,7 @@ const MenuCard = ({ data }) => {
             {/* <div className="w-full border-b-[1px] border-dotted"></div> */}
           <p className="font-thin text-xs text-[#f1f1f1bb] uppercase">{dishNameInItalian}</p>
           </div>
-            <p>${price}</p>
+            <p>€ {price}</p>
         </div>
       </div>
     </div>

@@ -3,6 +3,7 @@ import {
   Gmail,
   Instagram,
   LinkedIn,
+  Tiktok,
 } from "../../assets/icons/socialIcon";
 import { FaEnvelope, FaLocationDot, FaPhone } from "react-icons/fa6";
 import Container from "../../components/Container/Container";
@@ -29,6 +30,11 @@ const Footer = () => {
       id: 4,
       to: "/",
       icon: <Gmail />,
+    },
+    {
+      id: 5,
+      to: "/",
+      icon: <Tiktok />,
     },
   ];
 

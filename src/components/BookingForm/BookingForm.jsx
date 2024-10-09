@@ -159,7 +159,7 @@ const BookingForm = () => {
         <div className="text-center">
           <button
             type="submit"
-            className="px-6 py-2 bg-[#765328] text-white rounded-lg hover:bg-[#ca8f46c1] transition"
+            className=" px-6 py-2 bg-amber-700 font-bold text-white rounded-lg hover:bg-amber-600 transition duration-300"
           >
             Submit
           </button>

@@ -114,7 +114,9 @@ const MainHeroSection = ({ slides }) => {
               </div>
               {/* Hero Section Button */}
               <div className={`space-x-5 ${btnAnitationClass}`}>
-                <PrimaryButton text={"Book Now"} />
+                <Link to="/book">
+                  <PrimaryButton text={"Book Now"} />
+                </Link>
                 <Link to="/menu">
                   <PrimaryButton text={"View Menu"} />
                 </Link>

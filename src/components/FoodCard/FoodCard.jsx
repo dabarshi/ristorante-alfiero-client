@@ -45,7 +45,7 @@ const FoodCard = ({ data }) => {
       <div className="text-white space-y-2">
         <h3 className="font-bold tracking-tighter leading-7">{title}</h3>
         <hr className="border-amber-600" />
-        <p className="font-bold tracking-tighter leading-7">${price}</p>
+        <p className="font-bold tracking-tighter leading-7">€ {price}</p>
       </div>
 
       {isModalOpen && (
