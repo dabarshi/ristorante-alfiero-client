@@ -1,59 +1,106 @@
 import menuImg1 from "../assets/menu/menu1.jpg";
 // import todaySpecialImg from "../assets/todaySpecial/pork.jpg";
-import todaySpecialImg1 from "../assets/todaySpecial/todaySpecialImg1.jpg";
-import todaySpecialImg2 from "../assets/todaySpecial/todaySpecialImg2.jpg";
-import todaySpecialImg3 from "../assets/todaySpecial/todaySpecialImg3.jpg";
-import todaySpecialImg4 from "../assets/todaySpecial/todaySpecialImg4.jpg";
-// import slideImg1 from "../assets/slide/slideImg1.jpg";
-// import slideImg2 from "../assets/slide/slideImg2.jpg";
-// import featuredImg1 from "../assets/custom/featuredImg1.jpg";
-import featuredImg1 from "../assets/featuredImages/featuredImg1.jpg";
-import featuredImg2 from "../assets/featuredImages/featuredImg2.jpg";
-import featuredImg3 from "../assets/featuredImages/featuredImg3.jpg";
+
+// Dish Menu Images Imports
+import lobsterTagliatelle from "../assets/dishMenuImages/fishMain/lobsterTagliatelle.png";
+import courgetteSeafoodFettuccine from "../assets/dishMenuImages/fishMain/courgetteSeafoodFettuccine.png";
+
+// Todays Special Images
+
+// import todaySpecialImg1 from "../assets/todaySpecial/34.jpg";
+// import todaySpecialImg2 from "../assets/todaySpecial/35.jpg";
+// import todaySpecialImg3 from "../assets/todaySpecial/40.jpg";
+// import todaySpecialImg4 from "../assets/todaySpecial/42.jpg";
+
+// https://i.ibb.co.com/3FbQTc4/34.jpg
+// https://i.ibb.co.com/RhXc8Bw/35.jpg
+// https://i.ibb.co.com/Wxh23BP/40.jpg
+// https://i.ibb.co.com/nfQXTYY/42.jpg
+
+//  Welcome Card Images
+// import welcomeCardImg1 from "../assets/welcome/32.jpg";
+// import welcomeCardImg2 from "../assets/welcome/56.jpg";
+
+// Featured card Images
+// import featuredImg1 from "../assets/featuredImages/37.jpg";
+// import featuredImg2 from "../assets/featuredImages/58.jpg";
+// import featuredImg3 from "../assets/featuredImages/49.jpg";
+
+// Images for Hero section or slides
+// import slideImg1 from "../assets/slide/14.jpg";
+// import slideImg2 from "../assets/slide/1.jpg";
+// import slideImg3 from "../assets/slide/29.jpg";
+
+// Secondary Hero Section Images
+// import secondaryHeroImg1 from "../assets/heroSection/48.jpg";
+// import secondaryHeroImg2 from "../assets/heroSection/27.jpg";
+// import secondaryHeroImg3 from "../assets/heroSection/18.jpg";
+// import secondaryHeroImg4 from "../assets/heroSection/10.jpg";
+
+// Menu page all sections side images
+// import menuShowCaseImg1 from "../assets/menuShowCase/61.jpg";
+// import menuShowCaseImg2 from "../assets/menuShowCase/60.jpg";
+// import menuShowCaseImg3 from "../assets/menuShowCa se/57.jpg";
+
 export const menuItems = [
   {
     optionName: "Home",
     link: "/",
   },
+  // {
+  //   optionName: "Menu",
+  //   link: "/menu",
+  // },
   {
     optionName: "Menu",
     link: "/menu",
   },
-  {
-    optionName: "About Us",
-    link: "/about",
-  },
+  // {
+  //   optionName: "Menu3",
+  //   link: "/menu3",
+  // },
   {
     optionName: "Book",
     link: "/book",
   },
   {
-    optionName: "Events",
-    link: "/events",
+    optionName: "About Us",
+    link: "/about",
   },
-  {
-    optionName: "Blog",
-    link: "/blog",
-  },
+
+  // {
+  //   optionName: "Events",
+  //   link: "/events",
+  // },
+  // {
+  //   optionName: "Blog",
+  //   link: "/blog",
+  // },
   {
     optionName: "Contact",
     link: "/contact",
   },
 ];
 
+// Hero section Images or slides Images
+
 export const heroImg = [
   {
     // img: slideImg1,
-    img: "https://images.unsplash.com/photo-1522336572468-97b06e8ef143?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    img: "https://i.ibb.co.com/MDH5W6m/14.webp",
+    // img: "https://images.unsplash.com/photo-1522336572468-97b06e8ef143?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     alt: "Enjoy Your Dinner",
   },
   {
     // img: slideImg2,
-    img: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    img: "https://i.ibb.co.com/4YTpsbC/1.webp",
+    // img: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     alt: "Exquisite Atmosphere",
   },
   {
-    img: "https://images.unsplash.com/photo-1479044769763-c28e05b5baa5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    // img: "https://images.unsplash.com/photo-1479044769763-c28e05b5baa5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    // img: slideImg3,
+    img: "https://i.ibb.co.com/xDNV96y/29.webp",
     alt: "A festival of flavors",
   },
 ];
@@ -61,88 +108,141 @@ export const heroImg = [
 export const SecondaryHeroImg = [
   {
     // img: "https://images.unsplash.com/photo-1558030006-450675393462?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    img: "https://images.unsplash.com/photo-1430163393927-3dab9af7ea38?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    // img: "https://images.unsplash.com/photo-1430163393927-3dab9af7ea38?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    // img: secondaryHeroImg1,
+    img: "https://i.ibb.co.com/PgZT2Vd/48.webp",
     alt: "Food",
   },
   {
-    img: "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    img: "https://i.ibb.co.com/f098ybk/27.webp",
+    // img: secondaryHeroImg2,
+    // img: "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     // img: "https://images.unsplash.com/photo-1558030006-450675393462?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     // img: "https://images.unsplash.com/photo-1430163393927-3dab9af7ea38?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     alt: "Food",
   },
   {
-    img: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    img: "https://i.ibb.co.com/Xj5z5Xs/18.webp",
+    // img: secondaryHeroImg3,
+    // img: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     // img: "https://images.unsplash.com/photo-1558030006-450675393462?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     // img: "https://images.unsplash.com/photo-1430163393927-3dab9af7ea38?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     alt: "Food",
   },
   {
-    img: "https://images.unsplash.com/photo-1457666134378-6b77915bd5f2?q=80&w=1934&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    img: "https://i.ibb.co.com/C7WwFY9/10.webp",
+    // img: secondaryHeroImg4,
+    // img: "https://images.unsplash.com/photo-1457666134378-6b77915bd5f2?q=80&w=1934&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     // img: "https://images.unsplash.com/photo-1558030006-450675393462?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     // img: "https://images.unsplash.com/photo-1430163393927-3dab9af7ea38?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     alt: "Food",
   },
   {
-    img: "https://images.unsplash.com/photo-1491185841098-9ce20f966624?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    img: "https://i.ibb.co.com/FYfLP44/4.webp",
+    // img: secondaryHeroImg3,
+    // img: "https://images.unsplash.com/photo-1491185841098-9ce20f966624?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     // img: "https://images.unsplash.com/photo-1558030006-450675393462?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     // img: "https://images.unsplash.com/photo-1430163393927-3dab9af7ea38?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     alt: "Food",
   },
 ];
 
-export const ShowCaseImgs = [
-  {
-    img: "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?q=80&w=2020&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    alt: "menu side Img",
-  },
-  {
-    img: "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?q=80&w=2020&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    alt: "menu side Img",
-  },
-  {
-    img: "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?q=80&w=2020&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    alt: "menu side Img",
-  },
-];
-
-export const FeaturedCardData = [
+// Menu page all sections side images
+export const MenuPageSideImgs = [
   {
     id: 1,
-    img: featuredImg1,
-    // img: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?q=80&w=1980&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    alt: "Pancake Stack",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo laborum recusandae totam quae eos soluta voluptatibus, amet quidem! Minima, maxime!",
-    title: "Healthy & Tasty",
+    img: "https://i.ibb.co.com/85cSY4K/61.webp",
+    alt: "Pizzas Sample Dish Image",
   },
   {
     id: 2,
-    img: featuredImg2,
-    // img: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?q=80&w=1980&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    alt: "Pancake Stack",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo laborum recusandae totam quae eos soluta voluptatibus, amet quidem! Minima, maxime!",
-    title: "Healthy & Tasty",
+    img: "https://i.ibb.co.com/k5YB4mC/41.webp",
+    alt: "Meat Appetisers",
   },
   {
     id: 3,
-    img: featuredImg3,
+    img: "https://i.ibb.co.com/C0YgTYB/36.webp",
+    alt: "Fish Main Course",
+  },
+  {
+    id: 4,
+    img: "https://i.ibb.co.com/MDmCdjB/45.webp",
+    alt: "menu side Img",
+  },
+  {
+    id: 5,
+    img: "https://i.ibb.co.com/VVjB2PT/44.webp",
+    alt: "Meat Main Course",
+  },
+  {
+    id: 6,
+    img: "https://i.ibb.co.com/2Y67LLZ/51.webp",
+    alt: "Meat Second Course Sample Dish Image",
+  },
+  {
+    id: 7,
+    img: "https://i.ibb.co.com/721MTPr/53.webp",
+    alt: "DESSERTS",
+  },
+  {
+    id: 8,
+    img: "https://i.ibb.co.com/svyCcvh/57.webp",
+    alt: "DRINKS",
+  },
+  {
+    id: 9,
+    img: "https://i.ibb.co.com/yBN54ds/59.webp",
+    alt: "PIZZA",
+  },
+];
+
+// Featured Card Data and images
+export const FeaturedCardData = [
+  {
+    id: 1,
+    img: "https://i.ibb.co.com/6rM4mmy/34.webp",
+    // img: "https://i.ibb.co.com/mTjddBg/37.jpg",
+    // img: featuredImg1,
+    // img: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?q=80&w=1980&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "Pancake",
+    description:
+      "Savor the finest selection of the ocean with our *Seafood Platter*, featuring freshly shucked oysters, succulent prawns, and delicate langoustines. Served on a bed of crushed ice and garnished with lemon wedges for a refreshing touch, this dish offers the perfect blend of freshness and elegance for seafood lovers.",
+    title: "Mixed Appertisers (Misto Crudo)",
+  },
+  {
+    id: 2,
+    // img: featuredImg2,
+    // img: "https://i.ibb.co.com/0p0Vv8t/49.jpg",
+    img: "https://i.ibb.co.com/9G6jWTC/42.webp",
     // img: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?q=80&w=1980&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     alt: "Pancake Stack",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo laborum recusandae totam quae eos soluta voluptatibus, amet quidem! Minima, maxime!",
-    title: "Healthy & Tasty",
+      "Introducing our 'Carosello di Antipasti', a delightful medley of seafood and marinated vegetables, artfully arranged with zesty citrus and vibrant garnishes. A perfect way to start your meal with fresh, Italian flavors and a touch of elegance.",
+    title: "Antipasti Platter (Carosello di Antipasti)",
+  },
+  {
+    id: 3,
+    img: "https://i.ibb.co.com/wSM0mDb/62A.webp",
+    // img: "https://i.ibb.co.com/qMCC1Hq/58.jpg",
+    // img: featuredImg3,
+    // img: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?q=80&w=1980&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "Pancake Stack",
+    description:
+      "Tartare di Tonno, made with fresh, premium tuna, delicately seasoned and served with a vibrant citrus twist. Paired with crispy crackers and a drizzle of olive oil, this dish offers an exquisite balance of flavor and elegance, perfect for a gourmet dining experience.",
+    title: "Tuna Tartare (Tartare di Tonno)",
   },
 ];
 
 export const WelcomeCardData = [
   {
-    img: "https://images.unsplash.com/photo-1512485800893-b08ec1ea59b1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    img: "https://i.ibb.co.com/X85SMwG/32.webp",
+    // img: welcomeCardImg1,
+    // img: "https://images.unsplash.com/photo-1512485800893-b08ec1ea59b1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     alt: "Butchers story",
     title: "Welcome To Ristorante Alfiero",
     subTitle: "The Art Of Cookings",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Welcome to Ristorante Alfiero, where authentic Italian flavors and warm hospitality come together to create a truly unforgettable dining experience in the heart of Rome. Nestled in the historic Via Servio Tullio, Ristorante Alfiero blends traditional Italian cooking with a contemporary touch, offering guests a vibrant and inviting atmosphere just steps away from Rome’s iconic landmarks.",
     adress: {
       street: "140 WEST 4TH STREET",
       city: "NY, NY 10012",
@@ -151,12 +251,14 @@ export const WelcomeCardData = [
     },
   },
   {
-    img: "https://images.unsplash.com/photo-1561316670-df60e2dc8a7b?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    img: "https://i.ibb.co.com/cCTdXyz/56.webp",
+    // img: welcomeCardImg2,
+    // img: "https://images.unsplash.com/photo-1561316670-df60e2dc8a7b?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     alt: "Butchers story",
     title: "Our Restaurant",
     subTitle: "Cozy & Romantic",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Welcome to Ristorante Alfiero, where authentic Italian flavors and warm hospitality come together to create a truly unforgettable dining experience in the heart of Rome. Nestled in the historic Via Servio Tullio, Ristorante Alfiero blends traditional Italian cooking with a contemporary touch, offering guests a vibrant and inviting atmosphere just steps away from Rome’s iconic landmarks.",
     adress: {
       street: "140 WEST 4TH STREET",
       city: "NY, NY 10012",
@@ -166,38 +268,52 @@ export const WelcomeCardData = [
   },
 ];
 
+//  Data For ToyDay's Special Section
 export const FoodCardData = [
   {
     id: 1,
-    img: todaySpecialImg1,
+    img: "https://i.ibb.co.com/8NC3qdR/47.webp",
+    // img: todaySpecialImg1,
     // img: "https://images.unsplash.com/photo-1432139555190-58524dae6a55?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    alt: "Pork Chop Dinner",
-    title: "Pork Chop Dinner",
-    price: "55",
+    alt: "Green Peppercorn Fillet (Filetto al Pepe Verde)",
+    title: "Green Peppercorn Fillet (Filetto al Pepe Verde)",
+    enTitle: "Green Peppercorn Fillet",
+    itTitle: "( Filetto al Pepe Verde )",
+    price: "25",
   },
   {
     id: 2,
-    img: todaySpecialImg2,
+    img: "https://i.ibb.co.com/sPThwtg/35.webp",
+    // img: todaySpecialImg2,
     // img: "https://images.unsplash.com/photo-1432139555190-58524dae6a55?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    alt: "Pork Chop Dinner",
-    title: "Pork Chop Dinner",
-    price: "55",
+    alt: "Paccheri with Amberjack (Paccheri con ricciola)",
+    title: "Paccheri with Amberjack (Paccheri con ricciola)",
+    enTitle: "Paccheri with Amberjack",
+    itTitle: "( Paccheri con ricciola )",
+    price: "16",
   },
   {
     id: 3,
-    img: todaySpecialImg3,
+    img: "https://i.ibb.co.com/2FGS168/55.webp",
+    // img: todaySpecialImg3,
     // img: "https://images.unsplash.com/photo-1432139555190-58524dae6a55?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    alt: "Pork Chop Dinner",
-    title: "Pork Chop Dinner",
-    price: "55",
+    alt: "Buffalo Mozzarella and Cherry Tomato Pizza (Pizza Bufala e pachino)",
+    title:
+      "Buffalo Mozzarella and Cherry Tomato Pizza (Pizza Bufala e pachino)",
+    enTitle: "Buffalo Mozzarella and Cherry Tomato Pizza",
+    itTitle: "( Pizza Bufala e pachino )",
+    price: "12",
   },
   {
     id: 4,
-    img: todaySpecialImg4,
+    img: "https://i.ibb.co.com/PgZT2Vd/48.webp",
+    // img: todaySpecialImg4,
     // img: "https://images.unsplash.com/photo-1432139555190-58524dae6a55?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    alt: "Pork Chop Dinner",
-    title: "Pork Chop Dinner",
-    price: "55",
+    alt: "Beef Steak ( Bistecca Di Manzo)",
+    title: "Beef Steak( Bistecca Di Manzo)",
+    enTitle: "Beef Steak",
+    itTitle: "( Bistecca Di Manzo )",
+    price: "20",
   },
 ];
 
@@ -429,7 +545,7 @@ export const TestimonialData = [
 export const DishesMenuData = [
   {
     id: 1,
-    img: menuImg1,
+    img: lobsterTagliatelle,
     // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
     alt: "",
     dishNameInItalian: "TAGLIOLINI ALL'ASTICE",
@@ -441,7 +557,7 @@ export const DishesMenuData = [
   },
   {
     id: 2,
-    img: menuImg1,
+    img: courgetteSeafoodFettuccine,
     // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
     alt: "",
     dishNameInItalian: "SPAGHETTI ALLA BOTTARGA",
@@ -453,7 +569,7 @@ export const DishesMenuData = [
   },
   {
     id: 3,
-    img: menuImg1,
+    img: courgetteSeafoodFettuccine,
     // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
     alt: "",
     dishNameInItalian: "FEITTUCCINE FRUTTI DI MARE E ZUCCHINE",
@@ -1253,6 +1369,7 @@ export const DishesMenuData = [
     price: "3.00",
     category: "DRINKS",
     subCategory: "BEVANDE",
+    menuCategory: "DRINKS",
   },
   {
     id: 70,
@@ -1264,6 +1381,7 @@ export const DishesMenuData = [
     price: "4.00",
     category: "DRINKS",
     subCategory: "BEVANDE",
+    menuCategory: "DRINKS",
   },
   {
     id: 71,
@@ -1275,6 +1393,7 @@ export const DishesMenuData = [
     price: "4.00",
     category: "DRINKS",
     subCategory: "BEVANDE",
+    menuCategory: "DRINKS",
   },
   {
     id: 72,
@@ -1286,6 +1405,7 @@ export const DishesMenuData = [
     price: "5.00",
     category: "DRINKS",
     subCategory: "BEVANDE",
+    menuCategory: "DRINKS",
   },
   {
     id: 73,
@@ -1297,6 +1417,7 @@ export const DishesMenuData = [
     price: "6.00",
     category: "DRINKS",
     subCategory: "BEVANDE",
+    menuCategory: "DRINKS",
   },
   {
     id: 74,
@@ -1308,6 +1429,7 @@ export const DishesMenuData = [
     price: "3.50",
     category: "DRINKS",
     subCategory: "BEVANDE",
+    menuCategory: "DRINKS",
   },
   {
     id: 75,
@@ -1319,6 +1441,7 @@ export const DishesMenuData = [
     price: "2.00",
     category: "DRINKS",
     subCategory: "BEVANDE",
+    menuCategory: "DRINKS",
   },
   {
     id: 76,
@@ -1330,6 +1453,7 @@ export const DishesMenuData = [
     price: "2.00",
     category: "DRINKS",
     subCategory: "BEVANDE",
+    menuCategory: "DRINKS",
   },
   {
     id: 77,
@@ -1341,6 +1465,7 @@ export const DishesMenuData = [
     price: "2.00",
     category: "DRINKS",
     subCategory: "BEVANDE",
+    menuCategory: "DRINKS",
   },
   {
     id: 78,
@@ -1537,6 +1662,282 @@ export const DishesMenuData = [
     category: "PIZZAS",
     subCategory: "LE NOSTRE PIZZE",
     menuCategory: "PIZZAS",
+  },
+  {
+    id: 94,
+    img: menuImg1,
+    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
+    alt: "",
+    dishNameInItalian: "CARPACCIO DI PESCE",
+    dishNameInEnglish: "Fish Carpaccio",
+    price: "16.00",
+    category: "FISH APPETISERS",
+    subCategory: "ANTIPASTI PESCE",
+    menuCategory: "APPETISERS",
+  },
+  {
+    id: 95,
+    img: menuImg1,
+    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
+    alt: "",
+    dishNameInItalian: "TARTARE DI SALMONE",
+    dishNameInEnglish: "Salmon Tartare",
+    price: "14.00",
+    category: "FISH APPETISERS",
+    subCategory: "ANTIPASTI PESCE",
+    menuCategory: "APPETISERS",
+  },
+  {
+    id: 96,
+    img: menuImg1,
+    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
+    alt: "",
+    dishNameInItalian: "TARTARE DI TONNO",
+    dishNameInEnglish: "Tuna Tartare",
+    price: "16.00",
+    category: "FISH APPETISERS",
+    subCategory: "ANTIPASTI PESCE",
+    menuCategory: "APPETISERS",
+  },
+  {
+    id: 97,
+    img: menuImg1,
+    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
+    alt: "",
+    dishNameInItalian: "TARTARE DEL PESCATO DEL GIORNO",
+    dishNameInEnglish: "Fish Of The Day Tartare",
+    price: "18.00",
+    category: "FISH APPETISERS",
+    subCategory: "ANTIPASTI PESCE",
+    menuCategory: "APPETISERS",
+  },
+  {
+    id: 98,
+    img: menuImg1,
+    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
+    alt: "",
+    dishNameInItalian: "OSTRICHE (1pz)",
+    dishNameInEnglish: "Oysters",
+    price: "3.00",
+    category: "FISH APPETISERS",
+    subCategory: "ANTIPASTI PESCE",
+    menuCategory: "APPETISERS",
+  },
+  {
+    id: 99,
+    img: menuImg1,
+    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
+    alt: "",
+    dishNameInItalian: "SCAMPI (1pz)",
+    dishNameInEnglish: "Scampi",
+    price: "4.00",
+    category: "FISH APPETISERS",
+    subCategory: "ANTIPASTI PESCE",
+    menuCategory: "APPETISERS",
+  },
+  {
+    id: 100,
+    img: menuImg1,
+    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
+    alt: "",
+    dishNameInItalian: "GAMBERI (1pz)",
+    dishNameInEnglish: "King Prawns",
+    price: "3.00",
+    category: "FISH APPETISERS",
+    subCategory: "ANTIPASTI PESCE",
+    menuCategory: "APPETISERS",
+  },
+  {
+    id: 101,
+    img: menuImg1,
+    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
+    alt: "",
+    dishNameInItalian: "MISTO CRUDO",
+    dishNameInEnglish: "Mixed Appertisers",
+    price: "22.00",
+    category: "FISH APPETISERS",
+    subCategory: "ANTIPASTI PESCE",
+    menuCategory: "APPETISERS",
+  },
+  {
+    id: 102,
+    img: menuImg1,
+    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
+    alt: "",
+    dishNameInItalian: "PANE",
+    dishNameInEnglish: "Bread",
+    price: "2.00",
+    category: "FISH APPETISERS",
+    subCategory: "ANTIPASTI PESCE",
+    menuCategory: "APPETISERS",
+  },
+  {
+    id: 103,
+    img: menuImg1,
+    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
+    alt: "",
+    dishNameInItalian: "ALICI MARINATE",
+    dishNameInEnglish: "Marinated anchovies",
+    price: "12.00",
+    category: "FISH APPETISERS",
+    subCategory: "ANTIPASTI PESCE",
+    menuCategory: "APPETISERS",
+  },
+  {
+    id: 104,
+    img: menuImg1,
+    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
+    alt: "",
+    dishNameInItalian: "SALMONE MARINATO",
+    dishNameInEnglish: "Marinated Salmon",
+    price: "14.00",
+    category: "FISH APPETISERS",
+    subCategory: "ANTIPASTI PESCE",
+    menuCategory: "APPETISERS",
+  },
+  {
+    id: 105,
+    img: menuImg1,
+    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
+    alt: "",
+    dishNameInItalian: "SALMONE AFFUMICATO",
+    dishNameInEnglish: "Smoked Salmon",
+    price: "16.00",
+    category: "FISH APPETISERS",
+    subCategory: "ANTIPASTI PESCE",
+    menuCategory: "APPETISERS",
+  },
+  {
+    id: 106,
+    img: menuImg1,
+    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
+    alt: "",
+    dishNameInItalian: "TATAKI DI TONNO",
+    dishNameInEnglish: "Tuna Tataki",
+    price: "18.00",
+    category: "FISH APPETISERS",
+    subCategory: "ANTIPASTI PESCE",
+    menuCategory: "APPETISERS",
+  },
+  {
+    id: 107,
+    img: menuImg1,
+    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
+    alt: "",
+    dishNameInItalian: "POLIPETTI AL SUGO",
+    dishNameInEnglish: "Baby Octupus Braised In Tomato Sauce",
+    price: "14.00",
+    category: "FISH APPETISERS",
+    subCategory: "ANTIPASTI PESCE",
+    menuCategory: "APPETISERS",
+  },
+  {
+    id: 108,
+    img: menuImg1,
+    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
+    alt: "",
+    dishNameInItalian: "CAPESANTE MEDITERRANEA",
+    dishNameInEnglish: "Mediterranean Scallops",
+    price: "18.00",
+    category: "FISH APPETISERS",
+    subCategory: "ANTIPASTI PESCE",
+    menuCategory: "APPETISERS",
+  },
+  {
+    id: 109,
+    img: menuImg1,
+    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
+    alt: "",
+    dishNameInItalian: "BACCALA FRITTO (3pz)",
+    dishNameInEnglish: "Fried Salted Codfish",
+    price: "15.00",
+    category: "FISH APPETISERS",
+    subCategory: "ANTIPASTI PESCE",
+    menuCategory: "APPETISERS",
+  },
+  {
+    id: 110,
+    img: menuImg1,
+    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
+    alt: "",
+    dishNameInItalian: "MOSCARDINI FRITTI",
+    dishNameInEnglish: "Fried Octupus",
+    price: "14.00",
+    category: "FISH APPETISERS",
+    subCategory: "ANTIPASTI PESCE",
+    menuCategory: "APPETISERS",
+  },
+  {
+    id: 111,
+    img: menuImg1,
+    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
+    alt: "",
+    dishNameInItalian: "FIORI DI ZUCCA FRITTI (4pz)",
+    dishNameInEnglish: "Fried Courgette Flowers",
+    price: "14.00",
+    category: "FISH APPETISERS",
+    subCategory: "ANTIPASTI PESCE",
+    menuCategory: "APPETISERS",
+  },
+  {
+    id: 112,
+    img: menuImg1,
+    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
+    alt: "",
+    dishNameInItalian: "OLIVE ALL'ASCOLANA (8pz)",
+    dishNameInEnglish: "Ascolana Olives 8pz",
+    price: "12.00",
+    category: "FISH APPETISERS",
+    subCategory: "ANTIPASTI PESCE",
+    menuCategory: "APPETISERS",
+  },
+  {
+    id: 113,
+    img: menuImg1,
+    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
+    alt: "",
+    dishNameInItalian: "MOZZARELLA FRITTE (8pz)",
+    dishNameInEnglish: "Fried Mozzarella 8pz",
+    price: "10.00",
+    category: "FISH APPETISERS",
+    subCategory: "ANTIPASTI PESCE",
+    menuCategory: "APPETISERS",
+  },
+  {
+    id: 114,
+    img: menuImg1,
+    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
+    alt: "",
+    dishNameInItalian: "SAUTE DI COZZE",
+    dishNameInEnglish: "Sauted Mussels",
+    price: "12.00",
+    category: "FISH APPETISERS",
+    subCategory: "ANTIPASTI PESCE",
+    menuCategory: "APPETISERS",
+  },
+  {
+    id: 115,
+    img: menuImg1,
+    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
+    alt: "",
+    dishNameInItalian: "INSALATA DI MARE",
+    dishNameInEnglish: "Sea Salad",
+    price: "15.00",
+    category: "FISH APPETISERS",
+    subCategory: "ANTIPASTI PESCE",
+    menuCategory: "APPETISERS",
+  },
+  {
+    id: 116,
+    img: menuImg1,
+    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
+    alt: "",
+    dishNameInItalian: "CAROSELLO DI ANTIPASTI",
+    dishNameInEnglish: "Seafood mixed appetisers",
+    price: "24.00",
+    category: "FISH APPETISERS",
+    subCategory: "ANTIPASTI PESCE",
+    menuCategory: "APPETISERS",
   },
 ];
 

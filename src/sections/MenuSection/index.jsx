@@ -1,13 +1,12 @@
 import { useMemo, useState } from "react";
 import MenuCard from "../../components/MenuCard/MenuCard";
 import SectionTitle from "../../components/SectionTitle/SectionTitle";
-// import { FoodMenuData } from "../../data/data";
 import { DishesMenuData } from "../../data/data";
 import useVisibility from "../../hooks/useVisibility";
 import styles from "./MenuStyle.module.css";
 
 const MenuSection = () => {
-  const [activeCategory, setActiveCategory] = useState("MAIN");
+  const [activeCategory, setActiveCategory] = useState("APPETISERS");
   const [cardRef, isVisible] = useVisibility();
 
   const filteredData = useMemo(
@@ -15,14 +14,14 @@ const MenuSection = () => {
     [activeCategory]
   );
 
-  
   const categories = [
+    "APPETISERS",
     "MAIN",
     "SECOND",
-    "APPETISERS",
     "SIDES",
     "DESSERTS",
     "PIZZAS",
+    "DRINKS",
   ];
 
   const handleCategoryChange = (category) => {

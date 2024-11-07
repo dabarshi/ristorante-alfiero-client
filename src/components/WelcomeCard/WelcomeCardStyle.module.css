@@ -1,12 +1,12 @@
-.imgAnimation {
-  animation: slideDagonalyUp 2s ease-in;
+.welcomeCardImg {
+  animation: slideToRight 1s ease-in;
 }
 
-.slideUpAnimation {
-  animation: slideUp 2s ease-in;
+.welcomeCardText {
+  animation: slideToLeft 1s ease-in;
 }
 
-@keyframes slideDagonalyUp {
+@keyframes slideToRight {
   0% {
     opacity: 0;
     transform: translate(-50px);
@@ -18,10 +18,10 @@
   }
 }
 
-@keyframes slideUp {
+@keyframes slideToLeft {
   0% {
     opacity: 0;
-    transform: translateX(100px);
+    transform: translateX(50px);
   }
 
   100% {

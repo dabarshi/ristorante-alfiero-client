@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { menuItems } from "../../data/data";
 import styles from "./Header.module.css";
+import TransparentLogo from "../../assets/logo/transparentLogo.png";
 
 const NavMenu = ({ option, menuStyle }) => {
   const { link, optionName } = option;
@@ -53,11 +54,15 @@ const Header = () => {
       // style={{ backgroundColor: `${isScrolled ? "#111" : "transparent"}` }}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
-          <div className="text-white text-center font-bold">
-            <span className="block text-xl">Ristorante</span>
-            <span className={styles.brand}>Alfiero</span>
-          </div>
+        <div className="flex justify-between items-center h-20">
+          {/* Brand Logo */}
+          <Link to={"/"}>
+            <div className="bg-white bg-opacity-90 font-bold rounded-full">
+              <img className="w-20" src={TransparentLogo} alt="" />
+              {/* <span className="block text-xl">Ristorante</span>
+            <span className={styles.brand}>Alfiero</span> */}
+            </div>
+          </Link>
           <div className="flex items-center">
             <ul className="hidden lg:flex">
               {menuItems.map((option) => (

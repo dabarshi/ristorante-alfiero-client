@@ -36,7 +36,7 @@ const BookingForm = () => {
   };
 
   return (
-    <div className="max-w-2xl mx-auto -mt-48 p-6 bg-[#000] shadow-2xl rounded">
+    <div className="max-w-2xl mx-auto p-6 bg-[#000] shadow-2xl rounded">
       <h2 className="text-2xl font-semibold tracking-tighter text-white mb-2 text-center">
         Book a Table
       </h2>

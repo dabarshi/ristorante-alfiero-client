@@ -107,7 +107,7 @@ const MainHeroSection = ({ slides }) => {
                 </h1>
                 {/* Section Subtitle */}
                 <p
-                  className={`text-amber-500 text-sm md:text-base ${subtitleAnitationClass}`}
+                  className={`text-amber-500 text-sm md:text-lg font-semibold ${subtitleAnitationClass}`}
                 >
                   Enjoy the real fresh food from our chef
                 </p>

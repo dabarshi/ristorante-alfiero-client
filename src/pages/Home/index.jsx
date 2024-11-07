@@ -1,20 +1,49 @@
-import { heroImg } from "../../data/data";
+import LoadingSpinner from "../../components/LoadingSpinner/LoadingSpinner";
+import WelcomeCard from "../../components/WelcomeCard/WelcomeCard";
+import {
+  FeaturedCardData,
+  FoodCardData,
+  heroImg,
+  WelcomeCardData,
+} from "../../data/data";
+import useImageLoader from "../../hooks/useImageLoader";
 import Featured from "../../sections/Featured";
 import MainHeroSection from "../../sections/MainHeroSection";
 import MenuSection from "../../sections/MenuSection";
 import Testimonial from "../../sections/Testimonial";
 import TodaySpecial from "../../sections/TodaySpecial";
-import WelcomSection from "../../sections/Welcome";
 
 const Home = () => {
+  const bgTestomonial = "https://i.ibb.co.com/X85SMwG/32.webp";
+  const bgTodaySpecial = "https://i.ibb.co.com/tzx9V0j/11.webp";
+
+  // Combine all images to preload
+  const allImages = [
+    ...heroImg,
+    { img: bgTestomonial, alt: "Background" },
+    { img: bgTodaySpecial, alt: "Background" },
+  ];
+
+  // Use the loading state
+  const loading = useImageLoader(allImages);
+
   return (
     <div className="bg-black">
-      <MainHeroSection slides={heroImg} />
-      <Featured />
-      <WelcomSection />
-      <TodaySpecial />
-      <MenuSection />
-      <Testimonial />
+      {loading ? (
+        <LoadingSpinner />
+      ) : (
+        <>
+          <MainHeroSection slides={heroImg} />
+          <Featured FeaturedCardData={FeaturedCardData} />
+          <WelcomeCard data={WelcomeCardData[0]} />
+          <TodaySpecial
+            FoodCardData={FoodCardData}
+            backgroundImageUrl={bgTodaySpecial}
+          />
+          <MenuSection />
+          <Testimonial backgroundImageUrl={bgTestomonial} />
+        </>
+      )}
     </div>
   );
 };

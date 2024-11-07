@@ -16,7 +16,7 @@ const FeaturedCardModal = ({ img, alt, onClose }) => {
     };
   }, [onClose]);
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-40">
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90">
       <div className="relative" ref={modalRef}>
         <button
           className="absolute top-1 right-1 text-3xl text-[#00000075]"
@@ -24,7 +24,11 @@ const FeaturedCardModal = ({ img, alt, onClose }) => {
         >
           <IoIosCloseCircle />
         </button>
-        <img src={img} alt={alt} className="max-w-full max-h-full rounded-md" />
+        <img
+          src={img}
+          alt={alt}
+          className=" max-w-[500px] max-h-96 w-full h-full rounded-md"
+        />
       </div>
     </div>
   );

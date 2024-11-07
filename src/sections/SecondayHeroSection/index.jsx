@@ -1,7 +1,6 @@
-import { SecondaryHeroImg } from "../../data/data";
 import styles from "./HeroSubtitleStyle.module.css";
 
-const SecondaryHeroSection = ({ title, subtitle, index }) => {
+const SecondaryHeroSection = ({ title, subtitle, index, SecondaryHeroImg }) => {
   const heroImg = SecondaryHeroImg[index];
   return (
     <div

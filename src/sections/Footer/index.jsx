@@ -8,7 +8,7 @@ import {
 import { FaEnvelope, FaLocationDot, FaPhone } from "react-icons/fa6";
 import Container from "../../components/Container/Container";
 import { Link } from "react-router-dom";
-
+import TransparentLogo from "../../assets/logo/transparentLogo.png";
 const Footer = () => {
   const socialLinksData = [
     {
@@ -40,16 +40,15 @@ const Footer = () => {
 
   const workingHoursData = [
     {
-      day: "Monday - Saturday",
+      day: "Tuseday - Sunday",
       time: {
-        period1: "12:30 PM - 3:00 PM",
-        period2: "7:00 PM - 11:00 PM",
+        period1: "12:30 PM - 11:00 PM",
       },
     },
     {
-      day: "Sunday",
+      day: "Monday",
       time: {
-        period1: "12:30 PM - 3:00 PM",
+        period1: "OFF",
       },
     },
   ];
@@ -57,17 +56,17 @@ const Footer = () => {
     {
       title: "street",
       icon: <FaLocationDot />,
-      text: "Silk St, Barbican, London EC2Y 8DS, UK",
+      text: "Via Servio Tullio, 9, 00187 Roma",
     },
     {
       title: "phone",
       icon: <FaPhone />,
-      text: "+39-055-123456",
+      text: "+39-06-85357856",
     },
     {
       title: "mail",
       icon: <FaEnvelope />,
-      text: "booking@patiotime.com",
+      text: "ristorantealfiero9@gmail.com",
     },
   ];
   const SocialLinks = ({ icon, to }) => {
@@ -92,7 +91,7 @@ const Footer = () => {
 
   const OurAddress = ({ icon, text }) => {
     return (
-      <p className="flex items-center gap-1 text-sm">
+      <p className="flex items-center gap-5 text-sm">
         <span>{icon}</span>
         {text}
       </p>
@@ -104,7 +103,14 @@ const Footer = () => {
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 py-10 px-6">
           <div className="flex flex-col justify-between space-y-5">
-            <h1 className="text-3xl">Ristorante Alfiero</h1>
+            {/* <h1 className="text-3xl">Ristorante Alfiero</h1> */}
+            <div className="w-24 bg-white bg-opacity-90 rounded-full">
+              <img
+                className="object-cover w-full"
+                src={TransparentLogo}
+                alt=""
+              />
+            </div>
             <p className="text-sm text-justify">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Necessitatibus, architecto cum corrupti accusantium ipsa
@@ -125,16 +131,32 @@ const Footer = () => {
               ))}
             </div>
           </div>
-          <div className="space-y-5">
+          <div className="flex flex-col justify-between space-y-5">
             <h3 className="text-lg uppercase font-medium">Our Address</h3>
-            {addressData.map((data) => (
-              <OurAddress key={data.title} icon={data.icon} text={data.text} />
-            ))}
+            <div className="space-y-5">
+              {addressData.map((data) => (
+                <OurAddress
+                  key={data.title}
+                  icon={data.icon}
+                  text={data.text}
+                />
+              ))}
+            </div>
           </div>
         </div>
         <hr className="border border-[#44444474]" />
         <div className="text-center py-4 text-sm">
-          <p>Developed by Dabarshi Roy</p>
+          <p>
+            Developed by @{" "}
+            <span className="font-bold text-amber-700">
+              <Link
+                title="https://dabarshi-roy-portfolio.web.app/"
+                to={"https://dabarshi-roy-portfolio.web.app/"}
+              >
+                Dabarshi Roy
+              </Link>
+            </span>
+          </p>
         </div>
       </Container>
     </footer>

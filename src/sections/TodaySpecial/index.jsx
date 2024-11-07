@@ -1,12 +1,11 @@
 import FoodCard from "../../components/FoodCard/FoodCard";
 import SectionTitle from "../../components/SectionTitle/SectionTitle";
-import { FoodCardData } from "../../data/data";
+// import { FoodCardData } from "../../data/data";
 import useVisibility from "../../hooks/useVisibility";
 import styles from "./TodaySpecilStyle.module.css";
+// import backgroundImageUrl from "../../assets/backgrounds/11.jpg";
 
-const TodaySpecial = () => {
-  const backgroundImageUrl =
-    "https://images.unsplash.com/photo-1623848932096-b196440bb57b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+const TodaySpecial = ({ FoodCardData, backgroundImageUrl }) => {
   const [cardRef, isVisible] = useVisibility();
 
   return (

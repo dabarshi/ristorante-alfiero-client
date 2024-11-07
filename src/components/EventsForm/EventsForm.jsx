@@ -29,11 +29,11 @@ const EventsForm = () => {
   return (
     <div
       className="relative min-h-screen bg-fixed bg-cover bg-center"
-      style={{
-        backgroundImage: `url(${formBgImg})`, // Replace with your image URL
-      }}
+      // style={{
+      //   backgroundImage: `url(${formBgImg})`, // Replace with your image URL
+      // }}
     >
-      <div className="bg-black bg-opacity-50 min-h-screen items-center py-20">
+      <div className=" items-center py-20">
         <form
           onSubmit={handleSubmit}
           className="max-w-xl mx-auto p-6 bg-black shadow-lg rounded-lg px-12 bg-opacity-90"
@@ -45,7 +45,7 @@ const EventsForm = () => {
 
           {/* Number of People */}
           <div className="mb-4">
-            <label className="block text-white font-semibold mb-2">
+            <label className="block text-white text-sm font-medium mb-2">
               Number of People
             </label>
             <input
@@ -60,7 +60,7 @@ const EventsForm = () => {
 
           {/* Menu Requirements */}
           <div className="mb-4">
-            <label className="block text-white font-semibold mb-2">
+            <label className="block text-white text-sm font-medium mb-2">
               Menu Requirements
             </label>
             <textarea
@@ -75,7 +75,7 @@ const EventsForm = () => {
 
           {/* Date and Time */}
           <div className="mb-4">
-            <label className="block text-white font-semibold mb-2">
+            <label className="block text-white text-sm font-medium mb-2">
               Date & Time
             </label>
             <input
@@ -90,7 +90,7 @@ const EventsForm = () => {
 
           {/* Contact Information */}
           <div className="mb-4">
-            <label className="block text-white font-semibold mb-2">
+            <label className="block text-white text-sm font-medium mb-2">
               Contact Information
             </label>
             <input
@@ -106,7 +106,7 @@ const EventsForm = () => {
 
           {/* Occasion */}
           <div className="mb-4">
-            <label className="block text-white font-semibold mb-2">
+            <label className="block text-white text-sm font-medium mb-2">
               Occasion
             </label>
             <select
@@ -126,7 +126,7 @@ const EventsForm = () => {
 
           {/* Special Requirements */}
           <div className="mb-4">
-            <label className="block text-white font-semibold mb-2">
+            <label className="block text-white text-sm font-medium mb-2">
               Special Requirements
             </label>
             <textarea

@@ -1,5 +1,5 @@
 .slideRightToCenterAnimation {
-  animation: rightToCenter 1s ease-in;
+  animation: rightToCenter 2s ease-in;
 }
 
 .slideUpSubtitleAnimation {
@@ -19,7 +19,7 @@
 @keyframes rightToCenter {
   0% {
     opacity: 0;
-    transform: translate(100px, -10px);
+    /* transform: translate(100px, -10px); */
   }
 }
 

@@ -3,7 +3,7 @@ import { FaImage } from "react-icons/fa";
 import FeaturedCardModal from "../FeaturedCardModal/FeaturedCardModal";
 
 const FoodCard = ({ data }) => {
-  const { img, alt, title, price } = data;
+  const { img, alt, title, price, enTitle, itTitle } = data;
 
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -18,7 +18,7 @@ const FoodCard = ({ data }) => {
     <div className="max-w-80 mx-auto space-y-6 text-center p-8 md:p-0">
       <div className="relative group overflow-hidden">
         <img
-          className="w-full object-cover brightness-90 group-hover:scale-110"
+          className="w-[300px] object-cover brightness-90 group-hover:scale-110"
           style={{ transition: "transform 300ms ease-in" }}
           src={img}
           alt={alt}
@@ -43,7 +43,10 @@ const FoodCard = ({ data }) => {
         </div>
       </div>
       <div className="text-white space-y-2">
-        <h3 className="font-bold tracking-tighter leading-7">{title}</h3>
+        <div className="text-center text-sm">
+          <h3 className="font-bold tracking-tighter">{enTitle}</h3>
+          <h3 className="tracking-tighter">{itTitle}</h3>
+        </div>
         <hr className="border-amber-600" />
         <p className="font-bold tracking-tighter leading-7">€ {price}</p>
       </div>

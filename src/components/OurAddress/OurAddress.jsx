@@ -53,7 +53,7 @@ const OurAddress = () => {
           <FiMapPin className="text-[#ca8e46] text-xl mr-8" />
           <div>
             <h3 className="text-lg font-bold">Address</h3>
-            <p>123 Street Name, City, Country</p>
+            <p>Via Servio Tullio, 9, 00187 Roma</p>
           </div>
         </div>
 
@@ -61,7 +61,7 @@ const OurAddress = () => {
           <FiPhone className="text-[#ca8e46] text-xl mr-8" />
           <div>
             <h3 className="text-lg font-bold">Phone</h3>
-            <p>+123-456-7890</p>
+            <p>+39-06-85357856</p>
           </div>
         </div>
 
@@ -69,7 +69,7 @@ const OurAddress = () => {
           <FiMail className="text-[#ca8e46] text-xl mr-8" />
           <div>
             <h3 className="text-lg font-bold">Email</h3>
-            <p>info@example.com</p>
+            <p>ristorantealfiero9@gmail.com</p>
           </div>
         </div>
       </div>
