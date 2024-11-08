@@ -28,7 +28,7 @@ const OurAddress = () => {
     },
     {
       id: 4,
-      to: "/",
+      to: "mailto:ristorantealfiero9@gmail.com",
       icon: <Gmail />,
     },
     {

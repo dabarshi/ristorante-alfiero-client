@@ -258,7 +258,11 @@ export const WelcomeCardData = [
     title: "Our Restaurant",
     subTitle: "Cozy & Romantic",
     description:
-      "Welcome to Ristorante Alfiero, where authentic Italian flavors and warm hospitality come together to create a truly unforgettable dining experience in the heart of Rome. Nestled in the historic Via Servio Tullio, Ristorante Alfiero blends traditional Italian cooking with a contemporary touch, offering guests a vibrant and inviting atmosphere just steps away from Rome’s iconic landmarks.",
+      "At Alfiero, we believe that great food begins with exceptional ingredients. Our chefs select the freshest seafood, seasonal vegetables, and quality meats from trusted local sources, bringing the rich and diverse flavors of Italian cuisine to every plate. From classic Roman pasta dishes like Amatriciana and Carbonara to delicately prepared seafood specialties, each dish is crafted with passion and attention to detail, honoring Italy’s culinary heritage.",
+    description2:
+      "Our menu celebrates both tradition and creativity, offering a wide range of antipasti, handmade pastas, and signature mains, all expertly paired with wines from Italy’s renowned vineyards. Whether you’re here for a romantic evening, a family gathering, or a special celebration, our dedicated team is here to ensure that each visit to Alfiero is memorable.",
+    description3:
+      "Join us at Ristorante Alfiero and let us share the magic of Italian dining with you. Experience the flavors, ambiance, and hospitality that have made Alfiero a beloved destination for locals and visitors alike.",
     adress: {
       street: "140 WEST 4TH STREET",
       city: "NY, NY 10012",

@@ -1,10 +1,12 @@
 import styles from "./WelcomeCardStyle.module.css";
 import useVisibility from "../../hooks/useVisibility";
 import TransparentLogo from "../../assets/logo/transparentLogo.png";
+import { Link } from "react-router-dom";
 // import { useState } from "react";
 
-const WelcomeCard = ({ data, change }) => {
-  const { img, alt, title, subTitle, description } = data;
+const WelcomeCard = ({ data, change, isHome }) => {
+  const { img, alt, title, subTitle, description, description2, description3 } =
+    data;
   const [cardRef, isVisible] = useVisibility();
   // const [order, setOrder] = useState(change);
 
@@ -46,6 +48,19 @@ const WelcomeCard = ({ data, change }) => {
           <p className="text-justify font-thin text-[#f1f1f1bb]">
             {description}
           </p>
+          <p className="text-justify font-thin text-[#f1f1f1bb]">
+            {description2 ? description2 : null}
+          </p>
+          <p className="text-justify font-thin text-[#f1f1f1bb]">
+            {description3 ? description3 : null}
+          </p>
+          {isHome ? (
+            <p className="hover:underline text-xs text-[#f1f1f1bb] hover:text-white font-bold">
+              <Link className="pb-1" to="/about">
+                More About Us ...
+              </Link>
+            </p>
+          ) : null}
         </div>
       </div>
     </div>

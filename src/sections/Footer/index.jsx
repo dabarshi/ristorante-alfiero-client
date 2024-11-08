@@ -28,7 +28,7 @@ const Footer = () => {
     },
     {
       id: 4,
-      to: "/",
+      to: "mailto:ristorantealfiero9@gmail.com",
       icon: <Gmail />,
     },
     {
@@ -112,8 +112,8 @@ const Footer = () => {
               />
             </div>
             <p className="text-sm text-justify">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Necessitatibus, architecto cum corrupti accusantium ipsa
+              Join us at Ristorante Alfiero and let us share the magic of
+              Italian dining with you.
             </p>
             {/* links */}
             <div className="flex gap-5">

@@ -35,7 +35,7 @@ const Home = () => {
         <>
           <MainHeroSection slides={heroImg} />
           <Featured FeaturedCardData={FeaturedCardData} />
-          <WelcomeCard data={WelcomeCardData[0]} />
+          <WelcomeCard data={WelcomeCardData[0]} isHome={true} />
           <TodaySpecial
             FoodCardData={FoodCardData}
             backgroundImageUrl={bgTodaySpecial}
