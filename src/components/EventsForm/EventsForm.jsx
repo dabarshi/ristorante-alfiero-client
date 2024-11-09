@@ -20,15 +20,41 @@ const EventsForm = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   console.log("Form Data:", formData);
+
+  //   // Add your submission logic here
+  // };
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
     console.log("Form Data:", formData);
-    // Add your submission logic here
+    try {
+      const response = await fetch("http://localhost:5000/api/events", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+      if (response.ok) {
+        alert("Booking submitted successfully!");
+        setFormData({
+          numberOfPeople: "",
+          menuRequirements: "",
+          dateTime: "",
+          contactInfo: "",
+          occasion: "",
+          specialRequirements: "",
+        });
+      }
+    } catch (error) {
+      console.error("Error:", error);
+    }
   };
 
   return (
     <div
-      className="relative min-h-screen bg-fixed bg-cover bg-center"
+      className="relative"
       // style={{
       //   backgroundImage: `url(${formBgImg})`, // Replace with your image URL
       // }}

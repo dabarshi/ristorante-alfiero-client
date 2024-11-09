@@ -19,20 +19,46 @@ const BookingForm = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   // Handle form submission (e.g., send data to a server)
+  //   console.log("Booking Form Data:", formData);
+  //   // Reset the form after submission
+  //   setFormData({
+  //     name: "",
+  //     time: "",
+  //     date: "",
+  //     person: "",
+  //     phone: "",
+  //     email: "",
+  //     message: "",
+  //   });
+  // };
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Handle form submission (e.g., send data to a server)
-    console.log("Booking Form Data:", formData);
-    // Reset the form after submission
-    setFormData({
-      name: "",
-      time: "",
-      date: "",
-      person: "",
-      phone: "",
-      email: "",
-      message: "",
-    });
+    console.log("Form Data:", formData);
+    try {
+      const response = await fetch("http://localhost:5000/api/bookings", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+      if (response.ok) {
+        alert("Booking submitted successfully!");
+        setFormData({
+          name: "",
+          time: "",
+          date: "",
+          person: "",
+          phone: "",
+          email: "",
+          message: "",
+        });
+      }
+    } catch (error) {
+      console.error("Error:", error);
+    }
   };
 
   return (
