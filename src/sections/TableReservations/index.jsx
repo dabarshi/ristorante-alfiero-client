@@ -27,25 +27,21 @@ const TableReservations = () => {
 
   const approveReservation = async (id) => {
     try {
-      // Update status in the database
       const updatedReservation = await axiosInstance.patch(`/bookings/${id}`, {
         status: "approved",
       });
 
       if (updatedReservation.status === 200) {
-        // Ensure the request was successful
-        // Move the approved reservation to the approved list in local state
+        // Move approved reservation from pending to approved list
+        const approvedItem = pendingReservations.find(
+          (reservation) => reservation._id === id
+        );
         setPendingReservations((prev) =>
           prev.filter((reservation) => reservation._id !== id)
         );
         setApprovedReservations((prev) => [
           ...prev,
-          {
-            ...pendingReservations.find(
-              (reservation) => reservation._id === id
-            ),
-            status: "approved",
-          },
+          { ...approvedItem, status: "approved" },
         ]);
       }
     } catch (error) {
@@ -74,7 +70,7 @@ const TableReservations = () => {
       <div className="mb-8 px-4">
         <h2 className="text-xl font-semibold mb-3">Pending Reservations</h2>
         <ul className="space-y-4">
-          {pendingReservations === null ? (
+          {pendingReservations.length > 0 ? (
             pendingReservations.map((reservation) => (
               <li
                 key={reservation._id}
@@ -117,7 +113,7 @@ const TableReservations = () => {
             ))
           ) : (
             <p className="p-4 bg-white shadow rounded-lg">
-              There is no more pending reservation.
+              There are no pending reservations.
             </p>
           )}
         </ul>
@@ -126,7 +122,7 @@ const TableReservations = () => {
       <div className="px-4">
         <h2 className="text-xl font-semibold mb-3">Approved Reservations</h2>
         <ul className="space-y-4">
-          {approvedReservations === null ? (
+          {approvedReservations.length > 0 ? (
             approvedReservations.map((reservation) => (
               <li
                 key={reservation._id}
@@ -163,7 +159,7 @@ const TableReservations = () => {
             ))
           ) : (
             <p className="p-4 bg-white shadow rounded-lg">
-              There is no more reservation.
+              There are no approved reservations.
             </p>
           )}
         </ul>

@@ -1,26 +1,21 @@
-import { createBrowserRouter, Navigate } from "react-router-dom";
+import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "../layout/MainLayout";
 import Home from "../pages/Home";
 import OurMenu from "../pages/Menu";
 import About from "../pages/About";
-import Events from "../pages/Events";
+// import Events from "../pages/Events";
 import Contact from "../pages/Contact";
 // import Blogs from "../pages/Blogs";
 import Book from "../pages/Book";
 import LoginPage from "../pages/Login";
 import AdminDashboard from "../pages/AdminDashboard";
-import Menu2 from "../pages/Menu2";
-import Menu3 from "../pages/Menu3";
+import ProtectedRoute from "./ProtectedRoute";
+import RegisterPage from "../pages/Register";
 
-// Mock function to check authentication
-const isAuthenticated = () => {
-  return localStorage.getItem("auth") === "true"; // This is just a simple example; you can enhance this with real authentication logic
-};
+// import Menu2 from "../pages/Menu2";
+// import Menu3 from "../pages/Menu3";
 
-// Protected Route wrapper
-const ProtectedRoute = ({ element }) => {
-  return isAuthenticated() ? element : <Navigate to="/login" />;
-};
+// Function to check authentication with the backend
 
 export const router = createBrowserRouter([
   {
@@ -66,6 +61,10 @@ export const router = createBrowserRouter([
       {
         path: "/login",
         element: <LoginPage />,
+      },
+      {
+        path: "/register",
+        element: <RegisterPage />,
       },
       {
         path: "/admin",
