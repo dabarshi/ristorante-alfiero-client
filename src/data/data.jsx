@@ -5,60 +5,15 @@ import menuImg1 from "../assets/menu/menu1.jpg";
 import lobsterTagliatelle from "../assets/dishMenuImages/fishMain/lobsterTagliatelle.png";
 import courgetteSeafoodFettuccine from "../assets/dishMenuImages/fishMain/courgetteSeafoodFettuccine.png";
 
-// Todays Special Images
-
-// import todaySpecialImg1 from "../assets/todaySpecial/34.jpg";
-// import todaySpecialImg2 from "../assets/todaySpecial/35.jpg";
-// import todaySpecialImg3 from "../assets/todaySpecial/40.jpg";
-// import todaySpecialImg4 from "../assets/todaySpecial/42.jpg";
-
-// https://i.ibb.co.com/3FbQTc4/34.jpg
-// https://i.ibb.co.com/RhXc8Bw/35.jpg
-// https://i.ibb.co.com/Wxh23BP/40.jpg
-// https://i.ibb.co.com/nfQXTYY/42.jpg
-
-//  Welcome Card Images
-// import welcomeCardImg1 from "../assets/welcome/32.jpg";
-// import welcomeCardImg2 from "../assets/welcome/56.jpg";
-
-// Featured card Images
-// import featuredImg1 from "../assets/featuredImages/37.jpg";
-// import featuredImg2 from "../assets/featuredImages/58.jpg";
-// import featuredImg3 from "../assets/featuredImages/49.jpg";
-
-// Images for Hero section or slides
-// import slideImg1 from "../assets/slide/14.jpg";
-// import slideImg2 from "../assets/slide/1.jpg";
-// import slideImg3 from "../assets/slide/29.jpg";
-
-// Secondary Hero Section Images
-// import secondaryHeroImg1 from "../assets/heroSection/48.jpg";
-// import secondaryHeroImg2 from "../assets/heroSection/27.jpg";
-// import secondaryHeroImg3 from "../assets/heroSection/18.jpg";
-// import secondaryHeroImg4 from "../assets/heroSection/10.jpg";
-
-// Menu page all sections side images
-// import menuShowCaseImg1 from "../assets/menuShowCase/61.jpg";
-// import menuShowCaseImg2 from "../assets/menuShowCase/60.jpg";
-// import menuShowCaseImg3 from "../assets/menuShowCa se/57.jpg";
-
 export const menuItems = [
   {
     optionName: "Home",
     link: "/",
   },
-  // {
-  //   optionName: "Menu",
-  //   link: "/menu",
-  // },
   {
     optionName: "Menu",
     link: "/menu",
   },
-  // {
-  //   optionName: "Menu3",
-  //   link: "/menu3",
-  // },
   {
     optionName: "Book",
     link: "/book",
@@ -67,15 +22,6 @@ export const menuItems = [
     optionName: "About Us",
     link: "/about",
   },
-
-  // {
-  //   optionName: "Events",
-  //   link: "/events",
-  // },
-  // {
-  //   optionName: "Blog",
-  //   link: "/blog",
-  // },
   {
     optionName: "Contact",
     link: "/contact",
@@ -151,42 +97,50 @@ export const SecondaryHeroImg = [
 export const MenuPageSideImgs = [
   {
     id: 1,
-    img: "https://i.ibb.co.com/85cSY4K/61.webp",
+    img: "https://i.ibb.co.com/qRzyNRZ/46.webp",
+    // img: "https://i.ibb.co.com/85cSY4K/61.webp",
     alt: "Pizzas Sample Dish Image",
   },
   {
     id: 2,
-    img: "https://i.ibb.co.com/k5YB4mC/41.webp",
+    img: "https://i.ibb.co.com/YkkVn2m/49.webp",
+    // img: "https://i.ibb.co.com/k5YB4mC/41.webp",
     alt: "Meat Appetisers",
   },
   {
     id: 3,
-    img: "https://i.ibb.co.com/C0YgTYB/36.webp",
+    img: "https://i.ibb.co.com/MDmCdjB/45.webp",
+    // img: "https://i.ibb.co.com/C0YgTYB/36.webp",
     alt: "Fish Main Course",
   },
   {
     id: 4,
-    img: "https://i.ibb.co.com/MDmCdjB/45.webp",
+    img: "https://i.ibb.co.com/VVjB2PT/44.webp",
+    // img: "https://i.ibb.co.com/MDmCdjB/45.webp",
     alt: "menu side Img",
   },
   {
     id: 5,
-    img: "https://i.ibb.co.com/VVjB2PT/44.webp",
+    img: "https://i.ibb.co.com/k5YB4mC/41.webp",
+    // img: "https://i.ibb.co.com/VVjB2PT/44.webp",
     alt: "Meat Main Course",
   },
   {
     id: 6,
     img: "https://i.ibb.co.com/2Y67LLZ/51.webp",
+    // img: "https://i.ibb.co.com/2Y67LLZ/51.webp",
     alt: "Meat Second Course Sample Dish Image",
   },
   {
     id: 7,
     img: "https://i.ibb.co.com/721MTPr/53.webp",
+    // img: "https://i.ibb.co.com/721MTPr/53.webp",
     alt: "DESSERTS",
   },
   {
     id: 8,
-    img: "https://i.ibb.co.com/svyCcvh/57.webp",
+    img: "https://i.ibb.co.com/X4gw58k/40.webp",
+    // img: "https://i.ibb.co.com/svyCcvh/57.webp",
     alt: "DRINKS",
   },
   {
@@ -318,231 +272,6 @@ export const FoodCardData = [
     enTitle: "Beef Steak",
     itTitle: "( Bistecca Di Manzo )",
     price: "20",
-  },
-];
-
-export const FoodMenuData = [
-  {
-    id: 1,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "chicken crispy roll",
-    title: "Chicken Crispy Roll",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    price: 66,
-    category: "Main",
-  },
-  {
-    id: 2,
-    img: menuImg1,
-    // img: "https://tastykitchen.com/recipes/wp-content/uploads/sites/2/2011/02/baked-crab-mac-cheese-cropped-410x307.jpg",
-    alt: "Baked Crab Cheese",
-    title: "Baked Crab Cheese",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    price: 42,
-    category: "Main",
-  },
-  {
-    id: 3,
-    img: menuImg1,
-    // img: "https://upload.wikimedia.org/wikipedia/commons/8/82/Foie_gras_en_cocotte.jpg",
-    alt: "Foie Gras",
-    title: "Foie Gras",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    price: 88,
-    category: "Main",
-  },
-  {
-    id: 4,
-    img: menuImg1,
-    // img: "https://thaicaliente.com/wp-content/uploads/2022/02/Fried-Shirmp-Rolls-2-720x1080.webp",
-    alt: "Cheese Shrimp Roll",
-    title: "Cheese Shrimp Roll",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    price: 68,
-    category: "Main",
-  },
-  {
-    id: 5,
-    img: menuImg1,
-    // img: "https://images.unsplash.com/photo-1639024469010-44d77e559f7d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    alt: "Crispy Squid",
-    title: "Crispy Squid",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    price: 38,
-    category: "Main",
-  },
-  {
-    id: 6,
-    img: menuImg1,
-    // img: "https://images.unsplash.com/photo-1610057099431-d73a1c9d2f2f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    alt: "Roasted Chicken",
-    title: "Roasted Chicken",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    price: 55,
-    category: "Main",
-  },
-  {
-    id: 7,
-    img: menuImg1,
-    // img: "https://images.unsplash.com/photo-1548943487-a2e4e43b4853?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    alt: "Chicken Soup",
-    title: "Chicken Soup",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    price: 6,
-    category: "Starter",
-  },
-  {
-    id: 8,
-    img: menuImg1,
-    // img: "https://media-cdn2.greatbritishchefs.com/media/1pljdgbh/img82191.whqc_768x512q80.webp",
-    alt: "Polpette",
-    title: "Polpette",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    price: 4,
-    category: "Starter",
-  },
-  {
-    id: 9,
-    img: menuImg1,
-    // img: "https://rms.condenast.it/rms/public/5d3/f08/dba/thumb_3017_1200_670_0_0_auto.jpg",
-    alt: "Caprino",
-    title: "Caprino",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    price: 8,
-    category: "Starter",
-  },
-  {
-    id: 10,
-    img: menuImg1,
-    // img: "https://images.unsplash.com/photo-1595587870672-c79b47875c6a?q=80&w=1946&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    alt: "Caprese Salad",
-    title: "Caprese Salad",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    price: 11,
-    category: "Starter",
-  },
-  {
-    id: 11,
-    img: menuImg1,
-    // img: "https://images.unsplash.com/photo-1558584724-0e4d32ca55a4?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    alt: "Waffle",
-    title: "Waffle",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    price: 3,
-    category: "Starter",
-  },
-  {
-    id: 12,
-    img: menuImg1,
-    // img: "https://images.unsplash.com/photo-1595777358789-36e99912ccb8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    alt: "Calamary",
-    title: "Calamary",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    price: 5,
-    category: "Starter",
-  },
-  {
-    id: 13,
-    img: menuImg1,
-    // img: "https://images.unsplash.com/photo-1619819583437-e846081761ea?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    alt: "Limeade",
-    title: "Limeade",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    price: 5,
-    category: "Drinks",
-  },
-  {
-    id: 14,
-    img: menuImg1,
-    // img: "https://images.unsplash.com/photo-1553787499-6f9133860278?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    alt: "Milk Shake",
-    title: "Milk Shake",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    price: 6,
-    category: "Drinks",
-  },
-  {
-    id: 15,
-    img: menuImg1,
-    // img: "https://images.unsplash.com/photo-1610137312377-f2334bc3b279?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    alt: "Hot Tea",
-    title: "Hot Tea",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    price: 3,
-    category: "Drinks",
-  },
-  {
-    id: 16,
-    img: menuImg1,
-    // img: "https://images.unsplash.com/photo-1556679343-c7306c1976bc?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    alt: "Iced Tea",
-    title: "Iced Tea",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    price: 5,
-    category: "Drinks",
-  },
-  {
-    id: 17,
-    img: menuImg1,
-    // img: "https://images.unsplash.com/photo-1528556860752-2a6a19a285a3?q=80&w=1970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    alt: "Orange Juice",
-    title: "Orange Juice",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    price: 7,
-    category: "Drinks",
-  },
-  {
-    id: 18,
-    img: menuImg1,
-    // img: "https://images.unsplash.com/photo-1541167760496-1628856ab772?q=80&w=1937&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    alt: "Coffee",
-    title: "Coffee",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    price: 3,
-    category: "Drinks",
-  },
-];
-
-export const TestimonialData = [
-  {
-    id: 1,
-    img: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    alt: "Aiony Haust",
-    name: "Aiony Haust",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  },
-  {
-    id: 2,
-    img: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    alt: "Aiony Haust",
-    name: "Aiony Haust",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  },
-  {
-    id: 3,
-    img: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    alt: "Aiony Haust",
-    name: "Aiony Haust",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
 ];
 
@@ -1943,131 +1672,4 @@ export const DishesMenuData = [
     subCategory: "ANTIPASTI PESCE",
     menuCategory: "APPETISERS",
   },
-];
-
-export const ChefData = [
-  {
-    img: "https://images.unsplash.com/photo-1691611997169-ec769088fad5?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    name: "Ben Sheridan",
-    title: "Master Chef",
-    shortDescription:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.",
-  },
-  {
-    img: "https://images.unsplash.com/photo-1706988328012-a89a4151283d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    name: "Sophie Lana",
-    title: "Senior Chef",
-    shortDescription:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.",
-  },
-  {
-    img: "https://images.unsplash.com/photo-1697898109582-40f15c65f174?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    name: "James Hoult",
-    title: "Guest Chef",
-    shortDescription:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.",
-  },
-];
-
-export const EventCardData = [
-  {
-    img: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Barbeque Party",
-    date: "20 April 2015",
-    time: "12:00 - 13:30",
-    shortDescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-  },
-  {
-    img: "https://images.unsplash.com/photo-1471967183320-ee018f6e114a?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Romantic Dinner",
-    date: "20 April 2015",
-    time: "12:00 - 13:30",
-    shortDescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-  },
-  {
-    img: "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Friday Jazz",
-    date: "20 April 2015",
-    time: "12:00 - 13:30",
-    shortDescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-  },
-  {
-    img: "https://images.unsplash.com/photo-1523521803700-b3bcaeab0150?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Romantic Dinner",
-    date: "20 April 2015",
-    time: "12:00 - 13:30",
-    shortDescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-  },
-  {
-    img: "https://images.unsplash.com/photo-1467810563316-b5476525c0f9?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Friday Jazz",
-    date: "20 April 2015",
-    time: "12:00 - 13:30",
-    shortDescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-  },
-  {
-    img: "https://images.unsplash.com/photo-1484156818044-c040038b0719?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Barbeque Party",
-    date: "20 April 2015",
-    time: "12:00 - 13:30",
-    shortDescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-  },
-];
-
-export const BlogPostsData = [
-  {
-    title: "5 Powerful Natural Antibiotics",
-    date: "Feb 26",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.",
-    imageUrl:
-      "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Replace with actual image link
-  },
-  {
-    title: "25 Reasons to Eat Bananas",
-    date: "Jun 20",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.",
-    imageUrl:
-      "https://static3.depositphotos.com/1003631/209/i/450/depositphotos_2099183-stock-photo-fine-table-setting-in-gourmet.jpg", // Replace with actual image link
-  },
-  {
-    title: "Summer Food and Ingredients Guide",
-    date: "Jun 16",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.",
-    imageUrl:
-      "https://images.unsplash.com/photo-1467810563316-b5476525c0f9?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  },
-  {
-    title: "6 Ways to Cook a Roast",
-    date: "Jun 08",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.",
-    imageUrl:
-      "https://images.unsplash.com/photo-1523521803700-b3bcaeab0150?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  },
-];
-
-export const RecentPostsData = [
-  { title: "5 Powerful Natural Antibiotics", date: "22 JUN" },
-  { title: "25 Reasons to Eat Bananas", date: "20 JUN" },
-  { title: "Summer Food and Ingredients Guide", date: "12 JUN" },
-  { title: "6 Ways to Cook a Roast", date: "10 JUN" },
-];
-
-export const TagsData = [
-  "Food",
-  "Health",
-  "Recipes",
-  "Diet",
-  "Nutrition",
-  "Bananas",
-  "Cooking",
 ];

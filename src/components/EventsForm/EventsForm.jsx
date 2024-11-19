@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import axiosInstance from "../../api/axiosInstance";
 
 const EventsForm = () => {
   const [formData, setFormData] = useState({
@@ -21,13 +22,10 @@ const EventsForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     console.log("Form Data:", formData);
+
     try {
-      const response = await fetch("http://localhost:5000/api/events", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
-      });
-      if (response.ok) {
+      const response = await axiosInstance.post("/events", formData); // Use axiosInstance to make the POST request
+      if (response.status === 200 || response.status === 201) {
         alert("Booking submitted successfully!");
         setFormData({
           name: "",
@@ -40,7 +38,11 @@ const EventsForm = () => {
         });
       }
     } catch (error) {
-      console.error("Error:", error);
+      console.error(
+        "Error:",
+        error.response ? error.response.data : error.message
+      );
+      alert("An error occurred while submitting your booking.");
     }
   };
 

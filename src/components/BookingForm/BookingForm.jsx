@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import axiosInstance from "../../api/axiosInstance";
 
 const BookingForm = () => {
   const [formData, setFormData] = useState({
@@ -19,33 +20,15 @@ const BookingForm = () => {
     });
   };
 
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   // Handle form submission (e.g., send data to a server)
-  //   console.log("Booking Form Data:", formData);
-  //   // Reset the form after submission
-  //   setFormData({
-  //     name: "",
-  //     time: "",
-  //     date: "",
-  //     person: "",
-  //     phone: "",
-  //     email: "",
-  //     message: "",
-  //   });
-  // };
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     console.log("Form Data:", formData);
     try {
-      const response = await fetch("http://localhost:5000/api/bookings", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
-      });
-      if (response.ok) {
+      // Send the POST request using the Axios instance
+      const response = await axiosInstance.post("/bookings", formData);
+      if (response.status === 200 || response.status === 201) {
         alert("Booking submitted successfully!");
+        // Reset the form after successful submission
         setFormData({
           name: "",
           time: "",
@@ -57,7 +40,8 @@ const BookingForm = () => {
         });
       }
     } catch (error) {
-      console.error("Error:", error);
+      console.error("Error:", error.response?.data || error.message);
+      alert("Failed to submit the booking. Please try again.");
     }
   };
 

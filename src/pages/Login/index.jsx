@@ -30,7 +30,7 @@ const LoginPage = () => {
         username: identifier, // Passing identifier as username or email
         password,
       });
-      saveAuthToken(response.data.token); // Save token to localStorage
+      saveAuthToken(response.data.token); // Save token to localStora
       navigate("/admin");
     } catch (error) {
       setError("Login failed. Please check your credentials.");
@@ -49,6 +49,7 @@ const LoginPage = () => {
         <div className="border-r-2 border-gray-300 h-3/4"></div>
       </div>
       <div className="flex w-full md:w-1/2 items-center justify-center p-4">
+
         <form
           onSubmit={handleLogin}
           className="bg-white shadow-lg rounded-lg p-8 w-full max-w-md"

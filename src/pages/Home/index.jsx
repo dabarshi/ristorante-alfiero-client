@@ -10,19 +10,14 @@ import useImageLoader from "../../hooks/useImageLoader";
 import Featured from "../../sections/Featured";
 import MainHeroSection from "../../sections/MainHeroSection";
 import MenuSection from "../../sections/MenuSection";
-import Testimonial from "../../sections/Testimonial";
+// import Testimonial from "../../sections/Testimonial";
 import TodaySpecial from "../../sections/TodaySpecial";
 
 const Home = () => {
-  const bgTestomonial = "https://i.ibb.co.com/X85SMwG/32.webp";
   const bgTodaySpecial = "https://i.ibb.co.com/tzx9V0j/11.webp";
 
   // Combine all images to preload
-  const allImages = [
-    ...heroImg,
-    { img: bgTestomonial, alt: "Background" },
-    { img: bgTodaySpecial, alt: "Background" },
-  ];
+  const allImages = [...heroImg, { img: bgTodaySpecial, alt: "Background" }];
 
   // Use the loading state
   const loading = useImageLoader(allImages);
@@ -41,7 +36,7 @@ const Home = () => {
             backgroundImageUrl={bgTodaySpecial}
           />
           <MenuSection />
-          <Testimonial backgroundImageUrl={bgTestomonial} />
+          {/* <Testimonial backgroundImageUrl={bgTestomonial} /> */}
         </>
       )}
     </div>
