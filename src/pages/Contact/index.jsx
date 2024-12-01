@@ -8,10 +8,8 @@ import useImageLoader from "../../hooks/useImageLoader";
 import LoadingSpinner from "../../components/LoadingSpinner/LoadingSpinner";
 
 const Contact = () => {
-  const map =
-    "https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
   // Combine all images to preload
-  const allImages = [...SecondaryHeroImg, { img: map, alt: "Background" }];
+  const allImages = [...SecondaryHeroImg];
 
   // Use the loading state
   const loading = useImageLoader(allImages);
@@ -34,9 +32,7 @@ const Contact = () => {
             subtitle={"Who We Are"}
             SecondaryHeroImg={SecondaryHeroImg}
           />
-          <div
-            className="relative py-20"
-          >
+          <div className="relative py-20">
             {/* Embed Google Map as Background */}
             <div className="w-full absolute inset-0">
               <iframe

@@ -1,10 +1,3 @@
-import menuImg1 from "../assets/menu/menu1.jpg";
-// import todaySpecialImg from "../assets/todaySpecial/pork.jpg";
-
-// Dish Menu Images Imports
-import lobsterTagliatelle from "../assets/dishMenuImages/fishMain/lobsterTagliatelle.png";
-import courgetteSeafoodFettuccine from "../assets/dishMenuImages/fishMain/courgetteSeafoodFettuccine.png";
-
 export const menuItems = [
   {
     optionName: "Home",
@@ -29,23 +22,16 @@ export const menuItems = [
 ];
 
 // Hero section Images or slides Images
-
 export const heroImg = [
   {
-    // img: slideImg1,
     img: "https://i.ibb.co.com/MDH5W6m/14.webp",
-    // img: "https://images.unsplash.com/photo-1522336572468-97b06e8ef143?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     alt: "Enjoy Your Dinner",
   },
   {
-    // img: slideImg2,
     img: "https://i.ibb.co.com/4YTpsbC/1.webp",
-    // img: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     alt: "Exquisite Atmosphere",
   },
   {
-    // img: "https://images.unsplash.com/photo-1479044769763-c28e05b5baa5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    // img: slideImg3,
     img: "https://i.ibb.co.com/xDNV96y/29.webp",
     alt: "A festival of flavors",
   },
@@ -53,42 +39,23 @@ export const heroImg = [
 
 export const SecondaryHeroImg = [
   {
-    // img: "https://images.unsplash.com/photo-1558030006-450675393462?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    // img: "https://images.unsplash.com/photo-1430163393927-3dab9af7ea38?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    // img: secondaryHeroImg1,
     img: "https://i.ibb.co.com/PgZT2Vd/48.webp",
     alt: "Food",
   },
   {
     img: "https://i.ibb.co.com/f098ybk/27.webp",
-    // img: secondaryHeroImg2,
-    // img: "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    // img: "https://images.unsplash.com/photo-1558030006-450675393462?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    // img: "https://images.unsplash.com/photo-1430163393927-3dab9af7ea38?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     alt: "Food",
   },
   {
     img: "https://i.ibb.co.com/Xj5z5Xs/18.webp",
-    // img: secondaryHeroImg3,
-    // img: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    // img: "https://images.unsplash.com/photo-1558030006-450675393462?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    // img: "https://images.unsplash.com/photo-1430163393927-3dab9af7ea38?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     alt: "Food",
   },
   {
     img: "https://i.ibb.co.com/C7WwFY9/10.webp",
-    // img: secondaryHeroImg4,
-    // img: "https://images.unsplash.com/photo-1457666134378-6b77915bd5f2?q=80&w=1934&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    // img: "https://images.unsplash.com/photo-1558030006-450675393462?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    // img: "https://images.unsplash.com/photo-1430163393927-3dab9af7ea38?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     alt: "Food",
   },
   {
     img: "https://i.ibb.co.com/FYfLP44/4.webp",
-    // img: secondaryHeroImg3,
-    // img: "https://images.unsplash.com/photo-1491185841098-9ce20f966624?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    // img: "https://images.unsplash.com/photo-1558030006-450675393462?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    // img: "https://images.unsplash.com/photo-1430163393927-3dab9af7ea38?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     alt: "Food",
   },
 ];
@@ -98,49 +65,41 @@ export const MenuPageSideImgs = [
   {
     id: 1,
     img: "https://i.ibb.co.com/qRzyNRZ/46.webp",
-    // img: "https://i.ibb.co.com/85cSY4K/61.webp",
     alt: "Pizzas Sample Dish Image",
   },
   {
     id: 2,
     img: "https://i.ibb.co.com/YkkVn2m/49.webp",
-    // img: "https://i.ibb.co.com/k5YB4mC/41.webp",
     alt: "Meat Appetisers",
   },
   {
     id: 3,
     img: "https://i.ibb.co.com/MDmCdjB/45.webp",
-    // img: "https://i.ibb.co.com/C0YgTYB/36.webp",
     alt: "Fish Main Course",
   },
   {
     id: 4,
     img: "https://i.ibb.co.com/VVjB2PT/44.webp",
-    // img: "https://i.ibb.co.com/MDmCdjB/45.webp",
     alt: "menu side Img",
   },
   {
     id: 5,
     img: "https://i.ibb.co.com/k5YB4mC/41.webp",
-    // img: "https://i.ibb.co.com/VVjB2PT/44.webp",
     alt: "Meat Main Course",
   },
   {
     id: 6,
     img: "https://i.ibb.co.com/2Y67LLZ/51.webp",
-    // img: "https://i.ibb.co.com/2Y67LLZ/51.webp",
     alt: "Meat Second Course Sample Dish Image",
   },
   {
     id: 7,
     img: "https://i.ibb.co.com/721MTPr/53.webp",
-    // img: "https://i.ibb.co.com/721MTPr/53.webp",
     alt: "DESSERTS",
   },
   {
     id: 8,
     img: "https://i.ibb.co.com/X4gw58k/40.webp",
-    // img: "https://i.ibb.co.com/svyCcvh/57.webp",
     alt: "DRINKS",
   },
   {
@@ -160,9 +119,6 @@ export const FeaturedCardData = [
   {
     id: 1,
     img: "https://i.ibb.co.com/6rM4mmy/34.webp",
-    // img: "https://i.ibb.co.com/mTjddBg/37.jpg",
-    // img: featuredImg1,
-    // img: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?q=80&w=1980&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     alt: "Pancake",
     description:
       "Savor the finest selection of the ocean with our *Seafood Platter*, featuring freshly shucked oysters, succulent prawns, and delicate langoustines. Served on a bed of crushed ice and garnished with lemon wedges for a refreshing touch, this dish offers the perfect blend of freshness and elegance for seafood lovers.",
@@ -170,10 +126,7 @@ export const FeaturedCardData = [
   },
   {
     id: 2,
-    // img: featuredImg2,
-    // img: "https://i.ibb.co.com/0p0Vv8t/49.jpg",
     img: "https://i.ibb.co.com/9G6jWTC/42.webp",
-    // img: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?q=80&w=1980&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     alt: "Pancake Stack",
     description:
       "Introducing our 'Carosello di Antipasti', a delightful medley of seafood and marinated vegetables, artfully arranged with zesty citrus and vibrant garnishes. A perfect way to start your meal with fresh, Italian flavors and a touch of elegance.",
@@ -182,9 +135,6 @@ export const FeaturedCardData = [
   {
     id: 3,
     img: "https://i.ibb.co.com/wSM0mDb/62A.webp",
-    // img: "https://i.ibb.co.com/qMCC1Hq/58.jpg",
-    // img: featuredImg3,
-    // img: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?q=80&w=1980&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     alt: "Pancake Stack",
     description:
       "Tartare di Tonno, made with fresh, premium tuna, delicately seasoned and served with a vibrant citrus twist. Paired with crispy crackers and a drizzle of olive oil, this dish offers an exquisite balance of flavor and elegance, perfect for a gourmet dining experience.",
@@ -195,8 +145,6 @@ export const FeaturedCardData = [
 export const WelcomeCardData = [
   {
     img: "https://i.ibb.co.com/X85SMwG/32.webp",
-    // img: welcomeCardImg1,
-    // img: "https://images.unsplash.com/photo-1512485800893-b08ec1ea59b1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     alt: "Butchers story",
     title: "Welcome To Ristorante Alfiero",
     subTitle: "The Art Of Cookings",
@@ -211,8 +159,6 @@ export const WelcomeCardData = [
   },
   {
     img: "https://i.ibb.co.com/cCTdXyz/56.webp",
-    // img: welcomeCardImg2,
-    // img: "https://images.unsplash.com/photo-1561316670-df60e2dc8a7b?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     alt: "Butchers story",
     title: "Our Restaurant",
     subTitle: "Cozy & Romantic",
@@ -236,8 +182,6 @@ export const FoodCardData = [
   {
     id: 1,
     img: "https://i.ibb.co.com/8NC3qdR/47.webp",
-    // img: todaySpecialImg1,
-    // img: "https://images.unsplash.com/photo-1432139555190-58524dae6a55?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     alt: "Green Peppercorn Fillet (Filetto al Pepe Verde)",
     title: "Green Peppercorn Fillet (Filetto al Pepe Verde)",
     enTitle: "Green Peppercorn Fillet",
@@ -247,8 +191,6 @@ export const FoodCardData = [
   {
     id: 2,
     img: "https://i.ibb.co.com/sPThwtg/35.webp",
-    // img: todaySpecialImg2,
-    // img: "https://images.unsplash.com/photo-1432139555190-58524dae6a55?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     alt: "Paccheri with Amberjack (Paccheri con ricciola)",
     title: "Paccheri with Amberjack (Paccheri con ricciola)",
     enTitle: "Paccheri with Amberjack",
@@ -258,8 +200,6 @@ export const FoodCardData = [
   {
     id: 3,
     img: "https://i.ibb.co.com/2FGS168/55.webp",
-    // img: todaySpecialImg3,
-    // img: "https://images.unsplash.com/photo-1432139555190-58524dae6a55?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     alt: "Buffalo Mozzarella and Cherry Tomato Pizza (Pizza Bufala e pachino)",
     title:
       "Buffalo Mozzarella and Cherry Tomato Pizza (Pizza Bufala e pachino)",
@@ -270,8 +210,6 @@ export const FoodCardData = [
   {
     id: 4,
     img: "https://i.ibb.co.com/PgZT2Vd/48.webp",
-    // img: todaySpecialImg4,
-    // img: "https://images.unsplash.com/photo-1432139555190-58524dae6a55?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     alt: "Beef Steak ( Bistecca Di Manzo)",
     title: "Beef Steak( Bistecca Di Manzo)",
     enTitle: "Beef Steak",
@@ -283,9 +221,6 @@ export const FoodCardData = [
 export const DishesMenuData = [
   {
     id: 1,
-    img: lobsterTagliatelle,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "TAGLIOLINI ALL'ASTICE",
     dishNameInEnglish: "Lobster tagliatelle",
     price: "25.00",
@@ -295,9 +230,6 @@ export const DishesMenuData = [
   },
   {
     id: 2,
-    img: courgetteSeafoodFettuccine,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "SPAGHETTI ALLA BOTTARGA",
     dishNameInEnglish: "Bottarga spaghetti",
     price: "16.00",
@@ -307,9 +239,6 @@ export const DishesMenuData = [
   },
   {
     id: 3,
-    img: courgetteSeafoodFettuccine,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "FEITTUCCINE FRUTTI DI MARE E ZUCCHINE",
     dishNameInEnglish: "Courgette and seafood fettuccine",
     price: "15.00",
@@ -319,9 +248,6 @@ export const DishesMenuData = [
   },
   {
     id: 4,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "PACCHERI CON RICCIOLA E CAVOLO NERO",
     dishNameInEnglish: "Amberjack and black cabbage paccheri",
     price: "16.00",
@@ -331,9 +257,6 @@ export const DishesMenuData = [
   },
   {
     id: 5,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "RISOTTO ALLA CREMA DI SCAMPI",
     dishNameInEnglish: "Italian rice with scampi sauce",
     price: "15.00",
@@ -343,9 +266,6 @@ export const DishesMenuData = [
   },
   {
     id: 6,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "RISOTTO ALLA PESCATORA",
     dishNameInEnglish: "Italian rice with seafood",
     price: "15.00",
@@ -355,9 +275,6 @@ export const DishesMenuData = [
   },
   {
     id: 7,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "FETTUCCINE CON SCAMPI E FUNGHI PORCINI",
     dishNameInEnglish: "Scampi and porcini mushrooms fettuccine",
     price: "18.00",
@@ -367,9 +284,6 @@ export const DishesMenuData = [
   },
   {
     id: 8,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "RISOTTO CON GAMBERI E ZUCCHINE",
     dishNameInEnglish: "Risotto with shrimp and zucchini",
     price: "15.00",
@@ -379,9 +293,6 @@ export const DishesMenuData = [
   },
   {
     id: 9,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "SPAGHETTI CON VONGOLE VERACI",
     dishNameInEnglish: "Clams spaghetti",
     price: "15.00",
@@ -391,9 +302,6 @@ export const DishesMenuData = [
   },
   {
     id: 10,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "SPAGHETTI CON VONGOLE VERACI CON BOTTARGA",
     dishNameInEnglish: "Clams spaghetti with bottarga",
     price: "18.00",
@@ -403,9 +311,6 @@ export const DishesMenuData = [
   },
   {
     id: 11,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "BRUSCHETTA POMODORO 2pz",
     dishNameInEnglish: "Slice bread with tomato 2pz",
     price: "5.00",
@@ -415,9 +320,6 @@ export const DishesMenuData = [
   },
   {
     id: 12,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "BRUSCHETTA OLIVE 2pz",
     dishNameInEnglish: "Slice bread with olives 2pz",
     price: "5.00",
@@ -427,9 +329,6 @@ export const DishesMenuData = [
   },
   {
     id: 13,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "BRUSCHETTA CARCIOFI 2pz",
     dishNameInEnglish: "Slice bread with atrichokes 2pz",
     price: "5.00",
@@ -439,9 +338,6 @@ export const DishesMenuData = [
   },
   {
     id: 14,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "BRUSCHETTA CON FUNGHI PORCINI 2pz",
     dishNameInEnglish: "Slice bread with porcini mashrooms 2pz",
     price: "8.00",
@@ -451,9 +347,6 @@ export const DishesMenuData = [
   },
   {
     id: 15,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "ANTIPASTO ALL'TTALIANA",
     dishNameInEnglish: "Italian appetisers",
     price: "15.00",
@@ -463,9 +356,6 @@ export const DishesMenuData = [
   },
   {
     id: 16,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "PROSCIUTTO E MOZZARELLA DI BUFALA",
     dishNameInEnglish: "Ham and mozzarella bufala",
     price: "15.00",
@@ -475,9 +365,6 @@ export const DishesMenuData = [
   },
   {
     id: 17,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "PROSCIUTTO CRUDO",
     dishNameInEnglish: "Raw ham",
     price: "12.00",
@@ -487,9 +374,6 @@ export const DishesMenuData = [
   },
   {
     id: 18,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "INSALATA CAPRESE",
     dishNameInEnglish: "Tomato mozzarella salad",
     price: "10.00",
@@ -499,9 +383,6 @@ export const DishesMenuData = [
   },
   {
     id: 19,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "MOZZARELLA DI BUFALA",
     dishNameInEnglish: "Mozzarella bufala",
     price: "12.00",
@@ -511,9 +392,6 @@ export const DishesMenuData = [
   },
   {
     id: 20,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "FORMAGGI MISTI",
     dishNameInEnglish: "Mixed cheese",
     price: "12.00",
@@ -523,9 +401,6 @@ export const DishesMenuData = [
   },
   {
     id: 21,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "PROSCIUTTO E MELONE",
     dishNameInEnglish: "Ham and melon",
     price: "13.00",
@@ -535,9 +410,6 @@ export const DishesMenuData = [
   },
   {
     id: 22,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "BRESAOLA RUCOLA E PARMIGIANO",
     dishNameInEnglish: "Bresaola with salad, rucola and parmesan cheese",
     price: "13.00",
@@ -547,9 +419,6 @@ export const DishesMenuData = [
   },
   {
     id: 23,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "TONNARELLI CACIO E PEPE",
     dishNameInEnglish: "Tonnarelli cheese and pepper",
     price: "13.00",
@@ -559,9 +428,6 @@ export const DishesMenuData = [
   },
   {
     id: 24,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "RIGATONI ALLA GRICIA",
     dishNameInEnglish: "Rigatoni with bacon and cheese",
     price: "13.00",
@@ -571,9 +437,6 @@ export const DishesMenuData = [
   },
   {
     id: 25,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "SPAGHETTI ALL'AMATRICIANA",
     dishNameInEnglish: "Amatriciana spaghetti",
     price: "13.00",
@@ -583,9 +446,6 @@ export const DishesMenuData = [
   },
   {
     id: 26,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "SPAGHETTI ALLA CARBONARA",
     dishNameInEnglish: "Carbonara spaghetti",
     price: "13.00",
@@ -595,9 +455,6 @@ export const DishesMenuData = [
   },
   {
     id: 27,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "PENNE ALL'ARRABBIATA",
     dishNameInEnglish: "Tomato and basil penne",
     price: "13.00",
@@ -607,9 +464,6 @@ export const DishesMenuData = [
   },
   {
     id: 28,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "FETTUCCINE ALLA BOLOGNESE",
     dishNameInEnglish: "Bolognese fettuccine",
     price: "12.00",
@@ -619,9 +473,6 @@ export const DishesMenuData = [
   },
   {
     id: 29,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "FETTUCCINE AI FUNGHI PORCINI",
     dishNameInEnglish: "Fettuccine with porcini mushrooms",
     price: "15.00",
@@ -631,9 +482,6 @@ export const DishesMenuData = [
   },
   {
     id: 30,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "FETTUCCINE CON GAMBERI E PACHINO",
     dishNameInEnglish: "Fettuccine with prawns and pachino",
     price: "17.00",
@@ -643,9 +491,6 @@ export const DishesMenuData = [
   },
   {
     id: 31,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "RAVIOLI CON RICOTTA E SPINACI",
     dishNameInEnglish: "Ravioli with ricotta and spinach",
     price: "13.00",
@@ -655,9 +500,6 @@ export const DishesMenuData = [
   },
   {
     id: 32,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "LASAGNA",
     dishNameInEnglish: "Lasagna",
     price: "13.00",
@@ -667,9 +509,6 @@ export const DishesMenuData = [
   },
   {
     id: 33,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "GNOCCHETTI CON VONGOLE E PORCINI",
     dishNameInEnglish: "Gnocchetti with clams and porcini mushrooms",
     price: "16.00",
@@ -679,9 +518,6 @@ export const DishesMenuData = [
   },
   {
     id: 34,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "FRITTO DI CALAMARI E GAMBERI",
     dishNameInEnglish: "Fried prawns and squid",
     price: "20.00",
@@ -691,9 +527,6 @@ export const DishesMenuData = [
   },
   {
     id: 35,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "GRAN FRITTO",
     dishNameInEnglish: "Big fish fry",
     price: "26.00",
@@ -703,9 +536,6 @@ export const DishesMenuData = [
   },
   {
     id: 36,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "TRANCIA DI ORATA IN CROSTA DI ZUCCHINE E PATATE",
     dishNameInEnglish: "Bream slice with courgette and potato crust",
     price: "20.00",
@@ -715,9 +545,6 @@ export const DishesMenuData = [
   },
   {
     id: 37,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "ROMBO AL FORNO CON PATATE",
     dishNameInEnglish: "Oven cooked turbot with potatoes",
     price: "26.00",
@@ -727,9 +554,6 @@ export const DishesMenuData = [
   },
   {
     id: 38,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "SCAMPI ALLA GRIGLIA",
     dishNameInEnglish: "Grilled scampi",
     price: "24.00",
@@ -739,9 +563,6 @@ export const DishesMenuData = [
   },
   {
     id: 39,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "GAMBERONI ALLA GRIGLIA",
     dishNameInEnglish: "Grilled king prawns",
     price: "24.00",
@@ -751,9 +572,6 @@ export const DishesMenuData = [
   },
   {
     id: 40,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "GAMBERONI UBRIACHI AL COGNAC E ZAFFERANO",
     dishNameInEnglish: "Drunk king prawns with cognac and saffron cream",
     price: "26.00",
@@ -763,9 +581,6 @@ export const DishesMenuData = [
   },
   {
     id: 41,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "PESCE ALLA GRIGLIA (spigola/orata)",
     dishNameInEnglish: "Grilled fish seabass/bream",
     price: "25.00",
@@ -775,9 +590,6 @@ export const DishesMenuData = [
   },
   {
     id: 42,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "ASTICE (100g)",
     dishNameInEnglish: "lobster 100g",
     price: "12.00",
@@ -787,9 +599,6 @@ export const DishesMenuData = [
   },
   {
     id: 43,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "PESCATO DEL GIORNO (100g)",
     dishNameInEnglish: "Fish of the day 100g",
     price: "9.00",
@@ -799,9 +608,6 @@ export const DishesMenuData = [
   },
   {
     id: 44,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "BISTECCA DI MANZO",
     dishNameInEnglish: "Beef steak",
     price: "20.00",
@@ -811,9 +617,6 @@ export const DishesMenuData = [
   },
   {
     id: 45,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "FILETTO DI MANZO GRIGLIA",
     dishNameInEnglish: "Grilled beef fillet",
     price: "25.00",
@@ -823,9 +626,6 @@ export const DishesMenuData = [
   },
   {
     id: 46,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "FILETTO PEPE VERDE",
     dishNameInEnglish: "Beef fillet / green pepper",
     price: "25.00",
@@ -835,9 +635,6 @@ export const DishesMenuData = [
   },
   {
     id: 47,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "FILETTO FUNGHI FORCINI",
     dishNameInEnglish: "Porcini mushrooms",
     price: "25.00",
@@ -847,9 +644,6 @@ export const DishesMenuData = [
   },
   {
     id: 48,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "TAGIATA DI MANZO CON RUCOLA E GRANA",
     dishNameInEnglish: "Beef cut off with rocket and grana cheese",
     price: "22.00",
@@ -859,9 +653,6 @@ export const DishesMenuData = [
   },
   {
     id: 49,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "SCALOPPINA AI FUNGHI PORCINI (Vitello)",
     dishNameInEnglish: "Scaloppina with porcini mushrooms",
     price: "18.00",
@@ -871,9 +662,6 @@ export const DishesMenuData = [
   },
   {
     id: 50,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "OSSOBUCO CON POMODORO CAROTE E SEDANO",
     dishNameInEnglish: "Ossobuco with tomato, carrots and celery",
     price: "20.00",
@@ -883,9 +671,6 @@ export const DishesMenuData = [
   },
   {
     id: 51,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "PETTI DI POLLO ALLA GRIGLIA PATATE",
     dishNameInEnglish: "Grilled chicken breast with potatoes",
     price: "15.00",
@@ -895,9 +680,6 @@ export const DishesMenuData = [
   },
   {
     id: 52,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "POLLO CON PEPERONI",
     dishNameInEnglish: "Chicken with bell peppers",
     price: "15.00",
@@ -907,9 +689,6 @@ export const DishesMenuData = [
   },
   {
     id: 53,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "POLPETTE AL SUGO",
     dishNameInEnglish: "Meatballs in tomato sauce",
     price: "13.00",
@@ -919,9 +698,6 @@ export const DishesMenuData = [
   },
   {
     id: 54,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "SALTIMBOCCA ALLA ROMANA (Vitello)",
     dishNameInEnglish: "Saltimbocca roman style",
     price: "13.00",
@@ -931,9 +707,6 @@ export const DishesMenuData = [
   },
   {
     id: 55,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "AGNELLO AL FORNO CON PATATE",
     dishNameInEnglish: "Breaded veal slices with french fries",
     price: "13.00",
@@ -943,9 +716,6 @@ export const DishesMenuData = [
   },
   {
     id: 56,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "INSALATA MISTA",
     dishNameInEnglish: "Mixed salad",
     price: "7.00",
@@ -955,9 +725,6 @@ export const DishesMenuData = [
   },
   {
     id: 57,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "INSALATA TONNO",
     dishNameInEnglish: "Tona salad",
     price: "11.00",
@@ -967,9 +734,6 @@ export const DishesMenuData = [
   },
   {
     id: 58,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "CAESAR SALAD",
     dishNameInEnglish: "Caesar salad",
     price: "13.00",
@@ -979,9 +743,6 @@ export const DishesMenuData = [
   },
   {
     id: 59,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "PATATE AL FORNO",
     dishNameInEnglish: "Roasted potatoes",
     price: "6.00",
@@ -991,9 +752,6 @@ export const DishesMenuData = [
   },
   {
     id: 60,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "PATATE FRITTE",
     dishNameInEnglish: "French fries",
     price: "6.00",
@@ -1003,9 +761,6 @@ export const DishesMenuData = [
   },
   {
     id: 61,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "CARCIOFI ALLA ROMANA 1pz (Stagionali)",
     dishNameInEnglish: "Roman artichokes 1pc (seasonal)",
     price: "6.00",
@@ -1015,9 +770,6 @@ export const DishesMenuData = [
   },
   {
     id: 62,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "CICIRIA",
     dishNameInEnglish: "Chicory",
     price: "6.00",
@@ -1027,9 +779,6 @@ export const DishesMenuData = [
   },
   {
     id: 63,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "VERDURE GRIGLIATE",
     dishNameInEnglish: "Grilled vegetables",
     price: "7.00",
@@ -1039,9 +788,6 @@ export const DishesMenuData = [
   },
   {
     id: 64,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "TIRAMISU",
     dishNameInEnglish: "Tiramisu",
     price: "6.00",
@@ -1051,9 +797,6 @@ export const DishesMenuData = [
   },
   {
     id: 65,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "PANNACOTTA",
     dishNameInEnglish: "",
     price: "6.00",
@@ -1063,9 +806,6 @@ export const DishesMenuData = [
   },
   {
     id: 66,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "ANANAS / FRAGOLE (strawberries)",
     dishNameInEnglish: "",
     price: "6.00",
@@ -1075,9 +815,6 @@ export const DishesMenuData = [
   },
   {
     id: 67,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "GIARDINO DI FRUTTA",
     dishNameInEnglish: "Fruit garden",
     price: "8.00",
@@ -1087,9 +824,6 @@ export const DishesMenuData = [
   },
   {
     id: 68,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "DOLCE DEL GIORNO",
     dishNameInEnglish: "Dessert of the day",
     price: "6.00",
@@ -1099,9 +833,6 @@ export const DishesMenuData = [
   },
   {
     id: 69,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "ACQUA MINERALE",
     dishNameInEnglish: "Still water",
     price: "3.00",
@@ -1111,9 +842,6 @@ export const DishesMenuData = [
   },
   {
     id: 70,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "COCA COLA / SPRITE / FANTA",
     dishNameInEnglish: "",
     price: "4.00",
@@ -1123,9 +851,6 @@ export const DishesMenuData = [
   },
   {
     id: 71,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "ARANCIATA",
     dishNameInEnglish: "Orange juice",
     price: "4.00",
@@ -1135,9 +860,6 @@ export const DishesMenuData = [
   },
   {
     id: 72,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "BIRRA (66cl)",
     dishNameInEnglish: "Beer",
     price: "5.00",
@@ -1147,9 +869,6 @@ export const DishesMenuData = [
   },
   {
     id: 73,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "BIRRA SPINA",
     dishNameInEnglish: "Draft beer",
     price: "6.00",
@@ -1159,9 +878,6 @@ export const DishesMenuData = [
   },
   {
     id: 74,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "THE",
     dishNameInEnglish: "Tea",
     price: "3.50",
@@ -1171,9 +887,6 @@ export const DishesMenuData = [
   },
   {
     id: 75,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "CAFFE",
     dishNameInEnglish: "Coffee",
     price: "2.00",
@@ -1183,9 +896,6 @@ export const DishesMenuData = [
   },
   {
     id: 76,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "CAPPUCCINO",
     dishNameInEnglish: "Cappuccino",
     price: "2.00",
@@ -1195,9 +905,6 @@ export const DishesMenuData = [
   },
   {
     id: 77,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "CAFFE AMERICANO",
     dishNameInEnglish: "American coffee",
     price: "2.00",
@@ -1207,9 +914,6 @@ export const DishesMenuData = [
   },
   {
     id: 78,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "PIZZA MARGHERITA",
     dishNameInEnglish: "Pizza with tomato and mozzarella",
     price: "8.50",
@@ -1219,9 +923,6 @@ export const DishesMenuData = [
   },
   {
     id: 79,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "PIZZA NAPOLI",
     dishNameInEnglish: "Pizza, tomato, mozzarella e anchouies",
     price: "9.50",
@@ -1231,9 +932,6 @@ export const DishesMenuData = [
   },
   {
     id: 80,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "PIZZA AMATRICIANA",
     dishNameInEnglish:
       "Pizza with bacon tomato, mozzarella and pecorino cheese",
@@ -1244,9 +942,6 @@ export const DishesMenuData = [
   },
   {
     id: 81,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "PIZZA GAMBERI E RUCOLA",
     dishNameInEnglish: "Pizza with tomato, shrimp, rocket salad",
     price: "16.00",
@@ -1256,9 +951,6 @@ export const DishesMenuData = [
   },
   {
     id: 82,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "PIZZA CON FUNGHI",
     dishNameInEnglish: "Pizza with tomato, mozzarella and mushrooms",
     price: "10.00",
@@ -1268,9 +960,6 @@ export const DishesMenuData = [
   },
   {
     id: 83,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "PIZZA CAPRICCIOSA",
     dishNameInEnglish:
       "Pizza with egg, raw ham, olives, artichokes, tomato amd mozzarella",
@@ -1281,9 +970,6 @@ export const DishesMenuData = [
   },
   {
     id: 84,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "PIZZA SALSICCIA CON PATATE",
     dishNameInEnglish: "Pizza with mozzarella, tomato, sausage and potatoes",
     price: "12.00",
@@ -1293,9 +979,6 @@ export const DishesMenuData = [
   },
   {
     id: 85,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "PIZZA BOSCAIOLA",
     dishNameInEnglish:
       "Pizza with fresh mushrooms, fresh sausage and mozzarella",
@@ -1306,9 +989,6 @@ export const DishesMenuData = [
   },
   {
     id: 86,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "PIZZA MARGHERITA E VERDURA",
     dishNameInEnglish: "Pizza with tomato, mozzarella, mixed vegetables",
     price: "13.00",
@@ -1318,9 +998,6 @@ export const DishesMenuData = [
   },
   {
     id: 87,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "PIZZA MARGHERITA E PROSCIUTTO",
     dishNameInEnglish: "Pizza with tomato, mozzarella and raw ham",
     price: "10.00",
@@ -1330,9 +1007,6 @@ export const DishesMenuData = [
   },
   {
     id: 88,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "PIZZA N'DUJA E CIPOLLA ROSSA",
     dishNameInEnglish: "Pizza spicy spreadable sausage and red onions",
     price: "12.00",
@@ -1342,9 +1016,6 @@ export const DishesMenuData = [
   },
   {
     id: 89,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "PIZZA BUFALA E PACHINO",
     dishNameInEnglish: "Pizza with buffalo mozzarella and cherry tomato",
     price: "12.00",
@@ -1354,9 +1025,6 @@ export const DishesMenuData = [
   },
   {
     id: 90,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "PIZZA DIAVOLA",
     dishNameInEnglish:
       "Pizza with tomato sauce, spicy peppers, mozzarella cheese and salami",
@@ -1367,9 +1035,6 @@ export const DishesMenuData = [
   },
   {
     id: 91,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "PIZZA AL QUATTRO FORMAGGI",
     dishNameInEnglish: "Pizza with four type cheeses",
     price: "12.00",
@@ -1379,9 +1044,6 @@ export const DishesMenuData = [
   },
   {
     id: 92,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "PIZZA AL TARTUFO",
     dishNameInEnglish: "Pizza with traffes and mozzarella",
     price: "15.00",
@@ -1391,9 +1053,6 @@ export const DishesMenuData = [
   },
   {
     id: 93,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "PIZZA AL TARTUFO E FUNGHI PORCINI",
     dishNameInEnglish: "Pizza with traffles and wilde mushrooms",
     price: "17.00",
@@ -1403,9 +1062,6 @@ export const DishesMenuData = [
   },
   {
     id: 94,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "CARPACCIO DI PESCE",
     dishNameInEnglish: "Fish Carpaccio",
     price: "16.00",
@@ -1415,9 +1071,6 @@ export const DishesMenuData = [
   },
   {
     id: 95,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "TARTARE DI SALMONE",
     dishNameInEnglish: "Salmon Tartare",
     price: "14.00",
@@ -1427,9 +1080,6 @@ export const DishesMenuData = [
   },
   {
     id: 96,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "TARTARE DI TONNO",
     dishNameInEnglish: "Tuna Tartare",
     price: "16.00",
@@ -1439,9 +1089,6 @@ export const DishesMenuData = [
   },
   {
     id: 97,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "TARTARE DEL PESCATO DEL GIORNO",
     dishNameInEnglish: "Fish Of The Day Tartare",
     price: "18.00",
@@ -1451,9 +1098,6 @@ export const DishesMenuData = [
   },
   {
     id: 98,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "OSTRICHE (1pz)",
     dishNameInEnglish: "Oysters",
     price: "3.00",
@@ -1463,9 +1107,6 @@ export const DishesMenuData = [
   },
   {
     id: 99,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "SCAMPI (1pz)",
     dishNameInEnglish: "Scampi",
     price: "4.00",
@@ -1475,9 +1116,6 @@ export const DishesMenuData = [
   },
   {
     id: 100,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "GAMBERI (1pz)",
     dishNameInEnglish: "King Prawns",
     price: "3.00",
@@ -1487,9 +1125,6 @@ export const DishesMenuData = [
   },
   {
     id: 101,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "MISTO CRUDO",
     dishNameInEnglish: "Mixed Appertisers",
     price: "22.00",
@@ -1499,9 +1134,6 @@ export const DishesMenuData = [
   },
   {
     id: 102,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "PANE",
     dishNameInEnglish: "Bread",
     price: "2.00",
@@ -1511,9 +1143,6 @@ export const DishesMenuData = [
   },
   {
     id: 103,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "ALICI MARINATE",
     dishNameInEnglish: "Marinated anchovies",
     price: "12.00",
@@ -1523,9 +1152,6 @@ export const DishesMenuData = [
   },
   {
     id: 104,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "SALMONE MARINATO",
     dishNameInEnglish: "Marinated Salmon",
     price: "14.00",
@@ -1535,9 +1161,6 @@ export const DishesMenuData = [
   },
   {
     id: 105,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "SALMONE AFFUMICATO",
     dishNameInEnglish: "Smoked Salmon",
     price: "16.00",
@@ -1547,9 +1170,6 @@ export const DishesMenuData = [
   },
   {
     id: 106,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "TATAKI DI TONNO",
     dishNameInEnglish: "Tuna Tataki",
     price: "18.00",
@@ -1559,9 +1179,6 @@ export const DishesMenuData = [
   },
   {
     id: 107,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "POLIPETTI AL SUGO",
     dishNameInEnglish: "Baby Octupus Braised In Tomato Sauce",
     price: "14.00",
@@ -1571,9 +1188,6 @@ export const DishesMenuData = [
   },
   {
     id: 108,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "CAPESANTE MEDITERRANEA",
     dishNameInEnglish: "Mediterranean Scallops",
     price: "18.00",
@@ -1583,9 +1197,6 @@ export const DishesMenuData = [
   },
   {
     id: 109,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "BACCALA FRITTO (3pz)",
     dishNameInEnglish: "Fried Salted Codfish",
     price: "15.00",
@@ -1595,9 +1206,6 @@ export const DishesMenuData = [
   },
   {
     id: 110,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "MOSCARDINI FRITTI",
     dishNameInEnglish: "Fried Octupus",
     price: "14.00",
@@ -1607,9 +1215,6 @@ export const DishesMenuData = [
   },
   {
     id: 111,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "FIORI DI ZUCCA FRITTI (4pz)",
     dishNameInEnglish: "Fried Courgette Flowers",
     price: "14.00",
@@ -1619,9 +1224,6 @@ export const DishesMenuData = [
   },
   {
     id: 112,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "OLIVE ALL'ASCOLANA (8pz)",
     dishNameInEnglish: "Ascolana Olives 8pz",
     price: "12.00",
@@ -1631,9 +1233,6 @@ export const DishesMenuData = [
   },
   {
     id: 113,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "MOZZARELLA FRITTE (8pz)",
     dishNameInEnglish: "Fried Mozzarella 8pz",
     price: "10.00",
@@ -1643,9 +1242,6 @@ export const DishesMenuData = [
   },
   {
     id: 114,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "SAUTE DI COZZE",
     dishNameInEnglish: "Sauted Mussels",
     price: "12.00",
@@ -1655,9 +1251,6 @@ export const DishesMenuData = [
   },
   {
     id: 115,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "INSALATA DI MARE",
     dishNameInEnglish: "Sea Salad",
     price: "15.00",
@@ -1667,9 +1260,6 @@ export const DishesMenuData = [
   },
   {
     id: 116,
-    img: menuImg1,
-    // img: "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/THUMB-LINK-2018-1200x675.jpg",
-    alt: "",
     dishNameInItalian: "CAROSELLO DI ANTIPASTI",
     dishNameInEnglish: "Seafood mixed appetisers",
     price: "24.00",

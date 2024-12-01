@@ -68,7 +68,7 @@ const OffersManagement = () => {
         <input
           type="number"
           name="price"
-          placeholder="Price"
+          placeholder="Discount"
           value={offer.price}
           onChange={handleChange}
           className="block w-full p-2 border rounded"

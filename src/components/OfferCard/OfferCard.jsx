@@ -24,7 +24,7 @@ const OfferCard = ({ offer, error }) => {
             {dishName}
           </h2>
           <p className="font-thin text-xs text-white pt-1">
-            Price: <span className="font-bold">€{price}</span>{" "}
+            <span className="font-bold">{price}%</span> OFF
           </p>
           <p className="font-thin text-xs text-white pt-1">
             From <span className="font-bold">{startDate}</span> to{" "}

@@ -4,7 +4,6 @@ import {
   Facebook,
   Gmail,
   Instagram,
-  LinkedIn,
   Tiktok,
 } from "../../assets/icons/socialIcon";
 import { Link } from "react-router-dom";

@@ -14,14 +14,12 @@ const OurMenu = () => {
   const categories = [
     {
       title: "FISH APPETISERS",
-      //   bgColor: "bg-[#18181d]",
       bgTitle: "bg-[#18181d]",
       bgContent: "bg-[#111]",
       imgIndex: 0,
     },
     {
       title: "MEAT APPETISERS",
-      //   bgColor: "bg-[#18181d]",
       bgTitle: "bg-[#18181d]",
       bgContent: "bg-[#111]",
       imgIndex: 1,

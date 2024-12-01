@@ -2,13 +2,11 @@ import styles from "./WelcomeCardStyle.module.css";
 import useVisibility from "../../hooks/useVisibility";
 import TransparentLogo from "../../assets/logo/transparentLogo.png";
 import { Link } from "react-router-dom";
-// import { useState } from "react";
 
 const WelcomeCard = ({ data, change, isHome }) => {
   const { img, alt, title, subTitle, description, description2, description3 } =
     data;
   const [cardRef, isVisible] = useVisibility();
-  // const [order, setOrder] = useState(change);
 
   return (
     <div ref={cardRef} className="overflow-hidden">

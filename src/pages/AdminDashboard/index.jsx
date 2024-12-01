@@ -4,7 +4,7 @@ import EventReservations from "../../sections/EventReservations";
 import OffersManagement from "../../sections/OffersManagement";
 
 const AdminDashboard = () => {
-  const [activeTab, setActiveTab] = useState("tables"); // Default to table reservations
+  const [activeTab, setActiveTab] = useState("tables");
   const tabsData = [
     {
       tabName: "tables",
