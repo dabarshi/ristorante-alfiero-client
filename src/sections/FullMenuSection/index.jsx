@@ -9,7 +9,6 @@ const FullMenuSection = ({
   data,
   customStyles,
   contentStyles,
-  order,
 }) => {
   const { img, alt } = imgSet;
   const [showAll, setShowAll] = useState(false);
@@ -24,12 +23,12 @@ const FullMenuSection = ({
       <div className="grid lg:grid-cols-2">
         {/* Image Section */}
         <div
-          className={`col-span-1 bg-[#00000032] p-12 hidden lg:grid place-items-center ${order}`}
+          className={`col-span-1 bg-[#00000032]  md:p-12  lg:grid place-items-center`}
         >
           <div className="overflow-hidden">
             <img
               loading="lazy"
-              className="w-full rounded-3xl object-cover shadow-lg"
+              className="w-full md:rounded-3xl object-cover shadow-lg"
               src={img}
               alt={alt}
             />
@@ -47,7 +46,7 @@ const FullMenuSection = ({
 
             {/* Show More/Show Less Button */}
             {data.length > 6 && (
-              <div className="text-center">
+              <div className="text-center py-2">
                 <button
                   onClick={() => setShowAll(!showAll)}
                   className="text-white text-xs border font-semibold tracking-tighter uppercase border-[#ffffff43] px-6 py-2 hover:bg-[#dfcfcf09] transition duration-300"

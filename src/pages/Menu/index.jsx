@@ -25,7 +25,6 @@ const OurMenu = () => {
       bgTitle: "bg-[#18181d]",
       bgContent: "bg-[#111]",
       imgIndex: 1,
-      order: "order-2",
     },
     {
       title: "FISH MAIN COURSE",
@@ -38,7 +37,6 @@ const OurMenu = () => {
       bgTitle: "bg-[#18181d]",
       bgContent: "bg-[#111]",
       imgIndex: 3,
-      order: "order-2",
     },
     {
       title: "FISH SECOND COURSE",
@@ -51,7 +49,6 @@ const OurMenu = () => {
       bgTitle: "bg-[#18181d]",
       bgContent: "bg-[#111]",
       imgIndex: 5,
-      order: "order-2",
     },
     {
       title: "SIDES",
@@ -64,7 +61,6 @@ const OurMenu = () => {
       bgTitle: "bg-[#18181d]",
       bgContent: "bg-[#111]",
       imgIndex: 7,
-      order: "order-2",
     },
     {
       title: "DRINKS",
@@ -77,7 +73,6 @@ const OurMenu = () => {
       bgTitle: "bg-[#18181d]",
       bgContent: "bg-[#111]",
       imgIndex: 9,
-      order: "order-2",
     },
   ];
 
@@ -105,7 +100,6 @@ const OurMenu = () => {
               key={index}
               customStyles={category.bgTitle}
               contentStyles={category.bgContent}
-              order={category.order}
               imgSet={MenuPageSideImgs[category.imgIndex]}
               title={category.title}
               subtitle={"Fresh and Delicious"}
