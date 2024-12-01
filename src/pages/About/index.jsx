@@ -1,6 +1,4 @@
-// import ChefCard from "../../components/ChefCard/ChefCard";
 import LoadingSpinner from "../../components/LoadingSpinner/LoadingSpinner";
-// import SectionTitle from "../../components/SectionTitle/SectionTitle";
 import WelcomeCard from "../../components/WelcomeCard/WelcomeCard";
 import { SecondaryHeroImg, WelcomeCardData } from "../../data/data";
 import useImageLoader from "../../hooks/useImageLoader";
@@ -26,16 +24,6 @@ const About = () => {
           />
           <WelcomeCard data={WelcomeCardData[0]} />
           <WelcomeCard data={WelcomeCardData[1]} change={true} />
-          {/* <div className="bg-[#121217]">
-            <div className="py-20">
-              <SectionTitle title={"Meet"} subTitle={"Our Team"} />
-            </div>
-            <div className="grid md:grid-cols-3 gap-5 md:px-12 lg:px-20">
-              {ChefData.map((data) => (
-                <ChefCard data={data} />
-              ))}
-            </div>
-          </div> */}
         </>
       )}
     </div>

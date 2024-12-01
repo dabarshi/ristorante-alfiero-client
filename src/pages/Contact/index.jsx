@@ -36,9 +36,6 @@ const Contact = () => {
           />
           <div
             className="relative py-20"
-            // style={{
-            //   backgroundImage: `url(${map})`,
-            // }}
           >
             {/* Embed Google Map as Background */}
             <div className="w-full absolute inset-0">

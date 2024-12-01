@@ -59,8 +59,6 @@ const Header = () => {
           <Link to={"/"}>
             <div className="bg-white bg-opacity-90 font-bold rounded-full">
               <img className="w-20" src={TransparentLogo} alt="" />
-              {/* <span className="block text-xl">Ristorante</span>
-            <span className={styles.brand}>Alfiero</span> */}
             </div>
           </Link>
           <div className="flex items-center">

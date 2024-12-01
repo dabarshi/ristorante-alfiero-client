@@ -63,14 +63,13 @@
 }
 
 .navLiLg::after {
-  content: '/';
+  content: "/";
   padding: 1rem;
   color: #da9901;
 }
 
 .navLiLg:last-child::after {
-  content: '';
-
+  content: "";
 }
 
 .navLiSM a {
@@ -93,9 +92,7 @@
   width: 0;
 } */
 
-
 @keyframes navScrollAnimation {
-
   0% {
     transform: translateY(-20%);
   }
@@ -106,25 +103,21 @@
 }
 
 @keyframes navStartAnimation {
-
   0% {
     transform: translateY(-100%);
-
   }
 
   100% {
     transform: translateY(0);
-
   }
 }
 
 @keyframes navBGAnimation {
-
   0% {
     background-color: #111;
   }
 
   100% {
-    background-color: transparent;
+    background-color: #11111149;
   }
 }

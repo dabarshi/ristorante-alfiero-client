@@ -1,48 +1,33 @@
 import { useCallback, useEffect, useState } from "react";
 import { PrimaryButton } from "../../components/Buttons/Buttons";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
-import styles from "./HeroStyle.module.css";
 import { Link } from "react-router-dom";
+import { gsap } from "gsap";
 
 const MainHeroSection = ({ slides }) => {
-  // need to fix the parallax effiect
-  // eslint-disable-next-line no-unused-vars
-  const [scrollY, setScrollY] = useState(0);
   const [currentSlide, setCurrentSlide] = useState(0);
-  const [btnAnitationClass, setBtnAnimationClass] = useState("");
-  const [subtitleAnitationClass, setSubtitleAnimationClass] = useState("");
-  const [titleAnitationClass, setTitleAnimationClass] = useState("");
 
-  // Scroll tracking Function
-
-  const handleScroll = () => {
-    setScrollY(window.scrollY);
-  };
-
-  // Handle Animation with Slide Change
-
+  // Animate slide change
   const handleSlideChange = useCallback(() => {
-    setBtnAnimationClass("");
-    setSubtitleAnimationClass("");
-    setTitleAnimationClass("");
+    const tl = gsap.timeline();
 
-    setTimeout(() => {
-      setBtnAnimationClass(styles.slideUpAnimation);
-      setSubtitleAnimationClass(styles.slideUpSubtitleAnimation);
-      setTitleAnimationClass(styles.slideRightToCenterAnimation);
-    }, 0);
+    // Animate out current slide
+    tl.to(".slide-content", {
+      x: -100,
+      opacity: 0,
+      duration: 1,
+      ease: "power2.out",
+    });
 
-    const timer = setTimeout(() => {
-      setBtnAnimationClass(styles.slideLeftAnimation);
-      setSubtitleAnimationClass(styles.slideLeftAnimation);
-      setTitleAnimationClass(styles.slideLeftAnimation);
-    }, 9000);
-
-    return () => clearTimeout(timer);
+    // Animate in new slide
+    tl.fromTo(
+      ".slide-content",
+      { x: 100, opacity: 0 },
+      { x: 0, opacity: 1, duration: 1, ease: "power2.out" }
+    );
   }, []);
 
-  // Function to handle slide change button
-
+  // Navigate to the next slide
   const nextSlide = useCallback(() => {
     setCurrentSlide((prevSlide) =>
       prevSlide === slides.length - 1 ? 0 : prevSlide + 1
@@ -50,6 +35,7 @@ const MainHeroSection = ({ slides }) => {
     handleSlideChange();
   }, [slides.length, handleSlideChange]);
 
+  // Navigate to the previous slide
   const prevSlide = () => {
     setCurrentSlide((prevSlide) =>
       prevSlide === 0 ? slides.length - 1 : prevSlide - 1
@@ -57,63 +43,61 @@ const MainHeroSection = ({ slides }) => {
     handleSlideChange();
   };
 
-  // Handle Auto Slide Change
-
+  // Auto-slide every 15 seconds
   useEffect(() => {
-    const interval = setInterval(nextSlide, 10000);
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      clearInterval(interval);
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, [slides, nextSlide]);
+    const interval = setInterval(nextSlide, 15000);
+    return () => clearInterval(interval);
+  }, [nextSlide]);
 
-  // initiate Animations
-
+  // Trigger animation on slide change
   useEffect(() => {
     handleSlideChange();
   }, [currentSlide, handleSlideChange]);
 
+  // Implement parallax effect with GSAP
+  useEffect(() => {
+    const handleParallax = () => {
+      const scrollY = window.scrollY;
+      gsap.to(".background", {
+        backgroundPosition: `center ${scrollY * 0.5}px`, // Adjust the multiplier for desired parallax strength
+        ease: "none",
+        duration: 0,
+      });
+    };
+
+    window.addEventListener("scroll", handleParallax);
+    return () => window.removeEventListener("scroll", handleParallax);
+  }, []);
+
   return (
-    <div className="relative h-screen group">
+    <div className="h-screen group overflow-hidden relative">
       {slides.map((imgSet, index) => (
         <figure
           key={index}
           className={`absolute inset-0 ${
             index === currentSlide ? "opacity-100" : "opacity-0"
-          } transition-opacity duration-1000 bg-fixed`}
-          style={{
-            backgroundImage: `url(${imgSet.img})`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-          }}
+          } transition-opacity duration-1000`}
         >
           <div
-            className={`absolute inset-0 `}
+            className="absolute inset-0 background"
             style={{
-              backgroundColor: "#000000",
-              opacity: 0.6,
-              transform: `translateY(${scrollY * 0.4}px)`,
+              backgroundImage: `url(${imgSet.img})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
           ></div>
+          <div className="absolute inset-0 bg-black bg-opacity-60"></div>
           <div className="absolute inset-0 grid place-items-center">
-            <div className="text-center space-y-8">
+            <div className="text-center space-y-6 slide-content">
               <div className="space-y-4">
-                {/* Secction Title */}
-                <h1
-                  className={`text-white tracking-[8px] text-xl md:text-5xl font-bold ${titleAnitationClass}`}
-                >
+                <h1 className="text-white tracking-[8px] text-xl md:text-5xl font-bold">
                   {imgSet.alt}
                 </h1>
-                {/* Section Subtitle */}
-                <p
-                  className={`text-amber-500 text-sm md:text-lg font-semibold ${subtitleAnitationClass}`}
-                >
+                <p className="text-amber-500 text-sm md:text-lg font-semibold">
                   Enjoy the real fresh food from our chef
                 </p>
               </div>
-              {/* Hero Section Button */}
-              <div className={`space-x-5 ${btnAnitationClass}`}>
+              <div className="space-x-4">
                 <Link to="/book">
                   <PrimaryButton text={"Book Now"} />
                 </Link>
@@ -125,18 +109,15 @@ const MainHeroSection = ({ slides }) => {
           </div>
         </figure>
       ))}
-      {/* Arrow Button to change Slide */}
       <button
         onClick={prevSlide}
-        className="absolute z-10 top-1/2 left-5 transform -translate-y-1/2 p-2 rounded-md text-white shadow-2xl opacity-5 group-hover:opacity-100"
-        style={{ backgroundColor: "#000000" }}
+        className="absolute z-20 top-1/2 left-5 bg-black transform -translate-y-1/2 p-2 rounded-md text-white shadow-2xl opacity-5 group-hover:opacity-100"
       >
         <IoIosArrowBack />
       </button>
       <button
         onClick={nextSlide}
-        className="absolute z-10 top-1/2 right-5 transform -translate-y-1/2 p-2 rounded-md text-white shadow-2xl opacity-5 group-hover:opacity-100"
-        style={{ backgroundColor: "#000000" }}
+        className="absolute z-20 top-1/2 right-5 bg-black transform -translate-y-1/2 p-2 rounded-md text-white shadow-2xl opacity-5 group-hover:opacity-100"
       >
         <IoIosArrowForward />
       </button>

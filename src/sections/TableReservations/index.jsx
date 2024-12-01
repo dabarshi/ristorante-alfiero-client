@@ -67,102 +67,108 @@ const TableReservations = () => {
     <div className="p-6 bg-gray-100 min-h-screen rounded">
       <h1 className="text-2xl font-bold mb-4 shadow-sm">Table Reservations</h1>
 
-      <div className="mb-8 px-4">
-        <h2 className="text-xl font-semibold mb-3">Pending Reservations</h2>
-        <ul className="space-y-4">
-          {pendingReservations.length > 0 ? (
-            pendingReservations.map((reservation) => (
-              <li
-                key={reservation._id}
-                className="p-4 bg-white shadow rounded-lg"
-              >
-                <p>
-                  <strong>Name:</strong> {reservation.name}
-                </p>
-                <p>
-                  <strong>Date:</strong> {reservation.date}
-                </p>
-                <p>
-                  <strong>Time:</strong> {reservation.time}
-                </p>
-                <p>
-                  <strong>Persons:</strong> {reservation.person}
-                </p>
-                <p>
-                  <strong>Phone:</strong> {reservation.phone}
-                </p>
-                <p>
-                  <strong>Email:</strong> {reservation.email}
-                </p>
-                <p>
-                  <strong>Message:</strong> {reservation.message}
-                </p>
-                <button
-                  onClick={() => approveReservation(reservation._id)}
-                  className="px-4 py-2 bg-green-500 text-white rounded mr-2"
+      <div className="grid grid-cols-1 md:grid-cols-2">
+        <div className="px-1 md:px-4 mb-2 md:mb-0">
+          <h2 className="text-xl font-semibold mb-3">Pending Reservations</h2>
+          <ul className="space-y-4">
+            {pendingReservations.length > 0 ? (
+              pendingReservations.map((reservation) => (
+                <li
+                  key={reservation._id}
+                  className="p-4 bg-white shadow rounded-lg"
                 >
-                  Approve
-                </button>
-                <button
-                  onClick={() => deleteReservation(reservation._id)}
-                  className="px-4 py-2 bg-red-500 text-white rounded"
-                >
-                  Delete
-                </button>
-              </li>
-            ))
-          ) : (
-            <p className="p-4 bg-white shadow rounded-lg">
-              There are no pending reservations.
-            </p>
-          )}
-        </ul>
-      </div>
+                  <p>
+                    <strong>Name:</strong> {reservation.name}
+                  </p>
+                  <p>
+                    <strong>Date:</strong> {reservation.date}
+                  </p>
+                  <p>
+                    <strong>Time:</strong> {reservation.time}
+                  </p>
+                  <p>
+                    <strong>Persons:</strong> {reservation.person}
+                  </p>
+                  <p>
+                    <strong>Phone:</strong> {reservation.phone}
+                  </p>
+                  <p>
+                    <strong>Email:</strong> {reservation.email}
+                  </p>
+                  <p>
+                    <strong>Message:</strong> {reservation.message}
+                  </p>
+                  <div className="py-4 font-medium">
+                    <button
+                      onClick={() => approveReservation(reservation._id)}
+                      className="px-4 py-2 bg-green-700 hover:bg-green-500 text-white rounded mr-2"
+                    >
+                      Approve
+                    </button>
+                    <button
+                      onClick={() => deleteReservation(reservation._id)}
+                      className="px-4 py-2 bg-red-700 hover:bg-red-500 text-white rounded"
+                    >
+                      Delete
+                    </button>
+                  </div>
+                </li>
+              ))
+            ) : (
+              <p className="p-4 bg-white shadow rounded-lg">
+                There are no pending reservations.
+              </p>
+            )}
+          </ul>
+        </div>
 
-      <div className="px-4">
-        <h2 className="text-xl font-semibold mb-3">Approved Reservations</h2>
-        <ul className="space-y-4">
-          {approvedReservations.length > 0 ? (
-            approvedReservations.map((reservation) => (
-              <li
-                key={reservation._id}
-                className="p-4 bg-white shadow rounded-lg"
-              >
-                <p>
-                  <strong>Name:</strong> {reservation.name}
-                </p>
-                <p>
-                  <strong>Date:</strong> {reservation.date}
-                </p>
-                <p>
-                  <strong>Time:</strong> {reservation.time}
-                </p>
-                <p>
-                  <strong>Persons:</strong> {reservation.person}
-                </p>
-                <p>
-                  <strong>Phone:</strong> {reservation.phone}
-                </p>
-                <p>
-                  <strong>Email:</strong> {reservation.email}
-                </p>
-                <p>
-                  <strong>Message:</strong> {reservation.message}
-                </p>
-                <button
-                  onClick={() => deleteReservation(reservation._id)}
-                  className="px-4 py-2 bg-red-500 text-white rounded"
+        <div className="px-1 md:px-4">
+          <h2 className="text-xl font-semibold mb-3">Approved Reservations</h2>
+          <ul className="space-y-4">
+            {approvedReservations.length > 0 ? (
+              approvedReservations.map((reservation) => (
+                <li
+                  key={reservation._id}
+                  className="p-4 bg-white shadow rounded-lg"
                 >
-                  Delete
-                </button>
-              </li>
-            ))
-          ) : (
-            <p className="p-4 bg-white shadow rounded-lg">
-              There are no approved reservations.
-            </p>
-          )}
-        </ul>
+                  <p>
+                    <strong>Name:</strong> {reservation.name}
+                  </p>
+                  <p>
+                    <strong>Date:</strong> {reservation.date}
+                  </p>
+                  <p>
+                    <strong>Time:</strong> {reservation.time}
+                  </p>
+                  <p>
+                    <strong>Persons:</strong> {reservation.person}
+                  </p>
+                  <p>
+                    <strong>Phone:</strong> {reservation.phone}
+                  </p>
+                  <p>
+                    <strong>Email:</strong> {reservation.email}
+                  </p>
+                  <p>
+                    <strong>Message:</strong> {reservation.message}
+                  </p>
+                  <div className="py-4 font-medium">
+                    <button
+                      onClick={() => deleteReservation(reservation._id)}
+                      className="px-4 py-2 bg-red-700 hover:bg-red-500 text-white rounded"
+                    >
+                      Delete
+                    </button>
+                  </div>
+                </li>
+              ))
+            ) : (
+              <p className="p-4 bg-white shadow rounded-lg">
+                There are no approved reservations.
+              </p>
+            )}
+          </ul>
+        </div>
       </div>
     </div>
   );

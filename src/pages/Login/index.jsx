@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import logo from "../../assets/logo/transparentLogo.png";
 import axiosInstance from "../../api/axiosInstance";
 import { saveAuthToken } from "../../utils/auth";
+import Swal from "sweetalert2";
 
 const LoginPage = () => {
   const [identifier, setIdentifier] = useState(""); // Change to a generic identifier
@@ -31,6 +32,11 @@ const LoginPage = () => {
         password,
       });
       saveAuthToken(response.data.token); // Save token to localStora
+      Swal.fire({
+        title: "Thank You",
+        text: "Login Successful",
+        icon: "success",
+      });
       navigate("/admin");
     } catch (error) {
       setError("Login failed. Please check your credentials.");
@@ -49,7 +55,6 @@ const LoginPage = () => {
         <div className="border-r-2 border-gray-300 h-3/4"></div>
       </div>
       <div className="flex w-full md:w-1/2 items-center justify-center p-4">
-
         <form
           onSubmit={handleLogin}
           className="bg-white shadow-lg rounded-lg p-8 w-full max-w-md"

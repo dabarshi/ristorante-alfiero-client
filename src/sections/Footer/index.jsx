@@ -13,26 +13,21 @@ const Footer = () => {
   const socialLinksData = [
     {
       id: 1,
-      to: "/",
+      to: "https://www.facebook.com/share/1BRH4NQPwA/?mibextid=LQQJ4d",
       icon: <Facebook />,
     },
     {
       id: 2,
-      to: "/",
+      to: "https://www.instagram.com/ristorantealfiero/profilecard/?igsh=aXNhdmpsemp4ZW5r ",
       icon: <Instagram />,
     },
     {
       id: 3,
-      to: "/",
-      icon: <LinkedIn />,
-    },
-    {
-      id: 4,
       to: "mailto:ristorantealfiero9@gmail.com",
       icon: <Gmail />,
     },
     {
-      id: 5,
+      id: 4,
       to: "/",
       icon: <Tiktok />,
     },

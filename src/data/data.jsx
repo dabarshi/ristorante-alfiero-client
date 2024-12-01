@@ -145,6 +145,11 @@ export const MenuPageSideImgs = [
   },
   {
     id: 9,
+    img: "https://i.ibb.co.com/85cSY4K/61.webp",
+    alt: "PIZZA",
+  },
+  {
+    id: 10,
     img: "https://i.ibb.co.com/yBN54ds/59.webp",
     alt: "PIZZA",
   },

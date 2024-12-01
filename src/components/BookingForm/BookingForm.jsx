@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axiosInstance from "../../api/axiosInstance";
+import Swal from "sweetalert2";
 
 const BookingForm = () => {
   const [formData, setFormData] = useState({
@@ -27,7 +28,12 @@ const BookingForm = () => {
       // Send the POST request using the Axios instance
       const response = await axiosInstance.post("/bookings", formData);
       if (response.status === 200 || response.status === 201) {
-        alert("Booking submitted successfully!");
+        // alert("Booking submitted successfully!");
+        Swal.fire({
+          title: "Thank You",
+          text: "We will confirm the reservation through E-mail",
+          icon: "success",
+        });
         // Reset the form after successful submission
         setFormData({
           name: "",

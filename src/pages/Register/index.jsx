@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import logo from "../../assets/logo/transparentLogo.png";
 import axiosInstance from "../../api/axiosInstance";
+import Swal from "sweetalert2";
 
 const RegisterPage = () => {
   const [username, setUsername] = useState("");
@@ -34,7 +35,12 @@ const RegisterPage = () => {
       });
       setSuccess("Registration successful! Redirecting to login...");
       setError("");
-      setTimeout(() => navigate("/login"), 2000); // Redirect after 2 seconds
+      Swal.fire({
+        title: "Thank You",
+        text: "Registration Successful",
+        icon: "success",
+      });
+      setTimeout(() => navigate("/admin"), 2000); // Redirect after 2 seconds
     } catch (error) {
       setError("Registration failed. Please try again.");
       setSuccess("");
