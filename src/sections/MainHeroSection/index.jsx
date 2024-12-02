@@ -86,7 +86,7 @@ const MainHeroSection = ({ slides }) => {
               backgroundPosition: "center",
             }}
           ></div>
-          <div className="absolute inset-0 bg-black bg-opacity-80"></div>
+          <div className="absolute inset-0 bg-black bg-opacity-65"></div>
           <div className="absolute inset-0 grid place-items-center">
             <div className="text-center space-y-6 slide-content">
               <div className="space-y-4">
