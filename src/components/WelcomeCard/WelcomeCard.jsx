@@ -35,7 +35,11 @@ const WelcomeCard = ({ data, change, isHome }) => {
         >
           <div className="space-y-6">
             <div className="bg-white bg-opacity-90 rounded-full w-40">
-              <img className="drop-shadow-2xl" src={TransparentLogo} alt="" />
+              <img
+                className="drop-shadow-2xl"
+                src={TransparentLogo}
+                alt="Logo Of Ristorante Alfiero"
+              />
             </div>
             <h2 className="font-semibold text-3xl">{title}</h2>
             <h4 className="text-amber-400 font-['dancing_script'] tracking-[0.2em]">

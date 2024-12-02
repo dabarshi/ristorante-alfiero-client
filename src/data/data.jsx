@@ -25,15 +25,21 @@ export const menuItems = [
 export const heroImg = [
   {
     img: "https://i.ibb.co.com/MDH5W6m/14.webp",
-    alt: "Enjoy Your Dinner",
+    alt: "Inside View of The Ristorante Alfiero",
+    title: "Italian Perfection Awaits",
+    subtitle: "From Our Chef’s Heart to Your Plate",
   },
   {
     img: "https://i.ibb.co.com/4YTpsbC/1.webp",
-    alt: "Exquisite Atmosphere",
+    alt: "Frontal View of The Ristorante Alfiero",
+    title: "Fresh, Authentic, and Exquisite",
+    subtitle: "Savor the Essence of Italy",
   },
   {
     img: "https://i.ibb.co.com/xDNV96y/29.webp",
-    alt: "A festival of flavors",
+    alt: "Bar View of The Ristorante Alfiero",
+    title: "Buon Appetito!",
+    subtitle: "Fresh, Authentic, and Full of Soul",
   },
 ];
 
@@ -119,7 +125,7 @@ export const FeaturedCardData = [
   {
     id: 1,
     img: "https://i.ibb.co.com/6rM4mmy/34.webp",
-    alt: "Pancake",
+    alt: "Mixed Appertisers (Misto Crudo) of Ristorante Alfiero",
     description:
       "Savor the finest selection of the ocean with our *Seafood Platter*, featuring freshly shucked oysters, succulent prawns, and delicate langoustines. Served on a bed of crushed ice and garnished with lemon wedges for a refreshing touch, this dish offers the perfect blend of freshness and elegance for seafood lovers.",
     title: "Mixed Appertisers (Misto Crudo)",
@@ -127,7 +133,7 @@ export const FeaturedCardData = [
   {
     id: 2,
     img: "https://i.ibb.co.com/9G6jWTC/42.webp",
-    alt: "Pancake Stack",
+    alt: "Antipasti Platter (Carosello di Antipasti) of Ristorante Alfiero",
     description:
       "Introducing our 'Carosello di Antipasti', a delightful medley of seafood and marinated vegetables, artfully arranged with zesty citrus and vibrant garnishes. A perfect way to start your meal with fresh, Italian flavors and a touch of elegance.",
     title: "Antipasti Platter (Carosello di Antipasti)",
@@ -135,7 +141,7 @@ export const FeaturedCardData = [
   {
     id: 3,
     img: "https://i.ibb.co.com/wSM0mDb/62A.webp",
-    alt: "Pancake Stack",
+    alt: "Tuna Tartare (Tartare di Tonno) of Ristorante Alfiero",
     description:
       "Tartare di Tonno, made with fresh, premium tuna, delicately seasoned and served with a vibrant citrus twist. Paired with crispy crackers and a drizzle of olive oil, this dish offers an exquisite balance of flavor and elegance, perfect for a gourmet dining experience.",
     title: "Tuna Tartare (Tartare di Tonno)",
@@ -145,7 +151,7 @@ export const FeaturedCardData = [
 export const WelcomeCardData = [
   {
     img: "https://i.ibb.co.com/X85SMwG/32.webp",
-    alt: "Butchers story",
+    alt: "Side View of Bar of The Ristorante Alfiero",
     title: "Welcome To Ristorante Alfiero",
     subTitle: "The Art Of Cookings",
     description:
@@ -159,7 +165,7 @@ export const WelcomeCardData = [
   },
   {
     img: "https://i.ibb.co.com/cCTdXyz/56.webp",
-    alt: "Butchers story",
+    alt: "Side View of Bar of The Ristorante Alfiero",
     title: "Our Restaurant",
     subTitle: "Cozy & Romantic",
     description:
@@ -182,7 +188,7 @@ export const FoodCardData = [
   {
     id: 1,
     img: "https://i.ibb.co.com/8NC3qdR/47.webp",
-    alt: "Green Peppercorn Fillet (Filetto al Pepe Verde)",
+    alt: "Green Peppercorn Fillet (Filetto al Pepe Verde) Ristorante Alfiero",
     title: "Green Peppercorn Fillet (Filetto al Pepe Verde)",
     enTitle: "Green Peppercorn Fillet",
     itTitle: "( Filetto al Pepe Verde )",
@@ -191,7 +197,7 @@ export const FoodCardData = [
   {
     id: 2,
     img: "https://i.ibb.co.com/sPThwtg/35.webp",
-    alt: "Paccheri with Amberjack (Paccheri con ricciola)",
+    alt: "Paccheri with Amberjack (Paccheri con ricciola) Ristorante Alfiero",
     title: "Paccheri with Amberjack (Paccheri con ricciola)",
     enTitle: "Paccheri with Amberjack",
     itTitle: "( Paccheri con ricciola )",
@@ -200,7 +206,7 @@ export const FoodCardData = [
   {
     id: 3,
     img: "https://i.ibb.co.com/2FGS168/55.webp",
-    alt: "Buffalo Mozzarella and Cherry Tomato Pizza (Pizza Bufala e pachino)",
+    alt: "Buffalo Mozzarella and Cherry Tomato Pizza (Pizza Bufala e pachino) Ristorante Alfiero",
     title:
       "Buffalo Mozzarella and Cherry Tomato Pizza (Pizza Bufala e pachino)",
     enTitle: "Buffalo Mozzarella and Cherry Tomato Pizza",
@@ -210,7 +216,7 @@ export const FoodCardData = [
   {
     id: 4,
     img: "https://i.ibb.co.com/PgZT2Vd/48.webp",
-    alt: "Beef Steak ( Bistecca Di Manzo)",
+    alt: "Beef Steak ( Bistecca Di Manzo) Ristorante Alfiero",
     title: "Beef Steak( Bistecca Di Manzo)",
     enTitle: "Beef Steak",
     itTitle: "( Bistecca Di Manzo )",

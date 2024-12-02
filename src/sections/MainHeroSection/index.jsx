@@ -86,15 +86,15 @@ const MainHeroSection = ({ slides }) => {
               backgroundPosition: "center",
             }}
           ></div>
-          <div className="absolute inset-0 bg-black bg-opacity-60"></div>
+          <div className="absolute inset-0 bg-black bg-opacity-80"></div>
           <div className="absolute inset-0 grid place-items-center">
             <div className="text-center space-y-6 slide-content">
               <div className="space-y-4">
                 <h1 className="text-white tracking-[8px] text-xl md:text-5xl font-bold">
-                  {imgSet.alt}
+                  {imgSet.title}
                 </h1>
                 <p className="text-amber-500 text-sm md:text-lg font-semibold">
-                  Enjoy the real fresh food from our chef
+                  {imgSet.subtitle}
                 </p>
               </div>
               <div className="space-x-4">
