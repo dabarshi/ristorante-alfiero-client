@@ -9,6 +9,7 @@ const FullMenuSection = ({
   data,
   customStyles,
   contentStyles,
+  order,
 }) => {
   const { img, alt } = imgSet;
   const [showAll, setShowAll] = useState(false);
@@ -23,7 +24,9 @@ const FullMenuSection = ({
       <div className="grid lg:grid-cols-2">
         {/* Image Section */}
         <div
-          className={`col-span-1 bg-[#00000032]  md:p-12  lg:grid place-items-center`}
+          className={`col-span-1 bg-[#00000032]  md:p-12  lg:grid place-items-center ${
+            order ? "" : "lg:order-1"
+          }`}
         >
           <div className="overflow-hidden">
             <img
