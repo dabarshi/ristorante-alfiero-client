@@ -10,6 +10,7 @@ import Container from "../../components/Container/Container";
 import { Link } from "react-router-dom";
 import TransparentLogo from "../../assets/logo/transparentLogo.png";
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   const socialLinksData = [
     {
       id: 1,
@@ -142,6 +143,9 @@ const Footer = () => {
         <hr className="border border-[#44444474]" />
         <div className="text-center py-4 text-sm">
           <p>
+            Copyright © {currentYear} Ristorante Alfiero. All rights reserved.
+          </p>
+          {/* <p>
             Developed by @{" "}
             <span className="font-bold text-amber-700">
               <Link
@@ -151,7 +155,7 @@ const Footer = () => {
                 Dabarshi Roy
               </Link>
             </span>
-          </p>
+          </p> */}
         </div>
       </Container>
     </footer>
