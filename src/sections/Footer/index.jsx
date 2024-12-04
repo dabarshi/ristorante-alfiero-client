@@ -2,7 +2,6 @@ import {
   Facebook,
   Gmail,
   Instagram,
-  LinkedIn,
   Tiktok,
 } from "../../assets/icons/socialIcon";
 import { FaEnvelope, FaLocationDot, FaPhone } from "react-icons/fa6";

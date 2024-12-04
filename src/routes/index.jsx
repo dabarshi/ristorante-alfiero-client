@@ -8,8 +8,7 @@ import Book from "../pages/Book";
 import LoginPage from "../pages/Login";
 import AdminDashboard from "../pages/AdminDashboard";
 import ProtectedRoute from "./ProtectedRoute";
-import RegisterPage from "../pages/Register";
-
+// import RegisterPage from "../pages/Register";
 
 // Function to check authentication with the backend
 
@@ -42,10 +41,10 @@ export const router = createBrowserRouter([
         path: "/login",
         element: <LoginPage />,
       },
-      {
-        path: "/register",
-        element: <RegisterPage />,
-      },
+      // {
+      //   path: "/register",
+      //   element: <RegisterPage />,
+      // },
       {
         path: "/admin",
         element: <ProtectedRoute element={<AdminDashboard />} />, // Protect the AdminDashboard route

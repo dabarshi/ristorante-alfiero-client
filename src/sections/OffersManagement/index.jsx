@@ -4,7 +4,7 @@ import axiosInstance from "../../api/axiosInstance";
 const OffersManagement = () => {
   const [offer, setOffer] = useState({
     dishName: "",
-    description: "",
+    // description: "",
     price: "",
     startDate: "", // Start date of the offer
     endDate: "", // End date of the offer
@@ -129,13 +129,13 @@ const OffersManagement = () => {
               onChange={handleChange}
               className="block w-full p-2 border rounded"
             />
-            <textarea
+            {/* <textarea
               name="description"
               placeholder="Description"
               value={offer.description}
               onChange={handleChange}
               className="block w-full p-2 border rounded"
-            />
+            /> */}
             <input
               type="number"
               name="price"
