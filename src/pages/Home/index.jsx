@@ -14,6 +14,7 @@ import MainHeroSection from "../../sections/MainHeroSection";
 import MenuSection from "../../sections/MenuSection";
 import TodaySpecial from "../../sections/TodaySpecial";
 import axiosInstance from "../../api/axiosInstance";
+import SpecialOfferCard from "../../components/SpecialOfferCard/SpecialOfferCard";
 
 const Home = () => {
   const bgTodaySpecial = "https://i.ibb.co.com/tzx9V0j/11.webp";
@@ -52,14 +53,15 @@ const Home = () => {
           <div className="relative">
             <MainHeroSection slides={heroImg} />
             <OfferCard offer={offer} error={error} />
+            <SpecialOfferCard />
+            <Featured FeaturedCardData={FeaturedCardData} />
+            <WelcomeCard data={WelcomeCardData[0]} isHome={true} />
+            <TodaySpecial
+              FoodCardData={FoodCardData}
+              backgroundImageUrl={bgTodaySpecial}
+            />
+            <MenuSection />
           </div>
-          <Featured FeaturedCardData={FeaturedCardData} />
-          <WelcomeCard data={WelcomeCardData[0]} isHome={true} />
-          <TodaySpecial
-            FoodCardData={FoodCardData}
-            backgroundImageUrl={bgTodaySpecial}
-          />
-          <MenuSection />
         </>
       )}
     </div>

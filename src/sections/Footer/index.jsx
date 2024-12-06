@@ -37,7 +37,7 @@ const Footer = () => {
     {
       day: "Tuseday - Sunday",
       time: {
-        period1: "12:30 PM - 11:00 PM",
+        period1: "12:30 - 23:00",
       },
     },
     {

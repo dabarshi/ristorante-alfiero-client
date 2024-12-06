@@ -28,7 +28,7 @@ const Featured = ({ FeaturedCardData }) => {
       <div className="max-w-7xl mx-auto">
         <div
           className={`flex flex-wrap justify-center gap-10 ${
-            isScrolled ? "py-16" : "-translate-y-28"
+            isScrolled ? "py-16" : "-translate-y-16"
           } md:space-y-0 space-y-20 transition-all duration-1000`}
         >
           {FeaturedCardData.map((data) => (

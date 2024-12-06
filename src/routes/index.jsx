@@ -8,6 +8,7 @@ import Book from "../pages/Book";
 import LoginPage from "../pages/Login";
 import AdminDashboard from "../pages/AdminDashboard";
 import ProtectedRoute from "./ProtectedRoute";
+import SpecialOfferManager from "../components/SpecialOfferManager/SpecialOfferManager";
 // import RegisterPage from "../pages/Register";
 
 // Function to check authentication with the backend
@@ -40,6 +41,10 @@ export const router = createBrowserRouter([
       {
         path: "/login",
         element: <LoginPage />,
+      },
+      {
+        path: "/test",
+        element: <SpecialOfferManager />,
       },
       // {
       //   path: "/register",

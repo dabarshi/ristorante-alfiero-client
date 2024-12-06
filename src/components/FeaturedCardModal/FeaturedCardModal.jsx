@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import { IoIosCloseCircle } from "react-icons/io";
-const FeaturedCardModal = ({ img, alt, onClose }) => {
+const FeaturedCardModal = ({ src, alt, onClose }) => {
   const modalRef = useRef();
 
   useEffect(() => {
@@ -25,7 +25,7 @@ const FeaturedCardModal = ({ img, alt, onClose }) => {
           <IoIosCloseCircle />
         </button>
         <img
-          src={img}
+          src={src}
           alt={alt}
           className=" max-w-[500px] max-h-96 w-full h-full rounded-md"
         />

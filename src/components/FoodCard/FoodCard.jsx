@@ -52,7 +52,7 @@ const FoodCard = ({ data }) => {
       </div>
 
       {isModalOpen && (
-        <FeaturedCardModal img={img} alt={alt} onClose={closeModal} />
+        <FeaturedCardModal src={img} alt={alt} onClose={closeModal} />
       )}
     </div>
   );

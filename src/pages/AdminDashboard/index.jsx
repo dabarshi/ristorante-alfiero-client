@@ -2,6 +2,7 @@ import { useState } from "react";
 import TableReservations from "../../sections/TableReservations";
 import EventReservations from "../../sections/EventReservations";
 import OffersManagement from "../../sections/OffersManagement";
+import SpecialOfferManager from "../../components/SpecialOfferManager/SpecialOfferManager";
 
 const AdminDashboard = () => {
   const [activeTab, setActiveTab] = useState("tables");
@@ -17,6 +18,10 @@ const AdminDashboard = () => {
     {
       tabName: "offers",
       tabTitle: "Manage Offers",
+    },
+    {
+      tabName: "special-offers",
+      tabTitle: "Special Offers",
     },
   ];
 
@@ -48,6 +53,7 @@ const AdminDashboard = () => {
           {activeTab === "tables" && <TableReservations />}
           {activeTab === "events" && <EventReservations />}
           {activeTab === "offers" && <OffersManagement />}
+          {activeTab === "special-offers" && <SpecialOfferManager />}
         </div>
       </div>
     </div>
