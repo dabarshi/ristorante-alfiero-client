@@ -32,7 +32,7 @@ const SpecialOfferCard = () => {
 
   return (
     <div className="relative">
-      <div className="fixed top-1 right-1/2 translate-x-2/4  z-50 ">
+      <div className="fixed top-1 right-1/2 translate-x-2/4  z-50 animate-drop">
         <div className="relative max-w-44 h-44 rounded-lg shadow-lg overflow-hidden pt-8">
           {/* Close Button */}
           <button

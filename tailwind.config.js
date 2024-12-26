@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       animation: {
-        drop: "drop 0.5s ease-out forwards", // animation name and duration
+        drop: "drop 1s ease-out forwards", // animation name and duration
+        slideIn: "slideIn 1s ease-out forwards",
       },
       keyframes: {
         drop: {
@@ -14,6 +15,16 @@ export default {
           },
           "100%": {
             transform: "translate(50%, 0)",
+            opacity: 1,
+          },
+        },
+        slideIn: {
+          "0%": {
+            transform: "translate(100% , 0)",
+            opacity: 0,
+          },
+          "100%": {
+            transform: "translate(0, 0)",
             opacity: 1,
           },
         },

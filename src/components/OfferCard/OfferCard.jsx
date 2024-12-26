@@ -11,26 +11,15 @@ const OfferCard = ({ offer, error }) => {
   const { dishName, description, price, startDate, endDate } = offer;
 
   return (
-    <div className="absolute top-0 right-1/2 bg-amber-600 grid place-items-center shadow-lg rounded z-10 animate-drop">
-      <div className="space-y-1 py-2 md:pt-8 md:py-4 px-4 text-center">
-        <div className="bg-white mx-auto shadow-lg max-w-20 rounded-full">
-          <img src={TransparentLogo} alt="Alfiero Logo" className="w-full" />
-        </div>
-        <h1 className="font-semibold text-xs py-2 text-[#ffffffc8]">
-          Bite Into Big Discounts!
-        </h1>
-        <div>
-          <h2 className="md:text-lg uppercase text-white font-bold">
-            {dishName}
-          </h2>
-          <p className="font-thin text-xs text-white pt-1">
-            <span className="font-bold">{price}%</span> OFF
-          </p>
-          <p className="font-thin text-xs text-white pt-1">
-            From <span className="font-bold">{startDate}</span> to{" "}
-            <span className="font-bold">{endDate}</span>
-          </p>
-        </div>
+    <div className="absolute top-[450px] right-1 bg-white grid pt-[2px] place-items-center shadow-lg z-10 animate-slideIn">
+      <div className="px-2 py-1 text-black bg-amber-600">
+        <p>
+          <span className="font-bold">{price} </span>
+          <span className="text-xs">OFF </span>
+          <span className="font-bold">{dishName} </span>
+          <span className="text-xs">Till </span>
+          <span className="font-semibold">{startDate}</span>
+        </p>
       </div>
     </div>
   );
