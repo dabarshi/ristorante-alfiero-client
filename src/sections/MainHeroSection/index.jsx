@@ -3,9 +3,14 @@ import { PrimaryButton } from "../../components/Buttons/Buttons";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { Link } from "react-router-dom";
 import { gsap } from "gsap";
+import OfferCard from "../../components/OfferCard/OfferCard";
+import axiosInstance from "../../api/axiosInstance";
 
 const MainHeroSection = ({ slides }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
+  // State for offer data
+  const [offer, setOffer] = useState(null);
+  const [error, setError] = useState("");
 
   // Animate slide change
   const handleSlideChange = useCallback(() => {
@@ -69,8 +74,24 @@ const MainHeroSection = ({ slides }) => {
     return () => window.removeEventListener("scroll", handleParallax);
   }, []);
 
+  // Fetch offer data
+  useEffect(() => {
+    const fetchOffer = async () => {
+      try {
+        const response = await axiosInstance.get("/offer");
+        setOffer(response.data.offer);
+      } catch (err) {
+        console.error("Error fetching offer data:", err);
+        setError("Failed to load offer.");
+      }
+    };
+
+    fetchOffer();
+  }, []);
+
   return (
     <div className="h-screen group overflow-hidden relative">
+      <OfferCard offer={offer} error={error} />
       {slides.map((imgSet, index) => (
         <figure
           key={index}
