@@ -1,4 +1,3 @@
-import TransparentLogo from "../../assets/logo/transparentLogo.png";
 const OfferCard = ({ offer, error }) => {
   if (error) {
     return <div className="absolute top-0 right-0"></div>;
@@ -11,15 +10,20 @@ const OfferCard = ({ offer, error }) => {
   const { dishName, description, price, startDate, endDate } = offer;
 
   return (
-    <div className="absolute top-[450px] right-1 bg-white grid pt-[2px] place-items-center shadow-lg z-10 animate-slideIn">
-      <div className="px-2 py-1 text-black bg-amber-600">
-        <p>
-          <span className="font-bold">{price} </span>
-          <span className="text-xs">OFF </span>
-          <span className="font-bold">{dishName} </span>
-          <span className="text-xs">Till </span>
-          <span className="font-semibold">{startDate}</span>
-        </p>
+    <div className="absolute top-[550px] right-0 w-full  grid place-items-center shadow-2xl z-50 animate-slideIn">
+      <div className="px-2 py-3 w-full text-white bg-[rgb(153,24,24)] flex justify-center items-center">
+        <div className="flex items-center gap-5">
+          <div className="flex items-baseline gap-2"></div>
+          <p className="font-bold text-2xl">{price}% OFF</p>
+          <p className="font-bold text-2xl font-['dancing_script']">
+            on {dishName}
+          </p>
+          <p>
+            <span className="font-semibold">{startDate} </span>
+            <span className="text-xs">To </span>
+            <span className="font-semibold">{endDate}</span>
+          </p>
+        </div>
       </div>
     </div>
   );
